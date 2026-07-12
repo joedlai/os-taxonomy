@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Marble Skill Taxonomy — Explorer</title>
 <style>
   :root{
@@ -32,7 +37,7 @@
   #results{list-style:none;margin:6px 0 0;padding:4px;background:var(--panel);
     border:1px solid var(--hairline);border-radius:8px;backdrop-filter:blur(8px);
     max-height:290px;overflow-y:auto;display:none}
-  #results li{padding:7px 9px;border-radius:5px;font-size:12.5px;cursor:pointer;
+  #results li{padding:11px 10px;border-radius:6px;font-size:13px;cursor:pointer;
     display:flex;gap:8px;align-items:baseline}
   #results li:hover,#results li.active{background:rgba(255,217,138,.12)}
   #results .dot{width:7px;height:7px;border-radius:50%;flex:none;align-self:center}
@@ -42,8 +47,8 @@
   #legend .hint{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
     color:var(--muted);margin-bottom:3px}
   .chip{display:flex;align-items:center;gap:8px;background:none;border:none;color:var(--text);
-    font:12.5px var(--body);padding:3px 6px;margin:0 -6px;border-radius:6px;cursor:pointer;
-    text-align:left}
+    font:13px var(--body);padding:7px 10px;margin:0 -10px;border-radius:8px;cursor:pointer;
+    text-align:left;min-height:34px}
   .chip:hover{background:rgba(133,148,190,.1)}
   .chip:focus-visible{outline:1.5px solid var(--accent)}
   .chip .swatch{width:9px;height:9px;border-radius:50%;flex:none;
@@ -83,8 +88,8 @@
   #prereqs{list-style:none;margin:0 0 12px;padding:0}
   #prereqs li{margin:0 0 2px}
   #prereqs button{display:flex;gap:8px;align-items:center;width:100%;background:none;
-    border:none;color:var(--text);font:12.5px var(--body);padding:6px 8px;margin:0 -8px;
-    border-radius:6px;cursor:pointer;text-align:left}
+    border:none;color:var(--text);font:13px var(--body);padding:10px 8px;margin:0 -8px;
+    border-radius:6px;cursor:pointer;text-align:left;min-height:40px}
   #prereqs button:hover{background:rgba(255,217,138,.1)}
   #prereqs button:focus-visible{outline:1.5px solid var(--accent)}
   #prereqs .dot{width:6px;height:6px;border-radius:50%;flex:none}
@@ -97,8 +102,9 @@
     white-space:nowrap;flex:none}
   #twstds .none{color:var(--muted);font-size:12px;padding:2px 0}
   #panel .upnote{font-size:11px;color:var(--muted);margin:0 0 8px}
-  #closebtn{position:absolute;top:14px;right:14px;background:none;border:none;
-    color:var(--muted);font-size:17px;cursor:pointer;padding:4px 8px;border-radius:6px}
+  #closebtn{position:absolute;top:10px;right:10px;background:none;border:none;
+    color:var(--muted);font-size:19px;cursor:pointer;padding:10px 14px;border-radius:8px;
+    min-width:44px;min-height:44px}
   #closebtn:hover{color:var(--text);background:rgba(133,148,190,.12)}
   #closebtn:focus-visible{outline:1.5px solid var(--accent)}
 
@@ -115,12 +121,32 @@
   #panel.open ~ #agescale{right:588px}
 
   @media (max-width:760px){
-    #masthead{max-width:230px}#masthead h1{font-size:19px}#masthead p{display:none}
-    #searchbox{width:170px}#agescale{display:none}
-    #panel{width:min(288px,88vw)}#colophon{display:none}
+    #masthead{top:14px;left:16px;max-width:200px}
+    #masthead h1{font-size:17px}#masthead p{display:none}
+    #searchbox{top:14px;right:16px;width:min(48vw,220px)}
+    #searchbox input{padding:12px 14px;font-size:16px} /* 16px avoids iOS zoom */
+    #agescale{display:none}#colophon{display:none}
+    /* legend → horizontal scroll dock above the safe area */
+    #legend{left:0;right:0;bottom:0;flex-direction:row;gap:8px;overflow-x:auto;
+      padding:12px 14px calc(12px + env(safe-area-inset-bottom));
+      background:linear-gradient(to top,rgba(10,14,25,.92) 65%,transparent);
+      -webkit-overflow-scrolling:touch}
+    #legend .hint{display:none}
+    .chip{flex:none;margin:0;background:var(--panel);border:1px solid var(--hairline);
+      border-radius:999px;padding:10px 15px;min-height:42px}
+    #twlens{margin-bottom:0!important}
+    /* detail panel → bottom sheet */
+    #panel{top:auto;left:0;right:0;bottom:0;width:100%;height:min(60vh,480px);
+      transform:translateY(105%);border-left:none;border-top:1px solid var(--hairline);
+      border-radius:16px 16px 0 0;
+      padding:26px 20px calc(20px + env(safe-area-inset-bottom))}
+    #panel.open{transform:none}
+    #panel::before{content:"";position:absolute;top:9px;left:50%;width:38px;height:4px;
+      border-radius:2px;background:var(--hairline);transform:translateX(-50%)}
   }
 </style>
-
+</head>
+<body>
 <canvas id="stage"></canvas>
 
 <header id="masthead" class="hud">
@@ -398,27 +424,45 @@ document.addEventListener('click',e=>{
   if (!e.target.closest('#searchbox')) results.style.display='none';
 });
 
-// ---------- pointer ----------
+// ---------- pointer (drag / tap / pinch) ----------
 const tip = document.getElementById('tip');
-let dragging=false, moved=false, lx=0, ly=0;
+const pts = new Map();   // active pointers, for pinch
+let dragging=false, moved=false, lx=0, ly=0, pinchD=0;
+function pickAt(x,y,maxD2){
+  let best=-1, bd=maxD2;
+  for (let i=0;i<N;i++){
+    if (!nodeVisible(i)) continue;
+    const dx=px[i]-x, dy=py[i]-y, d=dx*dx+dy*dy;
+    if (d<bd){ bd=d; best=i; }
+  }
+  return best;
+}
 cv.addEventListener('pointerdown',e=>{
-  dragging=true; moved=false; lx=e.clientX; ly=e.clientY;
+  pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if (pts.size===2){
+    const [a,b]=[...pts.values()]; pinchD=Math.hypot(a.x-b.x,a.y-b.y); moved=true;
+  }
+  dragging=true; moved=pts.size>1?moved:false; lx=e.clientX; ly=e.clientY;
   cv.classList.add('dragging'); cv.setPointerCapture(e.pointerId);
 });
 cv.addEventListener('pointermove',e=>{
+  if (pts.has(e.pointerId)) pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if (pts.size===2){
+    // pinch zoom
+    const [a,b]=[...pts.values()];
+    const d=Math.hypot(a.x-b.x,a.y-b.y);
+    if (pinchD>0){ dist=Math.max(230,Math.min(1300,dist*pinchD/d)); auto=false; render(); }
+    pinchD=d; moved=true;
+    return;
+  }
   if (dragging){
     const dx=e.clientX-lx, dy=e.clientY-ly;
-    if (Math.abs(dx)+Math.abs(dy)>3) { moved=true; auto=false; }
+    if (Math.abs(dx)+Math.abs(dy)>4) { moved=true; auto=false; }
     yaw += dx*0.005; pitch = Math.max(-1.2,Math.min(1.2,pitch+dy*0.004));
     lx=e.clientX; ly=e.clientY; render();
-  } else {
-    // hover pick
-    let best=-1, bd=144;
-    for (let i=0;i<N;i++){
-      if (!nodeVisible(i)) continue;
-      const dx=px[i]-e.clientX, dy=py[i]-e.clientY, d=dx*dx+dy*dy;
-      if (d<bd){ bd=d; best=i; }
-    }
+  } else if (e.pointerType==='mouse') {
+    // hover pick (mouse only)
+    const best=pickAt(e.clientX,e.clientY,144);
     if (best!==hovered){
       hovered=best; render();
       if (best>=0){
@@ -432,12 +476,18 @@ cv.addEventListener('pointermove',e=>{
     }
   }
 });
-cv.addEventListener('pointerup',e=>{
-  dragging=false; cv.classList.remove('dragging');
+function endPointer(e){
+  pts.delete(e.pointerId);
+  if (pts.size>0) return;         // still pinching with the other finger
+  dragging=false; pinchD=0; cv.classList.remove('dragging');
   if (!moved){
-    if (hovered>=0) select(hovered); else select(-1);
+    // generous touch pick radius; mouse uses hover state
+    const best = e.pointerType==='mouse' ? hovered : pickAt(e.clientX,e.clientY,26*26);
+    select(best);
   }
-});
+}
+cv.addEventListener('pointerup',endPointer);
+cv.addEventListener('pointercancel',endPointer);
 cv.addEventListener('pointerleave',()=>{ hovered=-1; tip.style.display='none'; render(); });
 cv.addEventListener('wheel',e=>{
   e.preventDefault(); auto=false;
@@ -453,3 +503,5 @@ function tick(){
 resize();
 tick();
 </script>
+</body>
+</html>
