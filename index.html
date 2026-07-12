@@ -56,8 +56,25 @@
   #twlens .swatch{display:none}
   #legend .hint{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
     color:var(--muted);margin-bottom:3px}
-  /* — big web 2.0 candy buttons — */
-  .chip{display:flex;align-items:center;gap:10px;border:1px solid rgba(0,0,0,.55);
+  /* subject chips: quiet checkbox list */
+  .chip{display:flex;align-items:center;gap:9px;background:none;border:none;color:var(--text);
+    font:13px var(--body);padding:7px 10px;margin:0 -10px;border-radius:8px;cursor:pointer;
+    text-align:left;min-height:36px}
+  .chip:hover{background:rgba(133,148,190,.12)}
+  .chip:focus-visible{outline:1.5px solid var(--accent)}
+  .chip .swatch{width:15px;height:15px;border-radius:4px;flex:none;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.35), 0 0 6px 0 currentColor}
+  .chip .swatch::after{content:"✓";font:700 10px/1 var(--body);color:#fff;
+    text-shadow:0 1px 1px rgba(0,0,0,.45)}
+  .chip .n{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-left:2px}
+  .chip.off{opacity:.4}
+  .chip.off .swatch{background:transparent!important;box-shadow:none;
+    border:1.5px solid currentColor}
+  .chip.off .swatch::after{content:""}
+
+  /* — big web 2.0 candy buttons (lens / search / close) — */
+  .candy{display:flex;align-items:center;gap:10px;border:1px solid rgba(0,0,0,.55);
     color:#fff;font:700 14px/1 var(--body);padding:0 18px;margin:0;min-height:46px;
     border-radius:12px;cursor:pointer;text-align:left;
     background-color:var(--chipc,#46608c);
@@ -68,17 +85,10 @@
       0 2px 5px rgba(0,0,0,.5);
     text-shadow:0 -1px 1px rgba(0,0,0,.4);
     transition:filter .1s}
-  .chip:hover{filter:brightness(1.12)}
-  .chip:active{background-image:linear-gradient(to bottom,rgba(0,0,0,.28),rgba(255,255,255,.04));
+  .candy:hover{filter:brightness(1.12)}
+  .candy:active{background-image:linear-gradient(to bottom,rgba(0,0,0,.28),rgba(255,255,255,.04));
     box-shadow:inset 0 2px 6px rgba(0,0,0,.55);transform:translateY(1px)}
-  .chip:focus-visible{outline:2px solid #fff;outline-offset:2px}
-  .chip .swatch{display:none}
-  .chip .n{font:700 11.5px/1 var(--body);color:#1c2740;margin-left:auto;
-    background:rgba(255,255,255,.88);border-radius:999px;padding:4px 9px;
-    box-shadow:inset 0 1px 2px rgba(0,0,0,.2)}
-  .chip.off{background-color:#3a4150;color:rgba(255,255,255,.45);
-    text-shadow:none;box-shadow:inset 0 1px 3px rgba(0,0,0,.4)}
-  .chip.off .n{background:rgba(255,255,255,.25);color:rgba(255,255,255,.5)}
+  .candy:focus-visible{outline:2px solid #fff;outline-offset:2px}
 
   #agescale{left:33px;top:50%;transform:translateY(-58%);text-align:center;
     color:var(--muted);font-family:var(--mono);font-size:10px;line-height:1;
@@ -158,7 +168,9 @@
       background:linear-gradient(to top,rgba(10,14,25,.92) 65%,transparent);
       -webkit-overflow-scrolling:touch}
     #legend .hint{display:none}
-    .chip{flex:none;border-radius:999px}
+    .chip{flex:none;margin:0;background:var(--panel);border:1px solid var(--hairline);
+      border-radius:999px;padding:10px 14px;min-height:44px}
+    .candy{flex:none;border-radius:999px}
     #twlens{margin-bottom:0!important}
     /* detail panel → bottom sheet */
     #panel{top:auto;left:0;right:0;bottom:0;width:100%;height:min(60vh,480px);
@@ -189,7 +201,7 @@
 </div>
 
 <nav id="legend" class="hud" aria-label="Subjects">
-  <button id="twlens" class="chip" aria-pressed="false" style="margin-bottom:4px">
+  <button id="twlens" class="candy" aria-pressed="false" style="margin-bottom:6px">
     <span>🇹🇼 台灣課綱檢視</span>
   </button>
   <div class="hint">Subjects — click to filter</div>
@@ -404,8 +416,9 @@ const legend = document.getElementById('legend');
 const counts = SUBJECTS.map((_,s)=>nodes.filter(n=>n[1]===s).length);
 SUBJECTS.forEach((s,i)=>{
   const b = document.createElement('button');
-  b.className='chip'; b.style.setProperty('--chipc', HUES[i]);
-  b.innerHTML=`<span>${esc(s)}</span><span class="n">${counts[i]}</span>`;
+  b.className='chip'; b.style.color=HUES[i];
+  b.innerHTML=`<span class="swatch" style="background:${HUES[i]}"></span>
+    <span style="color:var(--text)">${esc(s)}</span><span class="n">${counts[i]}</span>`;
   b.setAttribute('aria-pressed','true');
   b.addEventListener('click',()=>{
     subjOn[i]=!subjOn[i];
