@@ -519,7 +519,8 @@
       "assessmentPrompt": "If {{name}} says something like \"The dog\", can they tell you that's not a complete sentence — and add words to make it say something like \"The dog ran fast\"?",
       "standards": [
         "ccss-ela:L.K.1f",
-        "uk-nc-2013:Eng.App2.Y1.Sent.1"
+        "uk-nc-2013:Eng.App2.Y1.Sent.1",
+        "tw-moe-108-english:Ad-Ⅲ-2"
       ]
     },
     {
@@ -718,7 +719,8 @@
         "ccss-ela:L.K.2b",
         "uk-nc-2013:Eng.App2.Y1.Punc.2",
         "uk-nc-2013:Eng.App2.Y2.Punc.1",
-        "uk-nc-2013:Eng_Y1_WVGP_03"
+        "uk-nc-2013:Eng_Y1_WVGP_03",
+        "tw-moe-108-english:Ad-Ⅲ-1"
       ]
     },
     {
@@ -821,7 +823,8 @@
         "ccss-ela:L.1.1j",
         "ccss-ela:RF.1.1.a",
         "uk-nc-2013:Eng.App2.Y2.Sent.3",
-        "uk-nc-2013:Eng/KS1/Y2/VGP/2a"
+        "uk-nc-2013:Eng/KS1/Y2/VGP/2a",
+        "tw-moe-108-english:Ad-Ⅲ-2"
       ]
     },
     {
@@ -2080,7 +2083,8 @@
       "assessmentPrompt": "When {{name}} sits down to write, do they hold their pencil comfortably and form each letter the right way — starting from the right place and going in the right direction?",
       "standards": [
         "uk-nc-2013:Eng_Y1_WH_01",
-        "uk-nc-2013:Eng_Y1_WH_02"
+        "uk-nc-2013:Eng_Y1_WH_02",
+        "tw-moe-108-english:Aa-Ⅱ-2"
       ]
     },
     {
@@ -2101,7 +2105,8 @@
       "assessmentPrompt": "Can {{name}} write all the capital letters clearly and legibly so that someone reading their work can easily tell which letter is which?",
       "standards": [
         "ccss-ela:L.K.1a",
-        "uk-nc-2013:Eng_Y1_WH_03"
+        "uk-nc-2013:Eng_Y1_WH_03",
+        "tw-moe-108-english:Aa-Ⅱ-2"
       ]
     },
     {
@@ -2121,7 +2126,8 @@
       ],
       "assessmentPrompt": "Does {{name}} understand that certain letters are formed in similar ways — for example, \"c,\" \"a,\" \"d,\" and \"g\" all start with the same curved stroke — and practise those families together?",
       "standards": [
-        "uk-nc-2013:Eng_Y1_WH_05"
+        "uk-nc-2013:Eng_Y1_WH_05",
+        "tw-moe-108-english:Aa-Ⅱ-2"
       ]
     },
     {
@@ -2194,7 +2200,8 @@
         "ccss-ela:RF.K.3.d",
         "uk-nc-2013:Eng_App1_Y1_06",
         "uk-nc-2013:Eng_Y1_RWR_01",
-        "uk-nc-2013:Eng_Y1_RWR_03"
+        "uk-nc-2013:Eng_Y1_RWR_03",
+        "tw-moe-108-english:Ab-Ⅱ-4"
       ]
     },
     {
@@ -2220,7 +2227,8 @@
         "uk-nc-2013:Eng_App1_Y1_10",
         "uk-nc-2013:Eng_App1_Y1_11",
         "uk-nc-2013:Eng_App1_Y1_51",
-        "uk-nc-2013:Eng_App1_Y1_52"
+        "uk-nc-2013:Eng_App1_Y1_52",
+        "tw-moe-108-english:Ab-Ⅱ-1"
       ]
     },
     {
@@ -2243,7 +2251,9 @@
         "ccss-ela:RF.K.1.d",
         "uk-nc-2013:Eng_App1_Y1_01",
         "uk-nc-2013:Eng_Y1_WT_04",
-        "uk-nc-2013:Eng_Y1_WT_05"
+        "uk-nc-2013:Eng_Y1_WT_05",
+        "tw-moe-108-english:Aa-Ⅱ-1",
+        "tw-moe-108-english:Aa-Ⅱ-2"
       ]
     },
     {
@@ -2263,7 +2273,8 @@
       ],
       "assessmentPrompt": "If you slowly say the sounds '/d/ /o/ /g/', can {{name}} blend them together and say 'dog'? And if you say 'cat', can they tell you the three separate sounds: /k/ /a/ /t/?",
       "standards": [
-        "uk-nc-2013:Eng_App1_Y1_04"
+        "uk-nc-2013:Eng_App1_Y1_04",
+        "tw-moe-108-english:Ab-Ⅱ-4"
       ]
     },
     {
@@ -2285,7 +2296,8 @@
       "standards": [
         "ccss-ela:RF.K.2.a",
         "uk-nc-2013:Eng_Y1_RC_04",
-        "uk-nc-2013:Eng_Y1_RC_05"
+        "uk-nc-2013:Eng_Y1_RC_05",
+        "tw-moe-108-english:Ae-Ⅲ-1"
       ]
     },
     {
@@ -2310,7 +2322,8 @@
         "uk-nc-2013:Eng_App1_Y1_01",
         "uk-nc-2013:Eng_App1_Y1_07",
         "uk-nc-2013:Eng_App1_Y1_08",
-        "uk-nc-2013:Eng_Y1_RWR_02"
+        "uk-nc-2013:Eng_Y1_RWR_02",
+        "tw-moe-108-english:Ab-Ⅱ-1"
       ]
     },
     {
@@ -2362,7 +2375,8 @@
         "uk-nc-2013:Eng_App1_Y1_30",
         "uk-nc-2013:Eng_App1_Y1_31",
         "uk-nc-2013:Eng_App1_Y1_32",
-        "uk-nc-2013:Eng_App1_Y1_33"
+        "uk-nc-2013:Eng_App1_Y1_33",
+        "tw-moe-108-english:Ab-Ⅱ-1"
       ]
     },
     {
@@ -2412,7 +2426,8 @@
         "uk-nc-2013:Eng_App1_Y1_40",
         "uk-nc-2013:Eng_App1_Y1_44",
         "uk-nc-2013:Eng_App1_Y1_45",
-        "uk-nc-2013:Eng_App1_Y1_50"
+        "uk-nc-2013:Eng_App1_Y1_50",
+        "tw-moe-108-english:Ab-Ⅱ-1"
       ]
     },
     {
@@ -2438,7 +2453,8 @@
         "uk-nc-2013:Eng_App1_Y1_28",
         "uk-nc-2013:Eng_App1_Y1_29",
         "uk-nc-2013:Eng_App1_Y1_42",
-        "uk-nc-2013:Eng_App1_Y1_43"
+        "uk-nc-2013:Eng_App1_Y1_43",
+        "tw-moe-108-english:Ab-Ⅱ-1"
       ]
     },
     {
@@ -2504,7 +2520,9 @@
         "Recognise at least 20-30 high-frequency words in connected text"
       ],
       "assessmentPrompt": "Can {{name}} instantly recognise everyday words like 'said', 'was', 'they', 'come', and 'because' without needing to sound them out every time?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-english:Ac-Ⅲ-4"
+      ]
     },
     {
       "id": "mt__CMXZiPfTV",
@@ -2546,7 +2564,8 @@
         "uk-nc-2013:Eng_App1_Y1_18",
         "uk-nc-2013:Eng_App1_Y1_19",
         "uk-nc-2013:Eng_App1_Y1_20",
-        "uk-nc-2013:Eng_App1_Y1_21"
+        "uk-nc-2013:Eng_App1_Y1_21",
+        "tw-moe-108-english:Ab-Ⅱ-1"
       ]
     },
     {
@@ -2567,7 +2586,8 @@
       "assessmentPrompt": "Can {{name}} clap out the syllables in words — two claps for 'pen-cil' or three for 'com-pu-ter' — and split a spoken word into its parts?",
       "standards": [
         "ccss-ela:RF.K.2.b",
-        "uk-nc-2013:Eng_App1_Y1_09"
+        "uk-nc-2013:Eng_App1_Y1_09",
+        "tw-moe-108-english:Ab-Ⅱ-2"
       ]
     },
     {
@@ -2591,7 +2611,8 @@
         "uk-nc-2013:Eng_App1_Y1_46",
         "uk-nc-2013:Eng_App1_Y1_47",
         "uk-nc-2013:Eng_App1_Y1_48",
-        "uk-nc-2013:Eng_App1_Y1_49"
+        "uk-nc-2013:Eng_App1_Y1_49",
+        "tw-moe-108-english:Ab-Ⅱ-1"
       ]
     },
     {
@@ -2637,7 +2658,8 @@
         "uk-nc-2013:Eng_App1_Y2_17",
         "uk-nc-2013:Eng_App1_Y2_18",
         "uk-nc-2013:Eng_App1_Y2_19",
-        "uk-nc-2013:Eng_App1_Y2_20"
+        "uk-nc-2013:Eng_App1_Y2_20",
+        "tw-moe-108-english:Ab-Ⅱ-4"
       ]
     },
     {
@@ -2682,7 +2704,8 @@
         "uk-nc-2013:Eng/KS1/Y2/WR/7",
         "uk-nc-2013:Eng/KS1/Y2/WR/8",
         "uk-nc-2013:Eng_LKS2_Read_Comp_6",
-        "uk-nc-2013:Eng_LKS2_Read_Word_1"
+        "uk-nc-2013:Eng_LKS2_Read_Word_1",
+        "tw-moe-108-english:Ab-Ⅲ-4"
       ]
     },
     {
@@ -2706,7 +2729,8 @@
         "ccss-ela:RF.1.3.e",
         "ccss-ela:RF.2.3.c",
         "ccss-ela:RF.3.3.c",
-        "uk-nc-2013:Eng/KS1/Y2/WR/3"
+        "uk-nc-2013:Eng/KS1/Y2/WR/3",
+        "tw-moe-108-english:Ab-Ⅱ-2"
       ]
     },
     {
@@ -2727,7 +2751,8 @@
       "assessmentPrompt": "Can {{name}} read trickier exception words — like 'ordinary', 'promise', 'recent', or 'island' — without being thrown off by the parts that don't follow the usual spelling rules?",
       "standards": [
         "ccss-ela:RF.2.3.f",
-        "ccss-ela:RF.3.3.d"
+        "ccss-ela:RF.3.3.d",
+        "tw-moe-108-english:Ab-Ⅲ-5"
       ]
     },
     {
@@ -2770,7 +2795,8 @@
       "assessmentPrompt": "When you stop midway through a story, can {{name}} make a reasonable guess about what might happen next — and explain why they think so based on what's happened so far?",
       "standards": [
         "uk-nc-2013:Eng_Y1_RC_09",
-        "uk-nc-2013:Eng_Y1_RC_11"
+        "uk-nc-2013:Eng_Y1_RC_11",
+        "tw-moe-108-english:D-Ⅲ-3"
       ]
     },
     {
@@ -2819,7 +2845,9 @@
         "ccss-ela:RL.K.3",
         "uk-nc-2013:Eng/KS1/Y2/C/1c",
         "uk-nc-2013:Eng_LKS2_Read_Comp_4",
-        "uk-nc-2013:Eng_Y1_RC_03"
+        "uk-nc-2013:Eng_Y1_RC_03",
+        "tw-moe-108-english:D-Ⅲ-2",
+        "tw-moe-108-english:Ae-Ⅲ-2"
       ]
     },
     {
@@ -2948,7 +2976,8 @@
         "uk-nc-2013:Eng.UKS2.Read.Comp.7",
         "uk-nc-2013:Eng/KS1/Y2/C/1a",
         "uk-nc-2013:Eng_LKS2_Read_Comp_1",
-        "uk-nc-2013:Eng_Y1_RC_01"
+        "uk-nc-2013:Eng_Y1_RC_01",
+        "tw-moe-108-english:Ae-Ⅲ-1"
       ]
     },
     {
@@ -3016,7 +3045,8 @@
       "standards": [
         "ccss-ela:RI.3.1",
         "ccss-ela:RL.3.1",
-        "uk-nc-2013:Eng.UKS2.Read.Comp.2b"
+        "uk-nc-2013:Eng.UKS2.Read.Comp.2b",
+        "tw-moe-108-english:D-Ⅲ-3"
       ]
     },
     {
@@ -3157,7 +3187,8 @@
         "ccss-ela:RL.1.3",
         "ccss-ela:RL.2.5",
         "uk-nc-2013:Eng/KS1/Y2/C/1c",
-        "uk-nc-2013:Eng/KS1/Y2/C/2c"
+        "uk-nc-2013:Eng/KS1/Y2/C/2c",
+        "tw-moe-108-english:D-Ⅲ-2"
       ]
     },
     {
@@ -3182,7 +3213,8 @@
         "ccss-ela:RL.1.2",
         "ccss-ela:RL.2.10",
         "uk-nc-2013:Eng/KS1/Y2/C/1b",
-        "uk-nc-2013:Eng/KS1/Y2/C/1c"
+        "uk-nc-2013:Eng/KS1/Y2/C/1c",
+        "tw-moe-108-english:D-Ⅲ-2"
       ]
     },
     {
@@ -4376,7 +4408,8 @@
         "ccss-ela:SL.K.4",
         "ccss-ela:SL.K.6",
         "uk-nc-2013:Eng.SL.5",
-        "uk-nc-2013:Eng.SL.8"
+        "uk-nc-2013:Eng.SL.8",
+        "tw-moe-108-english:B-Ⅲ-1"
       ]
     },
     {
@@ -4488,7 +4521,8 @@
         "ccss-ela:SL.4.5",
         "uk-nc-2013:Eng.SL.10",
         "uk-nc-2013:Eng.SL.9",
-        "uk-nc-2013:Eng/KS1/Y2/C/1h"
+        "uk-nc-2013:Eng/KS1/Y2/C/1h",
+        "tw-moe-108-english:Ae-Ⅲ-1"
       ]
     },
     {
@@ -4821,7 +4855,9 @@
         "ccss-ela:L.K.2d",
         "uk-nc-2013:Eng_App1_Y1_04",
         "uk-nc-2013:Eng_App1_Y2_01",
-        "uk-nc-2013:Eng_Y1_WT_01"
+        "uk-nc-2013:Eng_Y1_WT_01",
+        "tw-moe-108-english:Ab-Ⅱ-1",
+        "tw-moe-108-english:Ab-Ⅱ-4"
       ]
     },
     {
@@ -4843,7 +4879,8 @@
       "standards": [
         "uk-nc-2013:Eng/KS1/Y2/S/4",
         "uk-nc-2013:Eng_LKS2_Write_Trans_Spell_6",
-        "uk-nc-2013:Eng_Y1_WT_10"
+        "uk-nc-2013:Eng_Y1_WT_10",
+        "tw-moe-108-english:Ab-Ⅲ-5"
       ]
     },
     {
@@ -4912,7 +4949,8 @@
         "uk-nc-2013:Eng_App1_Y2_26",
         "uk-nc-2013:Eng_LKS2_Write_Trans_Spell_3",
         "uk-nc-2013:Eng_Y1_WT_02",
-        "uk-nc-2013:Eng_Y1_WT_03"
+        "uk-nc-2013:Eng_Y1_WT_03",
+        "tw-moe-108-english:Ac-Ⅲ-4"
       ]
     },
     {
@@ -5108,7 +5146,8 @@
       "assessmentPrompt": "Can {{name}} spell the tricky words on their school's Year 3 and 4 word list — like \"enough,\" \"believe,\" or \"separate\" — from memory when writing?",
       "standards": [
         "uk-nc-2013:Eng_App1_Sp_Y34_18",
-        "uk-nc-2013:Eng_LKS2_Write_Trans_Spell_3"
+        "uk-nc-2013:Eng_LKS2_Write_Trans_Spell_3",
+        "tw-moe-108-english:Ac-Ⅱ-3"
       ]
     },
     {
@@ -5291,7 +5330,8 @@
       ],
       "assessmentPrompt": "Can {{name}} spell the challenging words on their school's Year 5 and 6 word list — like \"accommodate,\" \"conscience,\" or \"prejudice\" — from memory when writing?",
       "standards": [
-        "uk-nc-2013:Eng_App1_Sp_Y56_12"
+        "uk-nc-2013:Eng_App1_Sp_Y56_12",
+        "tw-moe-108-english:Ac-Ⅲ-4"
       ]
     },
     {
@@ -5422,7 +5462,9 @@
         "ccss-ela:L.1.5a",
         "ccss-ela:L.2.5a",
         "ccss-ela:L.K.5a",
-        "ccss-ela:L.K.5b"
+        "ccss-ela:L.K.5b",
+        "tw-moe-108-english:D-Ⅱ-1",
+        "tw-moe-108-english:D-Ⅲ-1"
       ]
     },
     {
@@ -5445,7 +5487,8 @@
         "ccss-ela:L.1.6",
         "ccss-ela:L.2.6",
         "ccss-ela:L.3.6",
-        "ccss-ela:L.K.6"
+        "ccss-ela:L.K.6",
+        "tw-moe-108-english:B-Ⅱ-1"
       ]
     },
     {
@@ -5493,7 +5536,9 @@
         "ccss-ela:L.1.5c",
         "ccss-ela:L.3.4d",
         "uk-nc-2013:Eng/KS1/Y2/C/1f",
-        "uk-nc-2013:Eng_LKS2_Read_Comp_3"
+        "uk-nc-2013:Eng_LKS2_Read_Comp_3",
+        "tw-moe-108-english:D-Ⅱ-1",
+        "tw-moe-108-english:D-Ⅲ-1"
       ]
     },
     {
@@ -21374,7 +21419,9 @@
         "Recognises that animals live on every continent"
       ],
       "assessmentPrompt": "If you show {{name}} pictures of a polar bear, a parrot, a camel, and a penguin, can they tell you that animals live in all sorts of different places around the world?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅱ-8"
+      ]
     },
     {
       "id": "mt_-vsLvsxp0L",
@@ -21446,7 +21493,10 @@
         "Explains that animals communicate to find mates, warn of danger, or share food locations"
       ],
       "assessmentPrompt": "If {{name}} hears birds singing in the morning, can they explain that birdsong is a way of communicating — and describe at least two other ways different animals send messages to each other?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅱ-5",
+        "tw-moe-108-science:INe-Ⅲ-11"
+      ]
     },
     {
       "id": "mt_bK84sPehyP",
@@ -21613,7 +21663,9 @@
         "Describes a trophic cascade or chain reaction from removing/adding a species"
       ],
       "assessmentPrompt": "If {{name}} learns about how wolves were brought back to Yellowstone and the whole ecosystem changed, can they explain what a 'keystone species' is and why having many different species in an area matters?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-3"
+      ]
     },
     {
       "id": "mt_5S4byWDX6n",
@@ -21651,7 +21703,9 @@
         "Understands the difference between a species naturally expanding its range and being introduced by humans"
       ],
       "assessmentPrompt": "If {{name}} learns that grey squirrels were brought to the UK from America, can they explain why introduced animals can be a problem for the animals that were already living there?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-2"
+      ]
     },
     {
       "id": "mt_pWwV_8OgXD",
@@ -21689,7 +21743,10 @@
         "Connects adaptations to the concept of natural selection at a basic level"
       ],
       "assessmentPrompt": "If {{name}} sees a woodpecker pecking a tree, can they explain that its strong beak, long tongue, and shock-absorbing skull are all adaptations — and describe what the word 'adaptation' means with other examples?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-6",
+        "tw-moe-108-science:INb-Ⅲ-7"
+      ]
     },
     {
       "id": "mt_H8OgKZbgGe",
@@ -21707,7 +21764,9 @@
         "Identifies symbiotic relationships when presented with new scenarios"
       ],
       "assessmentPrompt": "If {{name}} sees a nature programme showing a small bird picking insects off a buffalo's back, can they explain that both animals benefit from this relationship and name the type of symbiosis?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅲ-13"
+      ]
     },
     {
       "id": "mt_mKNmXqz_Oo",
@@ -21975,7 +22034,9 @@
         "Explain why her work was important — she helped scientists understand that extinct creatures once lived on Earth"
       ],
       "assessmentPrompt": "Has {{name}} heard of Mary Anning? Can they tell you who she was and why she was important to the study of fossils?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INf-Ⅲ-1"
+      ]
     },
     {
       "id": "mt_Wpvuz3mvBq",
@@ -22049,7 +22110,8 @@
       "assessmentPrompt": "If {{name}} sees a fossil of a fish in a rock on a hillside, can they explain that the area must have been underwater millions of years ago?",
       "standards": [
         "ngss-k5:3-LS4-1",
-        "uk-nc-2013:Y6.Sci.EI.1"
+        "uk-nc-2013:Y6.Sci.EI.1",
+        "tw-moe-108-science:INd-Ⅲ-8"
       ]
     },
     {
@@ -22213,7 +22275,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that the animals and plants alive today are different from those that lived millions of years ago, and that we know this from fossils?",
       "standards": [
-        "uk-nc-2013:Y6.Sci.EI.1"
+        "uk-nc-2013:Y6.Sci.EI.1",
+        "tw-moe-108-science:INd-Ⅲ-8"
       ]
     },
     {
@@ -22343,7 +22406,8 @@
       ],
       "assessmentPrompt": "Has {{name}} kept a weather diary for a week or more, recording whether it was sunny, rainy, or windy, and noticed any patterns?",
       "standards": [
-        "ngss-k5:K-ESS2-1"
+        "ngss-k5:K-ESS2-1",
+        "tw-moe-108-science:INd-Ⅱ-7"
       ]
     },
     {
@@ -22365,7 +22429,8 @@
       "standards": [
         "ngss-k5:K-ESS2-1",
         "uk-nc-2013:Y1.Sci.SC.1",
-        "uk-nc-2013:Y1.Sci.SC.2"
+        "uk-nc-2013:Y1.Sci.SC.2",
+        "tw-moe-108-science:INd-Ⅱ-6"
       ]
     },
     {
@@ -22384,7 +22449,10 @@
         "Use 'water vapour' and 'precipitation' correctly in descriptions of weather and the water cycle"
       ],
       "assessmentPrompt": "Can {{name}} explain where the puddle goes after it stops raining — using words like 'evaporation' or 'water vapour' rather than just 'it dries up'?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-12",
+        "tw-moe-108-science:INd-Ⅲ-11"
+      ]
     },
     {
       "id": "mt_mwirOvigWD",
@@ -22443,7 +22511,8 @@
       ],
       "assessmentPrompt": "Can {{name}} examine a collection of rocks and sort them by whether they're hard or crumbly, rough or smooth, and light or dark?",
       "standards": [
-        "uk-nc-2013:Y3.Sci.R.1"
+        "uk-nc-2013:Y3.Sci.R.1",
+        "tw-moe-108-science:INc-Ⅱ-9"
       ]
     },
     {
@@ -22463,7 +22532,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that soil isn't just dirt — it's made from tiny broken-down bits of rock mixed with dead leaves and other organic material?",
       "standards": [
-        "uk-nc-2013:Y3.Sci.R.3"
+        "uk-nc-2013:Y3.Sci.R.3",
+        "tw-moe-108-science:INd-Ⅲ-8"
       ]
     },
     {
@@ -22503,7 +22573,8 @@
       ],
       "assessmentPrompt": "Can {{name}} name the different places water is found on Earth — in oceans, rivers, ice caps, and even underground — and explain that ice is just frozen water?",
       "standards": [
-        "ngss-k5:2-ESS2-3"
+        "ngss-k5:2-ESS2-3",
+        "tw-moe-108-science:INc-Ⅲ-12"
       ]
     },
     {
@@ -22523,7 +22594,8 @@
       ],
       "assessmentPrompt": "Can {{name}} collect weather data over several weeks, put it in a chart, and use it to describe what weather is typical for that time of year?",
       "standards": [
-        "ngss-k5:3-ESS2-1"
+        "ngss-k5:3-ESS2-1",
+        "tw-moe-108-science:INd-Ⅱ-6"
       ]
     },
     {
@@ -22563,7 +22635,9 @@
       ],
       "assessmentPrompt": "Can {{name}} look at a crumbling cliff or a river bank and explain how water, wind, or ice has slowly worn away the rock or soil over time?",
       "standards": [
-        "ngss-k5:4-ESS2-1"
+        "ngss-k5:4-ESS2-1",
+        "tw-moe-108-science:INd-Ⅱ-5",
+        "tw-moe-108-science:INd-Ⅲ-9"
       ]
     },
     {
@@ -22602,7 +22676,10 @@
         "Explain how fossils form using 'sediment' and 'sedimentary rock' correctly"
       ],
       "assessmentPrompt": "Could {{name}} explain the difference between a rock being weathered and being eroded — those are actually two different things?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-11",
+        "tw-moe-108-science:INd-Ⅲ-8"
+      ]
     },
     {
       "id": "mt_LKagN9GJPX",
@@ -22621,7 +22698,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how rain (atmosphere) falls on mountains (geosphere), flows into rivers (hydrosphere), and provides water for plants and animals (biosphere)?",
       "standards": [
-        "ngss-k5:5-ESS2-1"
+        "ngss-k5:5-ESS2-1",
+        "tw-moe-108-science:INc-Ⅲ-10"
       ]
     },
     {
@@ -22659,7 +22737,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that most of Earth's water is salty ocean water, and only a tiny fraction is the fresh water we drink, and show this on a graph?",
       "standards": [
-        "ngss-k5:5-ESS2-2"
+        "ngss-k5:5-ESS2-2",
+        "tw-moe-108-science:INc-Ⅲ-12"
       ]
     },
     {
@@ -22699,7 +22778,8 @@
       ],
       "assessmentPrompt": "Can {{name}} suggest ways people can help the environment — like recycling, not littering, saving water, or planting trees?",
       "standards": [
-        "ngss-k5:K-ESS3-3"
+        "ngss-k5:K-ESS3-3",
+        "tw-moe-108-science:INg-Ⅱ-3"
       ]
     },
     {
@@ -22720,7 +22800,8 @@
       "assessmentPrompt": "Can {{name}} explain why a polar bear lives in the Arctic and not in a desert, and how the animals and plants in a habitat help each other?",
       "standards": [
         "ngss-k5:2-LS4-1",
-        "uk-nc-2013:Y2.Sci.LTH.2"
+        "uk-nc-2013:Y2.Sci.LTH.2",
+        "tw-moe-108-science:INa-Ⅱ-7"
       ]
     },
     {
@@ -22758,7 +22839,8 @@
       ],
       "assessmentPrompt": "If you show {{name}} a rock, a fallen leaf, and a caterpillar, can they tell you which is alive, which was once alive, and which was never alive?",
       "standards": [
-        "uk-nc-2013:Y2.Sci.LTH.1"
+        "uk-nc-2013:Y2.Sci.LTH.1",
+        "tw-moe-108-science:INa-Ⅱ-1"
       ]
     },
     {
@@ -22819,7 +22901,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why wolves hunt in packs or why fish swim in schools, and how being in a group helps them survive?",
       "standards": [
-        "ngss-k5:3-LS2-1"
+        "ngss-k5:3-LS2-1",
+        "tw-moe-108-science:INe-Ⅲ-11"
       ]
     },
     {
@@ -22840,7 +22923,8 @@
       "assessmentPrompt": "Can {{name}} give examples of how changes like pollution, building, or drought can make it harder for animals and plants to survive?",
       "standards": [
         "ngss-k5:3-LS4-4",
-        "uk-nc-2013:Y4.Sci.LTH.3"
+        "uk-nc-2013:Y4.Sci.LTH.3",
+        "tw-moe-108-science:INe-Ⅲ-12"
       ]
     },
     {
@@ -22860,7 +22944,8 @@
       ],
       "assessmentPrompt": "Can {{name}} use a simple yes/no key chart to work out the name of an insect or plant they've found outside?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.LTH.2"
+        "uk-nc-2013:Y4.Sci.LTH.2",
+        "tw-moe-108-science:INb-Ⅲ-8"
       ]
     },
     {
@@ -22879,7 +22964,9 @@
         "Explain what a decomposer does and why it matters, using the correct vocabulary"
       ],
       "assessmentPrompt": "Can {{name}} draw a food chain from a plant to a top predator and label each animal as a producer, consumer, predator, or prey?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅲ-10"
+      ]
     },
     {
       "id": "mt_oB-L8EVdIP",
@@ -22898,7 +22985,8 @@
       ],
       "assessmentPrompt": "Can {{name}} build a food chain for a woodland and point out which organisms are producers, which are predators, and which are prey?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.A.3"
+        "uk-nc-2013:Y4.Sci.A.3",
+        "tw-moe-108-science:INa-Ⅲ-10"
       ]
     },
     {
@@ -22918,7 +23006,8 @@
       ],
       "assessmentPrompt": "Can {{name}} sort a set of animals or plants into groups using their own criteria, like 'has wings' or 'lives in water'?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.LTH.1"
+        "uk-nc-2013:Y4.Sci.LTH.1",
+        "tw-moe-108-science:INb-Ⅲ-8"
       ]
     },
     {
@@ -22937,7 +23026,11 @@
         "Apply 'carbon footprint' and 'sustainability' correctly in a discussion about everyday human choices"
       ],
       "assessmentPrompt": "Can {{name}} explain what a carbon footprint is — not just that it's about pollution, but what it actually measures?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-6",
+        "tw-moe-108-science:INg-Ⅲ-3",
+        "tw-moe-108-science:INg-Ⅱ-3"
+      ]
     },
     {
       "id": "mt_uVaS12lN1i",
@@ -22955,7 +23048,9 @@
         "Predict what would happen to fox numbers if rabbits were removed from a food web diagram"
       ],
       "assessmentPrompt": "If {{name}} is shown a diagram with arrows connecting plants, insects, frogs, and hawks, can they trace which animals eat which and explain what would happen if the frogs disappeared?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅲ-10"
+      ]
     },
     {
       "id": "mt_A1Xfu5p5KT",
@@ -22974,7 +23069,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how a butterfly's life cycle (egg, caterpillar, chrysalis, butterfly) is completely different from how a puppy grows into a dog?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.LTH.1"
+        "uk-nc-2013:Y5.Sci.LTH.1",
+        "tw-moe-108-science:INd-Ⅱ-3"
       ]
     },
     {
@@ -22994,7 +23090,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain different ways plants reproduce — not just from seeds but also from cuttings or runners — and how animals reproduce by having babies or laying eggs?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.LTH.2"
+        "uk-nc-2013:Y5.Sci.LTH.2",
+        "tw-moe-108-science:INd-Ⅱ-3"
       ]
     },
     {
@@ -23014,7 +23111,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain the big groups that scientists sort all living things into — like plants, animals, and tiny micro-organisms — and give examples of each?",
       "standards": [
-        "uk-nc-2013:Y6.Sci.LTH.1"
+        "uk-nc-2013:Y6.Sci.LTH.1",
+        "tw-moe-108-science:INb-Ⅲ-8"
       ]
     },
     {
@@ -23034,7 +23132,8 @@
       ],
       "assessmentPrompt": "Can {{name}} describe real examples of how communities protect the environment — like using solar panels, creating nature reserves, or cleaning up rivers?",
       "standards": [
-        "ngss-k5:5-ESS3-1"
+        "ngss-k5:5-ESS3-1",
+        "tw-moe-108-science:INg-Ⅱ-1"
       ]
     },
     {
@@ -23054,7 +23153,8 @@
       ],
       "assessmentPrompt": "If {{name}} finds an unusual creature, can they explain step by step how they'd work out what group it belongs to based on its features?",
       "standards": [
-        "uk-nc-2013:Y6.Sci.LTH.2"
+        "uk-nc-2013:Y6.Sci.LTH.2",
+        "tw-moe-108-science:INb-Ⅲ-8"
       ]
     },
     {
@@ -23074,7 +23174,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain what happens to a fallen leaf on the forest floor — how tiny organisms break it down and the nutrients go back into the soil to help new plants grow?",
       "standards": [
-        "ngss-k5:5-LS2-1"
+        "ngss-k5:5-LS2-1",
+        "tw-moe-108-science:INa-Ⅲ-10"
       ]
     },
     {
@@ -23097,7 +23198,8 @@
       "standards": [
         "ngss-ms:MS-LS2-1",
         "ngss-ms:MS-LS2-4",
-        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.1"
+        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.1",
+        "tw-moe-108-science:INa-Ⅲ-10"
       ]
     },
     {
@@ -23119,7 +23221,9 @@
       "assessmentPrompt": "If {{name}} was shown a diagram with lots of animals connected by arrows, could they explain what it means — tracing what eats what — and predict what would happen if one animal disappeared from the web?",
       "standards": [
         "ngss-ms:MS-LS2-1",
-        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.1"
+        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.1",
+        "tw-moe-108-science:INc-Ⅲ-9",
+        "tw-moe-108-science:INa-Ⅲ-10"
       ]
     },
     {
@@ -23161,7 +23265,8 @@
       ],
       "assessmentPrompt": "If {{name}} watched rain falling outside and was asked where that water had been before it fell, could they trace its journey through the water cycle from the sea to the clouds to the rain and back?",
       "standards": [
-        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.5"
+        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.5",
+        "tw-moe-108-science:INd-Ⅲ-12"
       ]
     },
     {
@@ -23183,7 +23288,9 @@
       "assessmentPrompt": "If {{name}} was asked why it matters if a rainforest is cut down even if lots of species survive elsewhere, could they explain what biodiversity means and why losing it makes whole ecosystems more fragile?",
       "standards": [
         "ngss-ms:MS-LS2-4",
-        "uk-nc-2013:KS3.Sci.Bio.Adaptation.3"
+        "uk-nc-2013:KS3.Sci.Bio.Adaptation.3",
+        "tw-moe-108-science:INg-Ⅲ-3",
+        "tw-moe-108-science:INg-Ⅲ-2"
       ]
     },
     {
@@ -23317,7 +23424,9 @@
       "assessmentPrompt": "If {{name}} heard that wild plants in the UK are now flowering weeks earlier than they did 50 years ago, could they explain why that happens and what problems it might cause for the other animals that depend on those plants?",
       "standards": [
         "ngss-ms:MS-LS2-4",
-        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.6"
+        "uk-nc-2013:KS3.Sci.Bio.Ecosystem.6",
+        "tw-moe-108-science:INc-Ⅲ-9",
+        "tw-moe-108-science:INg-Ⅲ-2"
       ]
     },
     {
@@ -23385,7 +23494,8 @@
       "assessmentPrompt": "If {{name}} looked around a classroom and noticed that everyone has slightly different heights, hair colours, and eye colours, could they explain why these differences exist — and which ones are inherited, which are down to the environment, and which are both?",
       "standards": [
         "ngss-ms:MS-LS3-2",
-        "uk-nc-2013:KS3.Sci.Bio.Adaptation.1"
+        "uk-nc-2013:KS3.Sci.Bio.Adaptation.1",
+        "tw-moe-108-science:INd-Ⅲ-4"
       ]
     },
     {
@@ -23447,7 +23557,8 @@
       ],
       "assessmentPrompt": "Can {{name}} feel the difference between a sunny pavement and a shady one, and explain that sunlight warms up surfaces it shines on?",
       "standards": [
-        "ngss-k5:K-PS3-1"
+        "ngss-k5:K-PS3-1",
+        "tw-moe-108-science:INa-Ⅱ-5"
       ]
     },
     {
@@ -23466,7 +23577,10 @@
         "Distinguish between 'stored energy' and 'transferred energy' with a correct example of each"
       ],
       "assessmentPrompt": "If {{name}} stretches a rubber band and lets it go, can they name what type of energy it had when stretched — and what it changed into?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅱ-6",
+        "tw-moe-108-science:INa-Ⅲ-5"
+      ]
     },
     {
       "id": "mt_DA7-JYRvtP",
@@ -23485,7 +23599,8 @@
       ],
       "assessmentPrompt": "Can {{name}} build a working circuit with a battery, wires, and a light bulb, and name each part they're using?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.E.2"
+        "uk-nc-2013:Y4.Sci.E.2",
+        "tw-moe-108-science:INe-Ⅱ-8"
       ]
     },
     {
@@ -23505,7 +23620,8 @@
       ],
       "assessmentPrompt": "Can {{name}} test objects in a circuit and explain why metal objects let electricity through but rubber and plastic don't?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.E.5"
+        "uk-nc-2013:Y4.Sci.E.5",
+        "tw-moe-108-science:INe-Ⅱ-8"
       ]
     },
     {
@@ -23525,7 +23641,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain what happens inside the wall when they flip a light switch — that it completes or breaks the electrical loop?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.E.4"
+        "uk-nc-2013:Y4.Sci.E.4",
+        "tw-moe-108-science:INe-Ⅱ-8"
       ]
     },
     {
@@ -23545,7 +23662,8 @@
       ],
       "assessmentPrompt": "Can {{name}} walk around the house and point out which things use electricity to work, like the fridge, TV, and lights?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.E.1"
+        "uk-nc-2013:Y4.Sci.E.1",
+        "tw-moe-108-science:INa-Ⅱ-8"
       ]
     },
     {
@@ -23565,7 +23683,8 @@
       ],
       "assessmentPrompt": "If {{name}} looks at a circuit diagram, can they tell you whether the bulb will light up or not, based on whether there's a complete loop?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.E.3"
+        "uk-nc-2013:Y4.Sci.E.3",
+        "tw-moe-108-science:INe-Ⅱ-8"
       ]
     },
     {
@@ -23585,7 +23704,9 @@
       ],
       "assessmentPrompt": "Could {{name}} design and build a simple device — like a rubber-band car or a solar oven — that changes energy from one form to another?",
       "standards": [
-        "ngss-k5:4-PS3-4"
+        "ngss-k5:4-PS3-4",
+        "tw-moe-108-science:INa-Ⅲ-5",
+        "tw-moe-108-science:INa-Ⅲ-6"
       ]
     },
     {
@@ -23604,7 +23725,10 @@
         "Name at least six standard circuit components and describe what each one does"
       ],
       "assessmentPrompt": "Does {{name}} know the difference between a series circuit and a parallel circuit — not just which one, but what actually makes them different electrically?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅱ-8",
+        "tw-moe-108-science:INe-Ⅱ-9"
+      ]
     },
     {
       "id": "mt_X_aDUBh-HF",
@@ -23623,7 +23747,9 @@
       ],
       "assessmentPrompt": "Can {{name}} give examples of how energy moves around — like heat from a radiator warming a room, light from a lamp reaching your eyes, or electricity flowing through a wire?",
       "standards": [
-        "ngss-k5:4-PS3-2"
+        "ngss-k5:4-PS3-2",
+        "tw-moe-108-science:INa-Ⅲ-6",
+        "tw-moe-108-science:INa-Ⅲ-8"
       ]
     },
     {
@@ -23642,7 +23768,9 @@
         "Match a photograph of a physical circuit to the correct circuit diagram from a set of options"
       ],
       "assessmentPrompt": "If {{name}} sees a circuit diagram with symbols for a battery, switch, and light bulb, can they tell you whether the bulb would light up — and draw the diagram for a simple circuit you describe?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅱ-8"
+      ]
     },
     {
       "id": "mt_2Um22lTBZV",
@@ -23661,7 +23789,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a fast-moving ball knocks down more skittles than a slow one, using the idea that faster things have more energy?",
       "standards": [
-        "ngss-k5:4-PS3-1"
+        "ngss-k5:4-PS3-1",
+        "tw-moe-108-science:INa-Ⅲ-7"
       ]
     },
     {
@@ -23681,7 +23810,8 @@
       ],
       "assessmentPrompt": "If {{name}} rolls two balls towards each other, can they predict what will happen when they hit and explain that energy transfers between them?",
       "standards": [
-        "ngss-k5:4-PS3-3"
+        "ngss-k5:4-PS3-3",
+        "tw-moe-108-science:INc-Ⅲ-5"
       ]
     },
     {
@@ -23721,7 +23851,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why adding a second battery makes the bulb brighter, and predict what happens with three batteries?",
       "standards": [
-        "uk-nc-2013:Y6.Sci.E.1"
+        "uk-nc-2013:Y6.Sci.E.1",
+        "tw-moe-108-science:INe-Ⅱ-9"
       ]
     },
     {
@@ -23741,7 +23872,8 @@
       ],
       "assessmentPrompt": "If {{name}} adds a second bulb to a series circuit and it gets dimmer, can they explain why the energy is being shared between the two bulbs?",
       "standards": [
-        "uk-nc-2013:Y6.Sci.E.2"
+        "uk-nc-2013:Y6.Sci.E.2",
+        "tw-moe-108-science:INe-Ⅱ-9"
       ]
     },
     {
@@ -23783,7 +23915,8 @@
       "assessmentPrompt": "If {{name}} charged their phone overnight and was asked where the electrical energy goes, could they explain what conservation of energy means — and why the charger gets warm even though that heat isn’t doing any useful work?",
       "standards": [
         "ngss-ms:MS-PS3-5",
-        "uk-nc-2013:KS3.Sci.Phys.Energy.2"
+        "uk-nc-2013:KS3.Sci.Phys.Energy.2",
+        "tw-moe-108-science:INa-Ⅲ-5"
       ]
     },
     {
@@ -23806,7 +23939,9 @@
       "standards": [
         "ngss-ms:MS-PS3-1",
         "ngss-ms:MS-PS3-2",
-        "uk-nc-2013:KS3.Sci.Phys.Energy.1"
+        "uk-nc-2013:KS3.Sci.Phys.Energy.1",
+        "tw-moe-108-science:INa-Ⅲ-5",
+        "tw-moe-108-science:INa-Ⅲ-7"
       ]
     },
     {
@@ -23845,7 +23980,8 @@
       ],
       "assessmentPrompt": "If {{name}} was heating soup on a hob and also warming their hands by a radiator, could they explain which type of heat transfer is happening in each case — and why the soup pot gets hot throughout even though it’s only heated at the bottom?",
       "standards": [
-        "uk-nc-2013:KS3.Sci.Phys.Energy.5"
+        "uk-nc-2013:KS3.Sci.Phys.Energy.5",
+        "tw-moe-108-science:INa-Ⅲ-8"
       ]
     },
     {
@@ -23951,7 +24087,8 @@
       "assessmentPrompt": "If {{name}} heard about a plan to build a new wind farm in your area, could they explain what the advantages and disadvantages would be compared to a gas-fired power station — both for the environment and for reliability?",
       "standards": [
         "ngss-ms:MS-ESS3-4",
-        "uk-nc-2013:KS3.Sci.Phys.Energy.1"
+        "uk-nc-2013:KS3.Sci.Phys.Energy.1",
+        "tw-moe-108-science:INg-Ⅲ-5"
       ]
     },
     {
@@ -23971,7 +24108,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why the lights in your home don't all switch off when you turn off one room's light, but a string of old-fashioned Christmas lights does go off if one bulb breaks?",
       "standards": [
-        "ngss-ms:MS-PS2-3"
+        "ngss-ms:MS-PS2-3",
+        "tw-moe-108-science:INe-Ⅱ-9"
       ]
     },
     {
@@ -23990,7 +24128,9 @@
         "Use 'weight' correctly as a force — distinct from 'mass' — in descriptions"
       ],
       "assessmentPrompt": "If {{name}} slides down a slide and slows near the bottom, can they name the force responsible and spell it correctly?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅱ-8"
+      ]
     },
     {
       "id": "mt_B3W5EfimJw",
@@ -24009,7 +24149,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that pushing a toy car harder makes it go faster, and pushing it sideways makes it change direction?",
       "standards": [
-        "ngss-k5:K-PS2-1"
+        "ngss-k5:K-PS2-1",
+        "tw-moe-108-science:INd-Ⅱ-9"
       ]
     },
     {
@@ -24068,7 +24209,10 @@
         "Add a resultant force arrow to a diagram and explain how they calculated it"
       ],
       "assessmentPrompt": "If {{name}} is asked to draw a diagram of all the forces acting on a stationary book on a table, can they draw two arrows — one pointing down for gravity and one pointing up from the table — and explain why, if they're balanced, the book doesn't move?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅱ-3",
+        "tw-moe-108-science:INd-Ⅲ-13"
+      ]
     },
     {
       "id": "mt_-p_xp4hMvh",
@@ -24087,7 +24231,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a toy car rolls further on a smooth wooden floor than on carpet?",
       "standards": [
-        "uk-nc-2013:Y3.Sci.FM.1"
+        "uk-nc-2013:Y3.Sci.FM.1",
+        "tw-moe-108-science:INb-Ⅲ-3"
       ]
     },
     {
@@ -24108,7 +24253,8 @@
       "assessmentPrompt": "Can {{name}} test a magnet on different objects around the house and predict which ones will stick?",
       "standards": [
         "uk-nc-2013:Y3.Sci.FM.3",
-        "uk-nc-2013:Y3.Sci.FM.4"
+        "uk-nc-2013:Y3.Sci.FM.4",
+        "tw-moe-108-science:INe-Ⅱ-7"
       ]
     },
     {
@@ -24131,7 +24277,8 @@
         "ngss-k5:3-PS2-3",
         "ngss-k5:3-PS2-4",
         "uk-nc-2013:Y3.Sci.FM.5",
-        "uk-nc-2013:Y3.Sci.FM.6"
+        "uk-nc-2013:Y3.Sci.FM.6",
+        "tw-moe-108-science:INe-Ⅱ-7"
       ]
     },
     {
@@ -24151,7 +24298,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a book sitting on a table doesn't move (balanced forces) but slides when you push it (unbalanced forces)?",
       "standards": [
-        "ngss-k5:3-PS2-1"
+        "ngss-k5:3-PS2-1",
+        "tw-moe-108-science:INd-Ⅲ-13"
       ]
     },
     {
@@ -24191,7 +24339,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a parachute slows you down, why swimming is harder than walking, and why bike brakes use rubber pads?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.F.2"
+        "uk-nc-2013:Y5.Sci.F.2",
+        "tw-moe-108-science:INb-Ⅲ-3"
       ]
     },
     {
@@ -24210,7 +24359,10 @@
         "Apply 'moment', 'lever', and 'fulcrum' correctly when describing how simple machines work"
       ],
       "assessmentPrompt": "Can {{name}} explain why a seesaw stays level when two people of different weights sit at different distances — using words like 'balanced forces' or 'moment'?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-4",
+        "tw-moe-108-science:INc-Ⅲ-6"
+      ]
     },
     {
       "id": "mt_AvrQauS_zX",
@@ -24230,7 +24382,8 @@
       "assessmentPrompt": "Can {{name}} explain why everything falls downwards when you let go of it, and name the force that causes this?",
       "standards": [
         "ngss-k5:5-PS2-1",
-        "uk-nc-2013:Y5.Sci.F.1"
+        "uk-nc-2013:Y5.Sci.F.1",
+        "tw-moe-108-science:INd-Ⅲ-3"
       ]
     },
     {
@@ -24250,7 +24403,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how a see-saw, a pulley on a flagpole, or the gears on a bicycle make it easier to move heavy things with less effort?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.F.3"
+        "uk-nc-2013:Y5.Sci.F.3",
+        "tw-moe-108-science:INb-Ⅲ-4"
       ]
     },
     {
@@ -24269,7 +24423,9 @@
         "Sketch a distance-time graph from a written description of a journey with stops and speed changes"
       ],
       "assessmentPrompt": "If {{name}} sees a distance-time graph of a journey with a flat section in the middle, can they explain what was happening then — and point to which part of the graph shows the fastest speed?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-6"
+      ]
     },
     {
       "id": "mt_56aspHjU19",
@@ -24290,7 +24446,9 @@
       "assessmentPrompt": "If {{name}} used a compass and iron filings to map the magnetic field around a bar magnet, could they describe what pattern the field lines make and explain why a compass needle always points roughly north?",
       "standards": [
         "ngss-ms:MS-PS2-5",
-        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.8"
+        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.8",
+        "tw-moe-108-science:INe-Ⅱ-7",
+        "tw-moe-108-science:INe-Ⅲ-9"
       ]
     },
     {
@@ -24312,7 +24470,8 @@
       "assessmentPrompt": "If {{name}} weighed themselves on bathroom scales and was then asked what they would weigh on the Moon, could they explain the difference between mass and weight and work out a rough answer?",
       "standards": [
         "ngss-ms:MS-PS2-4",
-        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.10"
+        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.10",
+        "tw-moe-108-science:INd-Ⅲ-3"
       ]
     },
     {
@@ -24354,7 +24513,8 @@
       "assessmentPrompt": "If {{name}} was pushing a heavy box along the floor but it wasn't moving, could they explain all the forces acting on it and why it stays still even though you're pushing?",
       "standards": [
         "ngss-ms:MS-PS2-1",
-        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.4"
+        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.4",
+        "tw-moe-108-science:INd-Ⅲ-13"
       ]
     },
     {
@@ -24377,7 +24537,8 @@
       "standards": [
         "ngss-ms:MS-PS2-2",
         "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.1",
-        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.2"
+        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.2",
+        "tw-moe-108-science:INc-Ⅲ-6"
       ]
     },
     {
@@ -24398,7 +24559,8 @@
       ],
       "assessmentPrompt": "If {{name}} noticed the lid on a jar was very tight, could they explain why running it under hot water helps — and what's happening to the metal as it heats up?",
       "standards": [
-        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.5"
+        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.5",
+        "tw-moe-108-science:INc-Ⅲ-5"
       ]
     },
     {
@@ -24418,7 +24580,8 @@
       ],
       "assessmentPrompt": "If {{name}} built an electromagnet using a battery, wire, and iron nail, could they describe two ways to make it pick up more paperclips — and explain why it stops working when the circuit is switched off?",
       "standards": [
-        "ngss-ms:MS-PS2-3"
+        "ngss-ms:MS-PS2-3",
+        "tw-moe-108-science:INe-Ⅲ-10"
       ]
     },
     {
@@ -24441,7 +24604,8 @@
       "standards": [
         "ngss-ms:MS-PS2-1",
         "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.9",
-        "uk-nc-2013:KS3.Sci.WS.SA.3"
+        "uk-nc-2013:KS3.Sci.WS.SA.3",
+        "tw-moe-108-science:INc-Ⅲ-5"
       ]
     },
     {
@@ -24487,7 +24651,8 @@
       "standards": [
         "ngss-ms:MS-PS2-1",
         "ngss-ms:MS-PS2-2",
-        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.7"
+        "uk-nc-2013:KS3.Sci.Phys.MotionAndForces.7",
+        "tw-moe-108-science:INd-Ⅲ-13"
       ]
     },
     {
@@ -24620,7 +24785,9 @@
         "Explain that different minibeasts prefer different conditions like wet, dry, dark, or light"
       ],
       "assessmentPrompt": "If you asked {{name}} where to look for woodlice or worms in the garden, could they tell you the kind of spot those creatures prefer — like somewhere damp and dark?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅱ-8"
+      ]
     },
     {
       "id": "mt_QH-Fs97twT",
@@ -24746,7 +24913,9 @@
         "Name at least one difference between insects and another minibeast group such as worms having no legs or woodlice having fourteen"
       ],
       "assessmentPrompt": "If you showed {{name}} a spider and asked whether it's an insect, could they explain why not — for example, that spiders have eight legs, not six?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-8"
+      ]
     },
     {
       "id": "mt_guaaD6Dn2M",
@@ -24764,7 +24933,9 @@
         "Compare an ant colony or bee hive to a human team, describing how different members do different tasks"
       ],
       "assessmentPrompt": "If {{name}} watched a nature programme about ants or bees, could they tell you about the different jobs inside the colony — like the queen, the workers, and the guards?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅲ-11"
+      ]
     },
     {
       "id": "mt__bhJX2SuFJ",
@@ -24782,7 +24953,9 @@
         "Explain why asking questions in a set order helps identify a creature you have never seen before"
       ],
       "assessmentPrompt": "If {{name}} found an unfamiliar minibeast, could they use a set of yes/no questions — like 'Does it have legs? How many?' — to work out what group it belongs to?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-8"
+      ]
     },
     {
       "id": "mt_oNWXXAn3cn",
@@ -24800,7 +24973,9 @@
         "Explain that insects have an exoskeleton, a hard outer covering, instead of bones inside their body"
       ],
       "assessmentPrompt": "If {{name}} looked at a picture of a beetle or ant, could they point out the head, thorax, and abdomen, and tell you that all insects have six legs and a hard outer shell?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅱ-5"
+      ]
     },
     {
       "id": "mt_7_XXh9NCp0",
@@ -24854,7 +25029,9 @@
         "Describe the monarch butterfly migration and explain why it is remarkable in terms of distance and navigation"
       ],
       "assessmentPrompt": "Can {{name}} explain how bees tell each other where to find flowers, how ants leave invisible trails, or how fireflies use light to send messages?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅲ-11"
+      ]
     },
     {
       "id": "mt_r6oKXpN0er",
@@ -24872,7 +25049,10 @@
         "Describe a specific example of insects as pest controllers such as ladybirds controlling aphid populations"
       ],
       "assessmentPrompt": "If you asked {{name}} what would happen if all the insects in the world disappeared tomorrow, could they explain the chain of problems that would cause — for plants, animals, and people?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-9",
+        "tw-moe-108-science:INa-Ⅲ-10"
+      ]
     },
     {
       "id": "mt_5_Zr9xXDNH",
@@ -24908,7 +25088,9 @@
         "Suggest at least two actions that children or families can take to help insects such as planting wildflowers or joining a butterfly count"
       ],
       "assessmentPrompt": "Can {{name}} tell you why insect numbers are falling around the world, why that matters for people too, and what your family could do to help?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-3"
+      ]
     },
     {
       "id": "mt_ShAptVcQR3",
@@ -25024,7 +25206,9 @@
         "Use 'change of state' to describe what happens when ice melts or water boils"
       ],
       "assessmentPrompt": "If you point to water, ice, and steam from a kettle, can {{name}} correctly call each one a liquid, solid, or gas — and use those words naturally?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅱ-4"
+      ]
     },
     {
       "id": "mt_wf-SJhZ1kC",
@@ -25064,7 +25248,9 @@
       "assessmentPrompt": "Can {{name}} explain why windows are made of glass and not wood, or why wellies are made of rubber and not paper?",
       "standards": [
         "ngss-k5:2-PS1-2",
-        "uk-nc-2013:Y2.Sci.UEM.1"
+        "uk-nc-2013:Y2.Sci.UEM.1",
+        "tw-moe-108-science:INa-Ⅱ-3",
+        "tw-moe-108-science:INb-Ⅱ-1"
       ]
     },
     {
@@ -25083,7 +25269,10 @@
         "Explain the difference between evaporation and condensation using the correct terms"
       ],
       "assessmentPrompt": "If {{name}} stirs sugar into tea, can they explain whether the sugar dissolved or melted — and tell you those are different things?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅱ-3",
+        "tw-moe-108-science:INb-Ⅱ-2"
+      ]
     },
     {
       "id": "mt_zHnOGwHIEz",
@@ -25102,7 +25291,8 @@
       ],
       "assessmentPrompt": "Can {{name}} test a set of objects and sort them by properties like whether they float, conduct heat, or are magnetic?",
       "standards": [
-        "ngss-k5:2-PS1-1"
+        "ngss-k5:2-PS1-1",
+        "tw-moe-108-science:INa-Ⅱ-3"
       ]
     },
     {
@@ -25121,7 +25311,9 @@
         "Sketch what happens to particles during a change of state (e.g. melting) and explain the energy changes involved"
       ],
       "assessmentPrompt": "If {{name}}'s science teacher draws a diagram with dots packed tightly in rows versus dots spread far apart and moving around, can {{name}} tell you which represents a solid and which a gas — and explain why, using the particles?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅲ-1"
+      ]
     },
     {
       "id": "mt_Pl-nsjYGZ3",
@@ -25141,7 +25333,8 @@
       "assessmentPrompt": "Can {{name}} explain what happens to an ice cube when you heat it, and at what temperature water freezes and boils?",
       "standards": [
         "ngss-k5:2-PS1-4",
-        "uk-nc-2013:Y4.Sci.SM.2"
+        "uk-nc-2013:Y4.Sci.SM.2",
+        "tw-moe-108-science:INa-Ⅱ-4"
       ]
     },
     {
@@ -25182,7 +25375,9 @@
       "assessmentPrompt": "After testing different materials, can {{name}} explain with evidence why saucepans are made of metal but their handles are plastic?",
       "standards": [
         "ngss-k5:2-PS1-2",
-        "uk-nc-2013:Y5.Sci.PCM.4"
+        "uk-nc-2013:Y5.Sci.PCM.4",
+        "tw-moe-108-science:INa-Ⅱ-3",
+        "tw-moe-108-science:INb-Ⅱ-1"
       ]
     },
     {
@@ -25202,7 +25397,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why puddles disappear on a sunny day and where the water goes, and why the bathroom mirror steams up after a hot shower?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.SM.3"
+        "uk-nc-2013:Y4.Sci.SM.3",
+        "tw-moe-108-science:INd-Ⅲ-12"
       ]
     },
     {
@@ -25222,7 +25418,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain the difference between a solid like ice, a liquid like water, and a gas like steam, and sort everyday things into these three groups?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.SM.1"
+        "uk-nc-2013:Y4.Sci.SM.1",
+        "tw-moe-108-science:INa-Ⅱ-4"
       ]
     },
     {
@@ -25243,7 +25440,8 @@
       "assessmentPrompt": "Can {{name}} test materials and sort them by whether they dissolve in water, conduct electricity, or are attracted to a magnet?",
       "standards": [
         "ngss-k5:5-PS1-3",
-        "uk-nc-2013:Y5.Sci.PCM.1"
+        "uk-nc-2013:Y5.Sci.PCM.1",
+        "tw-moe-108-science:INa-Ⅲ-2"
       ]
     },
     {
@@ -25263,7 +25461,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain what happens when sugar dissolves in tea, and figure out how to get the salt back from salty water?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.PCM.2"
+        "uk-nc-2013:Y5.Sci.PCM.2",
+        "tw-moe-108-science:INe-Ⅱ-3"
       ]
     },
     {
@@ -25284,7 +25483,9 @@
       "assessmentPrompt": "Can {{name}} explain why you can't un-burn a piece of toast or turn rust back into shiny iron, because a completely new material has been made?",
       "standards": [
         "ngss-k5:5-PS1-4",
-        "uk-nc-2013:Y5.Sci.PCM.6"
+        "uk-nc-2013:Y5.Sci.PCM.6",
+        "tw-moe-108-science:INe-Ⅲ-2",
+        "tw-moe-108-science:INe-Ⅲ-3"
       ]
     },
     {
@@ -25322,7 +25523,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that melting chocolate or dissolving sugar can be undone — you can get the original material back — because these are reversible changes?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.PCM.5"
+        "uk-nc-2013:Y5.Sci.PCM.5",
+        "tw-moe-108-science:INd-Ⅱ-1"
       ]
     },
     {
@@ -25342,7 +25544,8 @@
       ],
       "assessmentPrompt": "If {{name}} has a mixture of sand, salt, and water, can they figure out a step-by-step plan to separate all three using a sieve, filter, and evaporation?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.PCM.3"
+        "uk-nc-2013:Y5.Sci.PCM.3",
+        "tw-moe-108-science:INb-Ⅱ-2"
       ]
     },
     {
@@ -25362,7 +25565,9 @@
       ],
       "assessmentPrompt": "If {{name}} dissolves sugar in water, can they explain why the total weight of the water and sugar stays the same even though the sugar seems to disappear?",
       "standards": [
-        "ngss-k5:5-PS1-2"
+        "ngss-k5:5-PS1-2",
+        "tw-moe-108-science:INa-Ⅲ-3",
+        "tw-moe-108-science:INe-Ⅲ-4"
       ]
     },
     {
@@ -25382,7 +25587,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that everything is made of tiny particles we can't see, and that how tightly packed they are determines whether something is a solid, liquid, or gas?",
       "standards": [
-        "ngss-k5:5-PS1-1"
+        "ngss-k5:5-PS1-1",
+        "tw-moe-108-science:INa-Ⅲ-1"
       ]
     },
     {
@@ -25475,7 +25681,9 @@
         "ngss-ms:MS-PS1-2",
         "ngss-ms:MS-PS1-5",
         "uk-nc-2013:KS3.Sci.Chem.AEC.4",
-        "uk-nc-2013:KS3.Sci.Chem.PIS.5"
+        "uk-nc-2013:KS3.Sci.Chem.PIS.5",
+        "tw-moe-108-science:INe-Ⅲ-2",
+        "tw-moe-108-science:INe-Ⅲ-4"
       ]
     },
     {
@@ -25543,7 +25751,8 @@
         "ngss-ms:MS-PS1-4",
         "uk-nc-2013:KS3.Sci.Chem.PNM.1",
         "uk-nc-2013:KS3.Sci.Chem.PNM.3",
-        "uk-nc-2013:KS3.Sci.Chem.PNM.4"
+        "uk-nc-2013:KS3.Sci.Chem.PNM.4",
+        "tw-moe-108-science:INa-Ⅲ-1"
       ]
     },
     {
@@ -25634,7 +25843,8 @@
       "standards": [
         "ngss-ms:MS-ESS3-5",
         "uk-nc-2013:KS3.Sci.Chem.EA.2",
-        "uk-nc-2013:KS3.Sci.Chem.EA.3"
+        "uk-nc-2013:KS3.Sci.Chem.EA.3",
+        "tw-moe-108-science:INg-Ⅲ-4"
       ]
     },
     {
@@ -25656,7 +25866,9 @@
       "assessmentPrompt": "If {{name}} was deciding whether to recycle an aluminium drinks can or throw it away, could they explain what goes into making new aluminium from scratch — and why recycling it uses much less energy?",
       "standards": [
         "ngss-ms:MS-ESS3-4",
-        "uk-nc-2013:KS3.Sci.Chem.EA.5"
+        "uk-nc-2013:KS3.Sci.Chem.EA.5",
+        "tw-moe-108-science:INg-Ⅱ-1",
+        "tw-moe-108-science:INg-Ⅱ-3"
       ]
     },
     {
@@ -25896,7 +26108,9 @@
         "Compare an ocean animal's needs to a familiar land animal's needs"
       ],
       "assessmentPrompt": "Can {{name}} explain that a clownfish needs a sea anemone for shelter and small creatures to eat, just like a bird needs a tree for a nest and seeds to eat?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅱ-7"
+      ]
     },
     {
       "id": "mt__aHSZTm5k5",
@@ -25914,7 +26128,9 @@
         "Correctly classify at least two animals in each group"
       ],
       "assessmentPrompt": "If {{name}} saw pictures of a tuna, a seal, and a jellyfish, could they sort them into fish, marine mammals, and invertebrates, and explain what makes each group different?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅱ-5"
+      ]
     },
     {
       "id": "mt_AxGPeVRm__",
@@ -25950,7 +26166,9 @@
         "Connect an adaptation to the specific challenge it addresses (cold, predators, catching food)"
       ],
       "assessmentPrompt": "Can {{name}} pick an ocean animal and explain at least two ways its body is specially designed for life in the sea — like a seal's blubber for warmth or an octopus's camouflage for hiding?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅱ-7"
+      ]
     },
     {
       "id": "mt_sQpIV0-qY7",
@@ -25986,7 +26204,9 @@
         "Explain what could happen if one species in the web were removed"
       ],
       "assessmentPrompt": "Can {{name}} explain why catching too many of one type of fish doesn't just affect that fish — it affects the whole food web, including the animals that eat it and the things it eats?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅲ-10"
+      ]
     },
     {
       "id": "mt_8QOeG3CuKc",
@@ -26094,7 +26314,9 @@
         "Estimate the scale of these journeys (thousands of miles)"
       ],
       "assessmentPrompt": "If {{name}} heard that a humpback whale swims from Antarctica to the tropics every year, could they explain why — that it's following food in summer and heading to warmer waters to have its baby?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INe-Ⅲ-11"
+      ]
     },
     {
       "id": "mt_w4OYcWJs6H",
@@ -26112,7 +26334,9 @@
         "Explain how a change in one factor (like temperature) cascades through the whole ecosystem"
       ],
       "assessmentPrompt": "Can {{name}} explain why warmer ocean temperatures don't just affect one species — they change the whole ecosystem, from the plankton at the bottom of the food web to the whales at the top?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-9"
+      ]
     },
     {
       "id": "mt_J6uccv2Bo4",
@@ -26130,7 +26354,9 @@
         "Describe how plastic pollution or overfishing specifically harms marine animals"
       ],
       "assessmentPrompt": "If {{name}} saw plastic washed up on a beach, could they explain where it came from, how it harms sea life, and name other ways humans damage the ocean like overfishing and pollution from factories?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INf-Ⅱ-7"
+      ]
     },
     {
       "id": "mt_KRNU0IOKfO",
@@ -26148,7 +26374,9 @@
         "Explain how ocean currents distribute warmth and affect weather patterns in distant places"
       ],
       "assessmentPrompt": "Can {{name}} explain why the ocean is sometimes called Earth's climate engine — that it absorbs heat, drives rain through evaporation, and moves warmth around the world through currents?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-11"
+      ]
     },
     {
       "id": "mt_50SdpkNH49",
@@ -26194,7 +26422,9 @@
       "centrality": 0.06566347469220246,
       "evidence": [],
       "assessmentPrompt": "Can {{name}} explain why the UK has mild winters compared to parts of Canada at similar latitudes — what does ocean circulation have to do with it, and what might change if that circulation slows down?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-11"
+      ]
     },
     {
       "id": "mt_EXO1bJ3G_v",
@@ -26256,7 +26486,8 @@
       "assessmentPrompt": "Can {{name}} describe how a fish's body is different from a bird's body and explain features like scales, feathers, or fins?",
       "standards": [
         "ngss-k5:1-LS1-1",
-        "uk-nc-2013:Y1.Sci.A.3"
+        "uk-nc-2013:Y1.Sci.A.3",
+        "tw-moe-108-science:INb-Ⅱ-5"
       ]
     },
     {
@@ -26376,7 +26607,8 @@
       ],
       "assessmentPrompt": "If you pick a flower from the garden, can {{name}} point to the roots, stem, leaves, and petals and say what each part does?",
       "standards": [
-        "uk-nc-2013:Y1.Sci.P.2"
+        "uk-nc-2013:Y1.Sci.P.2",
+        "tw-moe-108-science:INb-Ⅱ-6"
       ]
     },
     {
@@ -26398,7 +26630,8 @@
       "standards": [
         "ngss-k5:K-LS1-1",
         "uk-nc-2013:Y2.Sci.A.2",
-        "uk-nc-2013:Y2.Sci.P.2"
+        "uk-nc-2013:Y2.Sci.P.2",
+        "tw-moe-108-science:INa-Ⅱ-7"
       ]
     },
     {
@@ -26420,7 +26653,8 @@
       "standards": [
         "ngss-k5:1-LS1-2",
         "ngss-k5:1-LS3-1",
-        "uk-nc-2013:Y2.Sci.A.1"
+        "uk-nc-2013:Y2.Sci.A.1",
+        "tw-moe-108-science:INd-Ⅱ-3"
       ]
     },
     {
@@ -26441,7 +26675,8 @@
       "assessmentPrompt": "Can {{name}} look at a family photo and point out features children share with their parents, while also noticing how each child looks a bit different?",
       "standards": [
         "ngss-k5:1-LS3-1",
-        "uk-nc-2013:Y6.Sci.EI.2"
+        "uk-nc-2013:Y6.Sci.EI.2",
+        "tw-moe-108-science:INd-Ⅲ-4"
       ]
     },
     {
@@ -26482,7 +26717,8 @@
       "assessmentPrompt": "Can {{name}} explain why a plant on the windowsill grows better than one left in a dark cupboard?",
       "standards": [
         "ngss-k5:2-LS2-1",
-        "uk-nc-2013:Y2.Sci.P.2"
+        "uk-nc-2013:Y2.Sci.P.2",
+        "tw-moe-108-science:INa-Ⅱ-7"
       ]
     },
     {
@@ -26501,7 +26737,9 @@
         "Compare a mammal's life cycle with an insect's using precise vocabulary"
       ],
       "assessmentPrompt": "Does {{name}} know the difference between a vertebrate and an invertebrate — and could they sort a list of animals into the right group?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-8"
+      ]
     },
     {
       "id": "mt_E1wR8IfCV6",
@@ -26520,7 +26758,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why people need to eat different types of food like fruit, protein, and carbohydrates to stay healthy?",
       "standards": [
-        "uk-nc-2013:Y3.Sci.A.1"
+        "uk-nc-2013:Y3.Sci.A.1",
+        "tw-moe-108-science:INa-Ⅱ-7"
       ]
     },
     {
@@ -26558,7 +26797,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a flower needs roots underground and leaves up top — what job does each part do?",
       "standards": [
-        "uk-nc-2013:Y3.Sci.P.1"
+        "uk-nc-2013:Y3.Sci.P.1",
+        "tw-moe-108-science:INb-Ⅲ-7"
       ]
     },
     {
@@ -26579,7 +26819,8 @@
       "assessmentPrompt": "Can {{name}} compare the life cycle of a butterfly with that of a frog and explain what stages they all share — being born, growing, having babies, and dying?",
       "standards": [
         "ngss-k5:3-LS1-1",
-        "uk-nc-2013:Y3.Sci.P.4"
+        "uk-nc-2013:Y3.Sci.P.4",
+        "tw-moe-108-science:INd-Ⅱ-3"
       ]
     },
     {
@@ -26660,7 +26901,8 @@
       ],
       "assessmentPrompt": "Can {{name}} tell you why a crowded pot of seedlings doesn't grow as well as one with just a few plants?",
       "standards": [
-        "uk-nc-2013:Y3.Sci.P.2"
+        "uk-nc-2013:Y3.Sci.P.2",
+        "tw-moe-108-science:INa-Ⅱ-7"
       ]
     },
     {
@@ -26681,7 +26923,9 @@
       "assessmentPrompt": "Can {{name}} explain how a camel's humps, a cactus's thick skin, or a polar bear's white fur help them survive where they live, and how these adaptations developed over time?",
       "standards": [
         "ngss-k5:3-LS4-3",
-        "uk-nc-2013:Y6.Sci.EI.3"
+        "uk-nc-2013:Y6.Sci.EI.3",
+        "tw-moe-108-science:INb-Ⅱ-7",
+        "tw-moe-108-science:INc-Ⅱ-8"
       ]
     },
     {
@@ -26700,7 +26944,9 @@
         "Use 'offspring', 'species', and 'trait' correctly in written descriptions of living things"
       ],
       "assessmentPrompt": "Can {{name}} explain why children look similar to but not exactly like their parents — using words like 'inherited' or 'variation'?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-4"
+      ]
     },
     {
       "id": "mt_1wxwg782yX",
@@ -26719,7 +26965,8 @@
       ],
       "assessmentPrompt": "If {{name}} measures the height of all the sunflowers in the garden, can they see that they're all sunflowers but each one is a slightly different height?",
       "standards": [
-        "ngss-k5:3-LS3-1"
+        "ngss-k5:3-LS3-1",
+        "tw-moe-108-science:INd-Ⅲ-4"
       ]
     },
     {
@@ -26739,7 +26986,8 @@
       ],
       "assessmentPrompt": "Can {{name}} trace the journey of a sandwich through the body — from chewing in the mouth all the way to the intestines?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.A.1"
+        "uk-nc-2013:Y4.Sci.A.1",
+        "tw-moe-108-science:INc-Ⅲ-7"
       ]
     },
     {
@@ -26819,7 +27067,8 @@
       ],
       "assessmentPrompt": "Can {{name}} describe the main stages of a human life — from baby to toddler to child to teenager to adult to old age — and some changes at each stage?",
       "standards": [
-        "uk-nc-2013:Y5.Sci.A.1"
+        "uk-nc-2013:Y5.Sci.A.1",
+        "tw-moe-108-science:INd-Ⅱ-3"
       ]
     },
     {
@@ -26838,7 +27087,9 @@
         "Explain the difference between an artery and a vein using the correct anatomical terms"
       ],
       "assessmentPrompt": "Can {{name}} explain what the circulatory system does — not just 'the heart pumps blood', but using words like 'oxygen', 'artery', and 'blood vessel'?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-7"
+      ]
     },
     {
       "id": "mt_IzlVK0Eony",
@@ -26857,7 +27108,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how a dog uses its senses to detect a squirrel and then decides to chase it?",
       "standards": [
-        "ngss-k5:4-LS1-2"
+        "ngss-k5:4-LS1-2",
+        "tw-moe-108-science:INe-Ⅱ-10"
       ]
     },
     {
@@ -26877,7 +27129,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how a cactus's thick stem helps it survive in a desert, or how a bird's wings help it find food?",
       "standards": [
-        "ngss-k5:4-LS1-1"
+        "ngss-k5:4-LS1-1",
+        "tw-moe-108-science:INb-Ⅱ-7"
       ]
     },
     {
@@ -26917,7 +27170,9 @@
       ],
       "assessmentPrompt": "Can {{name}} trace the energy in their breakfast cereal all the way back to the sun, explaining each step?",
       "standards": [
-        "ngss-k5:5-PS3-1"
+        "ngss-k5:5-PS3-1",
+        "tw-moe-108-science:INa-Ⅲ-9",
+        "tw-moe-108-science:INa-Ⅱ-6"
       ]
     },
     {
@@ -26955,7 +27210,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how the sandwich they ate at lunch actually gets to their muscles — from the stomach into the blood and then around the body?",
       "standards": [
-        "uk-nc-2013:Y6.Sci.A.3"
+        "uk-nc-2013:Y6.Sci.A.3",
+        "tw-moe-108-science:INc-Ⅲ-7"
       ]
     },
     {
@@ -26995,7 +27251,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain what the heart does, why we have blood vessels throughout the body, and what blood actually carries?",
       "standards": [
-        "uk-nc-2013:Y6.Sci.A.1"
+        "uk-nc-2013:Y6.Sci.A.1",
+        "tw-moe-108-science:INc-Ⅲ-7"
       ]
     },
     {
@@ -27036,7 +27293,8 @@
       "assessmentPrompt": "If {{name}} was asked to explain how the body is built up from the smallest parts to the whole, could they describe the levels from individual cells all the way up to organ systems — with a real example at each level?",
       "standards": [
         "ngss-ms:MS-LS1-2",
-        "uk-nc-2013:KS3.Sci.Bio.Cells.7"
+        "uk-nc-2013:KS3.Sci.Bio.Cells.7",
+        "tw-moe-108-science:INb-Ⅲ-5"
       ]
     },
     {
@@ -27058,7 +27316,8 @@
       "assessmentPrompt": "If {{name}} prepared a slide of onion skin and looked at it through a school microscope, could they identify what they were seeing and explain that all living things are made of these tiny units?",
       "standards": [
         "ngss-ms:MS-LS1-1",
-        "uk-nc-2013:KS3.Sci.Bio.Cells.1"
+        "uk-nc-2013:KS3.Sci.Bio.Cells.1",
+        "tw-moe-108-science:INb-Ⅲ-5"
       ]
     },
     {
@@ -27202,7 +27461,8 @@
       "assessmentPrompt": "If {{name}} was asked why plants don't need to eat food like animals do, could they explain how plants make their own food using sunlight, water, and carbon dioxide — and write the equation?",
       "standards": [
         "ngss-ms:MS-LS1-6",
-        "uk-nc-2013:KS3.Sci.Bio.Nutrition.6"
+        "uk-nc-2013:KS3.Sci.Bio.Nutrition.6",
+        "tw-moe-108-science:INa-Ⅲ-9"
       ]
     },
     {
@@ -27351,7 +27611,8 @@
       ],
       "assessmentPrompt": "If {{name}} got too hot on a summer day and started sweating, could they explain what the body is doing to cool itself down — and why it's so important to keep body temperature steady?",
       "standards": [
-        "uk-nc-2013:KS3.Sci.Bio.Health.1"
+        "uk-nc-2013:KS3.Sci.Bio.Health.1",
+        "tw-moe-108-science:INd-Ⅲ-5"
       ]
     },
     {
@@ -27372,7 +27633,8 @@
       "assessmentPrompt": "If {{name}} took a deep breath after running, could they explain what's happening in their lungs — how the air gets in, where the oxygen crosses into the blood, and how carbon dioxide leaves?",
       "standards": [
         "uk-nc-2013:KS3.Sci.Bio.GasExchange.1",
-        "uk-nc-2013:KS3.Sci.Bio.GasExchange.2"
+        "uk-nc-2013:KS3.Sci.Bio.GasExchange.2",
+        "tw-moe-108-science:INc-Ⅲ-7"
       ]
     },
     {
@@ -27682,7 +27944,9 @@
         "Use the word adaptation correctly to mean a feature that helps an animal survive in its environment"
       ],
       "assessmentPrompt": "Can {{name}} explain several ways polar animals survive the freezing cold — like a polar bear's hollow fur trapping warm air, a seal's thick blubber, or an Arctic fox changing colour in winter?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅱ-7"
+      ]
     },
     {
       "id": "mt_z9jn9HogfE",
@@ -27718,7 +27982,9 @@
         "Describe the three states of water (solid, liquid, gas) and explain that salt lowers the freezing point"
       ],
       "assessmentPrompt": "Can {{name}} explain the difference between sea ice and glacier ice, and describe how water changes between solid, liquid, and gas — maybe by doing a simple freezing experiment with salt and fresh water?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅱ-6"
+      ]
     },
     {
       "id": "mt_rqalOvjkj3",
@@ -27754,7 +28020,9 @@
         "Explain why krill and plankton are critical — without them, the entire food chain collapses"
       ],
       "assessmentPrompt": "Can {{name}} explain a polar food chain — starting from tiny plankton, through krill and fish, up to seals and polar bears or orcas — and explain why the tiny creatures at the bottom are so important?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅲ-10"
+      ]
     },
     {
       "id": "mt_X4CJpPRxae",
@@ -27844,7 +28112,9 @@
         "Describe at least two consequences of polar ice loss: sea level rise and permafrost thawing releasing methane"
       ],
       "assessmentPrompt": "Can {{name}} explain how climate change is melting polar ice — that Arctic sea ice is shrinking, ice sheets are losing mass, and that melting actually makes more melting happen in a vicious cycle?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-4"
+      ]
     },
     {
       "id": "mt_cMmG8VLbAp",
@@ -27934,7 +28204,9 @@
         "Describe why polar ecosystems are particularly vulnerable to climate change (short food chains, specialised organisms)"
       ],
       "assessmentPrompt": "Can {{name}} compare the Arctic and Antarctic ecosystems — explaining that the Arctic has land animals and people while Antarctica's life is almost all in the sea, and that both depend on tiny creatures like krill?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-9"
+      ]
     },
     {
       "id": "mt_I_c57p0aGN",
@@ -27970,7 +28242,9 @@
         "State that the Southern Ocean is extremely productive because upwelling brings nutrients to the surface"
       ],
       "assessmentPrompt": "Can {{name}} explain how cold polar water sinks and drives a global conveyor belt of ocean currents, and how white sea ice reflects sunlight to help keep the planet cool?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-11"
+      ]
     },
     {
       "id": "mt_s08-QxASd2",
@@ -27988,7 +28262,9 @@
         "Connect their own food choices to rainforest origins by identifying a product they eat that comes from the forest"
       ],
       "assessmentPrompt": "If {{name}} is eating a chocolate bar or a banana, can they tell you that those foods originally come from rainforests?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INf-Ⅱ-2"
+      ]
     },
     {
       "id": "mt_2zJ1NrGgYm",
@@ -28150,7 +28426,9 @@
         "Explain why classification helps scientists understand and study the huge variety of life in rainforests"
       ],
       "assessmentPrompt": "If {{name}} looks at pictures of different rainforest creatures, can they sort them into groups like mammals, birds, reptiles, and insects, and explain why each one belongs in its group?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-8"
+      ]
     },
     {
       "id": "mt_m43jiOAOCt",
@@ -28186,7 +28464,10 @@
         "Give a specific example for each adaptation, linking the animal to its rainforest layer"
       ],
       "assessmentPrompt": "Can {{name}} explain why a poison dart frog is so brightly coloured — that it's warning predators it's dangerous — or why a sloth moves so slowly that algae grows on its fur, helping it blend in?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅱ-7",
+        "tw-moe-108-science:INb-Ⅲ-6"
+      ]
     },
     {
       "id": "mt_1LFVPjdGg-",
@@ -28204,7 +28485,9 @@
         "Use the terms producer, consumer, and decomposer correctly"
       ],
       "assessmentPrompt": "Can {{name}} explain a rainforest food chain — like how a fruit tree feeds a monkey, the monkey might be hunted by a jaguar, and when things die, tiny organisms break them down to feed the trees again?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INa-Ⅲ-10"
+      ]
     },
     {
       "id": "mt_Wx5m6mwkpj",
@@ -28222,7 +28505,9 @@
         "Use the word adaptation to mean a feature that helps an organism survive in its environment"
       ],
       "assessmentPrompt": "Can {{name}} explain why some rainforest trees have huge roots spreading out like wings, or why leaves have pointy tips that water drips off — that these are clever adaptations to life in a hot, wet forest?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-7"
+      ]
     },
     {
       "id": "mt_ZWTk6eP1qF",
@@ -28240,7 +28525,9 @@
         "Use the word transpiration correctly when describing how water leaves a plant through its leaves"
       ],
       "assessmentPrompt": "Can {{name}} explain how rainforest trees help make their own rain — by releasing water from their leaves, which forms clouds, which rain back down on the forest?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-12"
+      ]
     },
     {
       "id": "mt_38d-k-dJPa",
@@ -28294,7 +28581,9 @@
         "Explain the impact of deforestation on at least two of: biodiversity, climate, and indigenous peoples"
       ],
       "assessmentPrompt": "Can {{name}} explain why rainforests are being cut down — naming causes like cattle farming, palm oil, and logging — and say roughly how fast it's happening?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-1"
+      ]
     },
     {
       "id": "mt_JcfP1hWKa_",
@@ -28330,7 +28619,9 @@
         "Give specific examples of rainforest biodiversity, such as one hectare containing more tree species than all of northern Europe"
       ],
       "assessmentPrompt": "Can {{name}} explain the mind-boggling fact that rainforests cover only a tiny fraction of Earth but are home to more than half of all species — and why that makes protecting them so important?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-3"
+      ]
     },
     {
       "id": "mt_kON8bYEHYl",
@@ -28402,7 +28693,9 @@
         "Explain that transpiration from rainforest trees generates rainfall, and losing trees disrupts rain patterns"
       ],
       "assessmentPrompt": "Can {{name}} explain how rainforests help fight climate change by absorbing carbon dioxide — and how cutting them down makes climate change worse by releasing all that stored carbon?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-4"
+      ]
     },
     {
       "id": "mt_hbDflQfW-U",
@@ -28597,7 +28890,8 @@
       "assessmentPrompt": "After doing an experiment, can {{name}} put their results into a neat table, draw a bar chart, and add labels to a diagram to show what they found?",
       "standards": [
         "uk-nc-2013:KS2L.Sci.WS.4",
-        "uk-nc-2013:KS2L.Sci.WS.5"
+        "uk-nc-2013:KS2L.Sci.WS.5",
+        "tw-moe-108-science:INb-Ⅲ-8"
       ]
     },
     {
@@ -28676,7 +28970,9 @@
       ],
       "assessmentPrompt": "Can {{name}} use a thermometer to measure temperature accurately, read a ruler in centimetres, and record measurements carefully during an experiment?",
       "standards": [
-        "uk-nc-2013:KS2L.Sci.WS.3"
+        "uk-nc-2013:KS2L.Sci.WS.3",
+        "tw-moe-108-science:INc-Ⅱ-2",
+        "tw-moe-108-science:INc-Ⅲ-1"
       ]
     },
     {
@@ -28794,7 +29090,9 @@
       ],
       "assessmentPrompt": "Can {{name}} measure things precisely during experiments, know when to take repeat readings for reliability, and spot when a measurement seems wrong?",
       "standards": [
-        "uk-nc-2013:KS2U.Sci.WS.2"
+        "uk-nc-2013:KS2U.Sci.WS.2",
+        "tw-moe-108-science:INc-Ⅲ-1",
+        "tw-moe-108-science:INc-Ⅲ-4"
       ]
     },
     {
@@ -28814,7 +29112,8 @@
       ],
       "assessmentPrompt": "Can {{name}} choose the right type of graph for their data — a bar chart for categories or a line graph for continuous data — and draw it accurately?",
       "standards": [
-        "uk-nc-2013:KS2U.Sci.WS.3"
+        "uk-nc-2013:KS2U.Sci.WS.3",
+        "tw-moe-108-science:INb-Ⅲ-8"
       ]
     },
     {
@@ -28955,7 +29254,9 @@
       "standards": [
         "uk-nc-2013:KS3.Sci.WS.SA.5",
         "uk-nc-2013:KS3.Sci.WS.VUSN.1",
-        "uk-nc-2013:KS3.Sci.WS.VUSN.2"
+        "uk-nc-2013:KS3.Sci.WS.VUSN.2",
+        "tw-moe-108-science:INc-Ⅲ-4",
+        "tw-moe-108-science:INc-Ⅲ-1"
       ]
     },
     {
@@ -29036,7 +29337,9 @@
         "State that the pattern repeats — the Moon goes through the same shapes again and again"
       ],
       "assessmentPrompt": "If you asked {{name}} to look at the Moon several nights in a row, could they notice that it changes shape and describe the pattern?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅱ-10"
+      ]
     },
     {
       "id": "mt_XlyF294bPR",
@@ -29090,7 +29393,9 @@
         "State that stars appear at night and the Moon can sometimes be seen during the day too"
       ],
       "assessmentPrompt": "Can {{name}} point out the Sun, Moon, and stars and tell you something simple about each one — like that the Sun gives us light and heat?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅱ-10"
+      ]
     },
     {
       "id": "mt_oiqsIP97V3",
@@ -29288,7 +29593,9 @@
         "State that gravity keeps the Moon orbiting Earth and planets orbiting the Sun"
       ],
       "assessmentPrompt": "Can {{name}} explain why things fall 'down' and that gravity is the same force keeping the Moon going around the Earth?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-3"
+      ]
     },
     {
       "id": "mt_iTjrKEdAOj",
@@ -29342,7 +29649,9 @@
         "Explain that this happens because Earth's orbit means we face different directions in space at different times of year"
       ],
       "assessmentPrompt": "Does {{name}} know that you can see different constellations in winter than in summer, and can they explain why?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-14"
+      ]
     },
     {
       "id": "mt_H9RAGGiHBL",
@@ -29544,7 +29853,8 @@
       ],
       "assessmentPrompt": "Can {{name}} describe patterns they've noticed in the sky — like the sun rising in the east, the moon changing shape over weeks, and stars coming out at night?",
       "standards": [
-        "ngss-k5:1-ESS1-1"
+        "ngss-k5:1-ESS1-1",
+        "tw-moe-108-science:INc-Ⅱ-10"
       ]
     },
     {
@@ -29564,7 +29874,9 @@
       ],
       "assessmentPrompt": "Can {{name}} give examples of things that change the Earth quickly, like an earthquake, and things that change it very slowly, like a river carving a valley?",
       "standards": [
-        "ngss-k5:2-ESS1-1"
+        "ngss-k5:2-ESS1-1",
+        "tw-moe-108-science:INd-Ⅱ-1",
+        "tw-moe-108-science:INd-Ⅲ-9"
       ]
     },
     {
@@ -29623,7 +29935,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees layers of rock in a cliff face, can they explain that the bottom layers are oldest and any fossils tell us what lived there long ago?",
       "standards": [
-        "ngss-k5:4-ESS1-1"
+        "ngss-k5:4-ESS1-1",
+        "tw-moe-108-science:INd-Ⅲ-8"
       ]
     },
     {
@@ -29645,7 +29958,8 @@
       "standards": [
         "uk-nc-2013:Y5.Sci.ES.1",
         "uk-nc-2013:Y5.Sci.ES.2",
-        "uk-nc-2013:Y5.Sci.ES.3"
+        "uk-nc-2013:Y5.Sci.ES.3",
+        "tw-moe-108-science:INc-Ⅲ-15"
       ]
     },
     {
@@ -29665,7 +29979,9 @@
       ],
       "assessmentPrompt": "Can {{name}} measure their shadow at different times of day, plot it on a chart, and explain why it's longest in the morning and evening but shortest at midday?",
       "standards": [
-        "ngss-k5:5-ESS1-2"
+        "ngss-k5:5-ESS1-2",
+        "tw-moe-108-science:INc-Ⅲ-13",
+        "tw-moe-108-science:INc-Ⅲ-14"
       ]
     },
     {
@@ -29954,7 +30270,9 @@
         "Give an example: muscle cells form muscle tissue, which forms the heart organ, which is part of the circulatory system"
       ],
       "assessmentPrompt": "Can {{name}} explain that the body is made of tiny cells, and that cells group together to make tissues, which make organs, which make whole systems?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INb-Ⅲ-5"
+      ]
     },
     {
       "id": "mt_6N-4TqCleR",
@@ -30062,7 +30380,9 @@
         "Measure their own resting and post-exercise heart rate and explain the difference"
       ],
       "assessmentPrompt": "Can {{name}} explain why their heart beats faster when they run — and how their heart and lungs are working together to deliver more oxygen to their muscles?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅲ-7"
+      ]
     },
     {
       "id": "mt_pu2mmK27UA",
@@ -30242,7 +30562,9 @@
         "Compares the nervous system (fast, electrical, short-duration signals) with the endocrine system (slower, chemical, longer-duration signals) and gives an example where each is more appropriate"
       ],
       "assessmentPrompt": "If {{name}} ate a large meal of sugary food and was asked what their body does to keep blood sugar from getting dangerously high, could they explain the role of insulin and describe how the feedback system brings levels back to normal?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-5"
+      ]
     },
     {
       "id": "mt_roinupb_7L",
@@ -30278,7 +30600,9 @@
         "Explain that Earth is solid and made of natural materials"
       ],
       "assessmentPrompt": "If {{name}} picks up a stone in the garden, can they tell you that the whole Earth is made of rock and other materials like that stone?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INc-Ⅱ-9"
+      ]
     },
     {
       "id": "mt__pMF-Xb0TE",
@@ -30296,7 +30620,9 @@
         "Name a trusted adult to tell if they feel an earthquake"
       ],
       "assessmentPrompt": "If you asked {{name}} what to do if the ground started shaking, could they show you 'drop, cover, and hold on' and say they'd move away from windows?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INf-Ⅱ-6"
+      ]
     },
     {
       "id": "mt_adpdEaKEBC",
@@ -30314,7 +30640,9 @@
         "Compare quick and slow changes and explain the difference"
       ],
       "assessmentPrompt": "If you point out a cliff being worn away by waves, can {{name}} explain that this happens slowly, while a volcanic eruption or earthquake changes the land quickly?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅱ-1"
+      ]
     },
     {
       "id": "mt_BLQ2_OXPod",
@@ -30530,7 +30858,10 @@
         "Describe how communities prepare for earthquakes and eruptions through drills and evacuation plans"
       ],
       "assessmentPrompt": "If {{name}} saw a documentary about earthquake-proof buildings in Japan, could they explain how engineers design buildings to withstand shaking and how tsunami warnings give people time to evacuate?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INf-Ⅱ-6",
+        "tw-moe-108-science:INf-Ⅲ-5"
+      ]
     },
     {
       "id": "mt_W4j7T_PnGH",
@@ -30621,7 +30952,8 @@
       ],
       "assessmentPrompt": "Can {{name}} come up with different ideas for keeping people safe from earthquakes or floods, and compare which ones would work best?",
       "standards": [
-        "ngss-k5:4-ESS3-2"
+        "ngss-k5:4-ESS3-2",
+        "tw-moe-108-science:INf-Ⅲ-5"
       ]
     },
     {
@@ -30845,7 +31177,8 @@
       "assessmentPrompt": "Can {{name}} pluck a rubber band and explain that the vibrating band makes the sound, and then hold a ruler on a speaker and see it shake from the music?",
       "standards": [
         "ngss-k5:1-PS4-1",
-        "uk-nc-2013:Y4.Sci.Snd.1"
+        "uk-nc-2013:Y4.Sci.Snd.1",
+        "tw-moe-108-science:INe-Ⅱ-5"
       ]
     },
     {
@@ -30906,7 +31239,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why they can see themselves in a mirror or a shiny spoon, and why a rough wall doesn't reflect light the same way?",
       "standards": [
-        "uk-nc-2013:Y3.Sci.L.2"
+        "uk-nc-2013:Y3.Sci.L.2",
+        "tw-moe-108-science:INe-Ⅱ-6"
       ]
     },
     {
@@ -30926,7 +31260,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a short guitar string makes a higher sound than a long one, or why a small drum sounds higher than a big one?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.Snd.3"
+        "uk-nc-2013:Y4.Sci.Snd.3",
+        "tw-moe-108-science:INe-Ⅲ-6"
       ]
     },
     {
@@ -30966,7 +31301,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why you can hear someone talking through a wall, and why sound travels through water when you're swimming underwater?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.Snd.2"
+        "uk-nc-2013:Y4.Sci.Snd.2",
+        "tw-moe-108-science:INe-Ⅱ-5"
       ]
     },
     {
@@ -30986,7 +31322,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why hitting a drum harder makes a louder sound, and what's happening to the drum skin differently?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.Snd.4"
+        "uk-nc-2013:Y4.Sci.Snd.4",
+        "tw-moe-108-science:INe-Ⅲ-6"
       ]
     },
     {
@@ -31087,7 +31424,8 @@
       "assessmentPrompt": "Can {{name}} explain why a shadow of a hand looks like a hand shape, using the idea that light travels in straight lines?",
       "standards": [
         "uk-nc-2013:Y6.Sci.L.1",
-        "uk-nc-2013:Y6.Sci.L.4"
+        "uk-nc-2013:Y6.Sci.L.4",
+        "tw-moe-108-science:INe-Ⅱ-6"
       ]
     },
     {
@@ -31174,7 +31512,8 @@
       ],
       "assessmentPrompt": "If {{name}} shone white light through a prism, could they explain why a rainbow of colours appears — and then predict what colour a blue jumper would look under red light and why?",
       "standards": [
-        "uk-nc-2013:KS3.Sci.Phys.Waves.5"
+        "uk-nc-2013:KS3.Sci.Phys.Waves.5",
+        "tw-moe-108-science:INe-Ⅲ-7"
       ]
     },
     {
@@ -31313,7 +31652,9 @@
         "State that the seasonal pattern repeats every year"
       ],
       "assessmentPrompt": "Can {{name}} tell you what kind of weather to expect in each season and explain that summer has the longest days while winter has the shortest?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅱ-6"
+      ]
     },
     {
       "id": "mt_4pLvMN8uzL",
@@ -31405,7 +31746,9 @@
         "Give examples of things that wind can move or affect"
       ],
       "assessmentPrompt": "On a windy day, can {{name}} explain that wind is air moving, point out things being blown around, and describe whether it's a gentle breeze or a strong gust?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅱ-4"
+      ]
     },
     {
       "id": "mt_IhWzO4sQPg",
@@ -31459,7 +31802,9 @@
         "Describe the water cycle as a continuous loop with no beginning or end"
       ],
       "assessmentPrompt": "Can {{name}} trace the journey of a raindrop — from the ocean being heated by the Sun, rising as invisible vapour, forming a cloud, and falling back down as rain — and explain it keeps going round and round?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-12"
+      ]
     },
     {
       "id": "mt_BO_AHGLCk0",
@@ -31495,7 +31840,9 @@
         "Record weather data in a table or diary over several days"
       ],
       "assessmentPrompt": "If {{name}} had a thermometer, rain gauge, and wind vane at school, could they take daily readings, record them in a table, and spot patterns over a week or month?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅱ-7"
+      ]
     },
     {
       "id": "mt_AghN5YcCHX",
@@ -31549,7 +31896,9 @@
         "Define this air movement as wind"
       ],
       "assessmentPrompt": "Can {{name}} explain why wind blows — that the Sun warms some areas more than others, warm air floats upward, and cooler air rushes in to fill the gap?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅱ-4"
+      ]
     },
     {
       "id": "mt_JmMtZCifJB",
@@ -31568,7 +31917,8 @@
       ],
       "assessmentPrompt": "If there's a risk of flooding in a town, can {{name}} evaluate different solutions like building levees, planting trees, or improving drainage and argue which works best?",
       "standards": [
-        "ngss-k5:3-ESS3-1"
+        "ngss-k5:3-ESS3-1",
+        "tw-moe-108-science:INf-Ⅲ-5"
       ]
     },
     {
@@ -31587,7 +31937,9 @@
         "Name at least two consequences of global warming: changing weather patterns, melting ice, rising seas"
       ],
       "assessmentPrompt": "Can {{name}} explain the greenhouse effect in simple terms and describe how burning oil, gas, and coal adds extra CO₂ to the air, making Earth warmer and changing weather patterns?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INg-Ⅲ-4"
+      ]
     },
     {
       "id": "mt_TMOzMCE17H",
@@ -31623,7 +31975,9 @@
         "Describe the effects of extreme weather on communities and landscapes"
       ],
       "assessmentPrompt": "If {{name}} saw news about a hurricane, could they explain how it forms over warm ocean water, why it spins, and what makes it so destructive when it reaches land?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INf-Ⅲ-5"
+      ]
     },
     {
       "id": "mt_VI5kdtf28e",
@@ -31642,7 +31996,9 @@
       ],
       "assessmentPrompt": "Can {{name}} explain where petrol, electricity, and gas come from — that they come from natural resources like oil, coal, wind, or sunlight — and how using them affects the environment?",
       "standards": [
-        "ngss-k5:4-ESS3-1"
+        "ngss-k5:4-ESS3-1",
+        "tw-moe-108-science:INg-Ⅱ-1",
+        "tw-moe-108-science:INf-Ⅱ-5"
       ]
     },
     {
@@ -31661,7 +32017,9 @@
         "Use weather data to make a simple prediction about upcoming conditions"
       ],
       "assessmentPrompt": "If {{name}} saw a weather map with symbols on the news, could they read it and explain what weather is coming — and if shown a graph of monthly rainfall, could they spot the wettest and driest months?",
-      "standards": []
+      "standards": [
+        "tw-moe-108-science:INd-Ⅲ-7"
+      ]
     },
     {
       "id": "mt_-YYnLLIZh5",

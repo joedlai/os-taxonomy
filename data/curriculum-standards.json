@@ -6,7 +6,7 @@
     "ngss-k5",
     "ngss-ms"
   ],
-  "curriculumCount": 8,
+  "curriculumCount": 10,
   "curricula": [
     {
       "slug": "uk-nc-2013",
@@ -37734,7 +37734,7 @@
             "themeName": "數與量",
             "gradeLevel": "2",
             "learningStage": "I (國小低年級)",
-            "description": "長度：「公分」、「公尺」。實測、量感、估測與計算。單位換算。",
+            "description": "長度：「公分」、「公尺」。實測、量感、估測與計算。單位換算。",
             "alignedPerformance": [
               "n-I-7"
             ]
@@ -37744,12 +37744,12 @@
           "key": "tw-moe-108-math:N-2-12",
           "code": "N-2-12",
           "data": {
-            "title": "容量、重量、面積",
+            "title": "容量、重量、面積",
             "theme": "N",
             "themeName": "數與量",
             "gradeLevel": "2",
             "learningStage": "I (國小低年級)",
-            "description": "容量、重量、面積：以操作活動為主。此階段量的教學應包含初步認識、直接比較、間接比較（含個別單位）。不同的量應分不同的單元學習。",
+            "description": "容量、重量、面積：以操作活動為主。此階段量的教學應包含初步認識、直接比較、間接比較（含個別單位）。不同的量應分不同的單元學習。",
             "alignedPerformance": [
               "n-I-8"
             ]
@@ -37824,7 +37824,7 @@
             "themeName": "空間與形狀",
             "gradeLevel": "2",
             "learningStage": "I (國小低年級)",
-            "description": "直尺操作：測量長度。報讀公分數。指定長度之線段作圖。",
+            "description": "直尺操作：測量長度。報讀公分數。指定長度之線段作圖。",
             "alignedPerformance": [
               "n-I-7"
             ]
@@ -38111,7 +38111,7 @@
             "themeName": "數與量",
             "gradeLevel": "3",
             "learningStage": "II (國小中年級)",
-            "description": "長度：「毫米」。實測、量感、估測與計算。單位換算。",
+            "description": "長度：「毫米」。實測、量感、估測與計算。單位換算。",
             "alignedPerformance": [
               "n-II-9"
             ]
@@ -38141,7 +38141,7 @@
             "themeName": "數與量",
             "gradeLevel": "3",
             "learningStage": "II (國小中年級)",
-            "description": "面積：「平方公分」。實測、量感、估測與計算。",
+            "description": "面積：「平方公分」。實測、量感、估測與計算。",
             "alignedPerformance": [
               "n-II-9"
             ]
@@ -38151,12 +38151,12 @@
           "key": "tw-moe-108-math:N-3-15",
           "code": "N-3-15",
           "data": {
-            "title": "容量",
+            "title": "容量",
             "theme": "N",
             "themeName": "數與量",
             "gradeLevel": "3",
             "learningStage": "II (國小中年級)",
-            "description": "容量：「公升」、「毫升」。實測、量感、估測與計算。單位換算。",
+            "description": "容量：「公升」、「毫升」。實測、量感、估測與計算。單位換算。",
             "alignedPerformance": [
               "n-II-9"
             ]
@@ -38166,12 +38166,12 @@
           "key": "tw-moe-108-math:N-3-16",
           "code": "N-3-16",
           "data": {
-            "title": "重量",
+            "title": "重量",
             "theme": "N",
             "themeName": "數與量",
             "gradeLevel": "3",
             "learningStage": "II (國小中年級)",
-            "description": "重量：「公斤」、「公克」。實測、量感、估測與計算。單位換算。",
+            "description": "重量：「公斤」、「公克」。實測、量感、估測與計算。單位換算。",
             "alignedPerformance": [
               "n-II-9"
             ]
@@ -38186,7 +38186,7 @@
             "themeName": "數與量",
             "gradeLevel": "3",
             "learningStage": "II (國小中年級)",
-            "description": "時間：「日」、「時」、「分」、「秒」。實測、量感、估測與計算。時間單位的換算。認識時間加減問題的類型。",
+            "description": "時間：「日」、「時」、「分」、「秒」。實測、量感、估測與計算。時間單位的換算。認識時間加減問題的類型。",
             "alignedPerformance": [
               "n-II-10"
             ]
@@ -38271,12 +38271,12 @@
           "key": "tw-moe-108-math:R-3-2",
           "code": "R-3-2",
           "data": {
-            "title": "數量模式與推理（I）",
+            "title": "數量模式與推理（I）",
             "theme": "R",
             "themeName": "關係",
             "gradeLevel": "3",
             "learningStage": "II (國小中年級)",
-            "description": "數量模式與推理（I）：以操作活動為主。一維變化模式之觀察與推理，例如數列、一維圖表等。",
+            "description": "數量模式與推理（I）：以操作活動為主。一維變化模式之觀察與推理，例如數列、一維圖表等。",
             "alignedPerformance": [
               "r-II-2"
             ]
@@ -38413,7 +38413,7 @@
             "themeName": "數與量",
             "gradeLevel": "4",
             "learningStage": "II (國小中年級)",
-            "description": "數線與分數、小數：連結分小數長度量的經驗。以標記和簡單的比較與計算，建立整數、分數、小數一體的認識。",
+            "description": "數線與分數、小數：連結分小數長度量的經驗。以標記和簡單的比較與計算，建立整數、分數、小數一體的認識。",
             "alignedPerformance": [
               "n-II-8"
             ]
@@ -38443,7 +38443,7 @@
             "themeName": "數與量",
             "gradeLevel": "4",
             "learningStage": "II (國小中年級)",
-            "description": "角度：「度」（同 S-4-1）。量角器的操作。實測、估測與計算。以角的合成認識 180 度到 360 度之間的角度。「平角」、「周角」。指定角度作圖。",
+            "description": "角度：「度」（同 S-4-1）。量角器的操作。實測、估測與計算。以角的合成認識 180 度到 360 度之間的角度。「平角」、「周角」。指定角度作圖。",
             "alignedPerformance": [
               "n-II-9"
             ]
@@ -38458,7 +38458,7 @@
             "themeName": "數與量",
             "gradeLevel": "4",
             "learningStage": "II (國小中年級)",
-            "description": "面積：「平方公尺」。實測、量感、估測與計算。",
+            "description": "面積：「平方公尺」。實測、量感、估測與計算。",
             "alignedPerformance": [
               "n-II-9"
             ]
@@ -38503,7 +38503,7 @@
             "themeName": "空間與形狀",
             "gradeLevel": "4",
             "learningStage": "II (國小中年級)",
-            "description": "角度：「度」（同 N-4-10）。量角器的操作。實測、估測與計算。以角的合成認識 180 度到 360 度之間的角度。「平角」、「周角」。指定角度作圖。",
+            "description": "角度：「度」（同 N-4-10）。量角器的操作。實測、估測與計算。以角的合成認識 180 度到 360 度之間的角度。「平角」、「周角」。指定角度作圖。",
             "alignedPerformance": [
               "n-II-9"
             ]
@@ -38663,12 +38663,12 @@
           "key": "tw-moe-108-math:R-4-4",
           "code": "R-4-4",
           "data": {
-            "title": "數量模式與推理（II）",
+            "title": "數量模式與推理（II）",
             "theme": "R",
             "themeName": "關係",
             "gradeLevel": "4",
             "learningStage": "II (國小中年級)",
-            "description": "數量模式與推理（II）：以操作活動為主。二維變化模式之觀察與推理，如二維數字圖之推理。奇數與偶數，及其加、減、乘模式。",
+            "description": "數量模式與推理（II）：以操作活動為主。二維變化模式之觀察與推理，如二維數字圖之推理。奇數與偶數，及其加、減、乘模式。",
             "alignedPerformance": [
               "r-II-2"
             ]
@@ -38773,7 +38773,7 @@
             "themeName": "數與量",
             "gradeLevel": "5",
             "learningStage": "III (國小高年級)",
-            "description": "整數相除之分數表示：從分裝（測量）和平分的觀點，分別說明整數相除為分數之意義與合理性。",
+            "description": "整數相除之分數表示：從分裝（測量）和平分的觀點，分別說明整數相除為分數之意義與合理性。",
             "alignedPerformance": [
               "n-III-5"
             ]
@@ -38874,12 +38874,12 @@
           "key": "tw-moe-108-math:N-5-13",
           "code": "N-5-13",
           "data": {
-            "title": "重量",
+            "title": "重量",
             "theme": "N",
             "themeName": "數與量",
             "gradeLevel": "5",
             "learningStage": "III (國小高年級)",
-            "description": "重量：「公噸」。生活實例之應用。含與「公斤」的換算與計算。使用概數。",
+            "description": "重量：「公噸」。生活實例之應用。含與「公斤」的換算與計算。使用概數。",
             "alignedPerformance": [
               "n-III-11"
             ]
@@ -38894,7 +38894,7 @@
             "themeName": "數與量",
             "gradeLevel": "5",
             "learningStage": "III (國小高年級)",
-            "description": "體積：「立方公尺」。簡單實測、量感、估測與計算。",
+            "description": "體積：「立方公尺」。簡單實測、量感、估測與計算。",
             "alignedPerformance": [
               "n-III-11"
             ]
@@ -38909,7 +38909,7 @@
             "themeName": "數與量",
             "gradeLevel": "5",
             "learningStage": "III (國小高年級)",
-            "description": "解題：容積。容量、容積和體積間的關係。知道液體體積的意義。",
+            "description": "解題：容積。容量、容積和體積間的關係。知道液體體積的意義。",
             "alignedPerformance": [
               "n-III-12"
             ]
@@ -39180,7 +39180,7 @@
             "themeName": "數與量",
             "gradeLevel": "6",
             "learningStage": "III (國小高年級)",
-            "description": "比與比值：異類量的比與同類量的比之比值的意義。理解相等的比中牽涉到的兩種倍數關係（比例思考的基礎）。解決比的應用問題。",
+            "description": "比與比值：異類量的比與同類量的比之比值的意義。理解相等的比中牽涉到的兩種倍數關係（比例思考的基礎）。解決比的應用問題。",
             "alignedPerformance": [
               "n-III-9"
             ]
@@ -39210,7 +39210,7 @@
             "themeName": "數與量",
             "gradeLevel": "6",
             "learningStage": "III (國小高年級)",
-            "description": "解題：基準量與比較量。比和比值的應用。含交換基準時之關係。",
+            "description": "解題：基準量與比較量。比和比值的應用。含交換基準時之關係。",
             "alignedPerformance": [
               "n-III-9"
             ]
@@ -39225,7 +39225,7 @@
             "themeName": "數與量",
             "gradeLevel": "6",
             "learningStage": "III (國小高年級)",
-            "description": "解題：由問題中的數量關係，列出恰當的算式解題（同 R-6-4）。可包含（1）較複雜的模式（如座位排列模式）；（2）較複雜的計數：乘法原理、加法原理或其混合；（3）較複雜之情境：如年齡問題、流水問題、和差問題、雞兔問題。連結 R-6-2、R-6-3。",
+            "description": "解題：由問題中的數量關係，列出恰當的算式解題（同 R-6-4）。可包含（1）較複雜的模式（如座位排列模式）；（2）較複雜的計數：乘法原理、加法原理或其混合；（3）較複雜之情境：如年齡問題、流水問題、和差問題、雞兔問題。連結 R-6-2、R-6-3。",
             "alignedPerformance": [
               "n-III-10",
               "r-III-3"
@@ -39312,12 +39312,12 @@
           "key": "tw-moe-108-math:R-6-2",
           "code": "R-6-2",
           "data": {
-            "title": "數量關係",
+            "title": "數量關係",
             "theme": "R",
             "themeName": "關係",
             "gradeLevel": "6",
             "learningStage": "III (國小高年級)",
-            "description": "數量關係：代數與函數的前置經驗。從具體情境或數量模式之活動出發，做觀察、推理、說明。",
+            "description": "數量關係：代數與函數的前置經驗。從具體情境或數量模式之活動出發，做觀察、推理、說明。",
             "alignedPerformance": [
               "r-III-3"
             ]
@@ -39327,12 +39327,12 @@
           "key": "tw-moe-108-math:R-6-3",
           "code": "R-6-3",
           "data": {
-            "title": "數量關係的表示",
+            "title": "數量關係的表示",
             "theme": "R",
             "themeName": "關係",
             "gradeLevel": "6",
             "learningStage": "III (國小高年級)",
-            "description": "數量關係的表示：代數與函數的前置經驗。將具體情境或模式中的數量關係，學習以文字或符號列出數量關係的關係式。",
+            "description": "數量關係的表示：代數與函數的前置經驗。將具體情境或模式中的數量關係，學習以文字或符號列出數量關係的關係式。",
             "alignedPerformance": [
               "r-III-3"
             ]
@@ -39347,7 +39347,7 @@
             "themeName": "關係",
             "gradeLevel": "6",
             "learningStage": "III (國小高年級)",
-            "description": "解題：由問題中的數量關係，列出恰當的算式解題（同 N-6-9）。可包含（1）較複雜的模式（如座位排列模式）；（2）較複雜的計數：乘法原理、加法原理或其混合；（3）較複雜之情境：如年齡問題、流水問題、和差問題、雞兔問題。連結 R-6-2、R-6-3。",
+            "description": "解題：由問題中的數量關係，列出恰當的算式解題（同 N-6-9）。可包含（1）較複雜的模式（如座位排列模式）；（2）較複雜的計數：乘法原理、加法原理或其混合；（3）較複雜之情境：如年齡問題、流水問題、和差問題、雞兔問題。連結 R-6-2、R-6-3。",
             "alignedPerformance": [
               "r-III-3",
               "n-III-10"
@@ -39382,6 +39382,1971 @@
             "alignedPerformance": [
               "d-III-2"
             ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tw-moe-108-science",
+      "country": "TW",
+      "name": "十二年國民基本教育課程綱要 國民中小學暨普通型高級中等學校 — 自然科學領域 (Curriculum Guidelines of 12-Year Basic Education — Natural Sciences; grades 3–6 learning content)",
+      "version": "2018 (中華民國107年11月, 教育部發布)",
+      "sourceUrl": "https://www.k12ea.gov.tw/files/class_schema/%E8%AA%B2%E7%B6%B1/17-%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8/17-1/%E5%8D%81%E4%BA%8C%E5%B9%B4%E5%9C%8B%E6%B0%91%E5%9F%BA%E6%9C%AC%E6%95%99%E8%82%B2%E8%AA%B2%E7%A8%8B%E7%B6%B1%E8%A6%81%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%B0%8F%E5%AD%B8%E6%9A%A8%E6%99%AE%E9%80%9A%E5%9E%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E7%AD%89%E5%AD%B8%E6%A0%A1%E2%94%80%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F.pdf",
+      "textIncluded": true,
+      "license": "Official MOE curriculum document (教育部令 issued regulation). Exempt from copyright under Taiwan Copyright Act art. 9(1)(1) as an official document; see PROVENANCE.md.",
+      "topicCount": 127,
+      "topics": [
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-1",
+          "code": "INa-Ⅱ-1",
+          "data": {
+            "title": "自然界（包含生物與非生物）是由不同物質所組成",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "自然界（包含生物與非生物）是由不同物質所組成。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-2",
+          "code": "INa-Ⅱ-2",
+          "data": {
+            "title": "在地球上，物質具有重量，佔有體積",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "在地球上，物質具有重量，佔有體積。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-3",
+          "code": "INa-Ⅱ-3",
+          "data": {
+            "title": "物質各有其特性，並可以依其特性與用途進行分類",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "物質各有其特性，並可以依其特性與用途進行分類。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-4",
+          "code": "INa-Ⅱ-4",
+          "data": {
+            "title": "物質的形態會因溫度的不同而改變",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "物質的形態會因溫度的不同而改變。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-5",
+          "code": "INa-Ⅱ-5",
+          "data": {
+            "title": "太陽照射、物質燃燒和摩擦等可以使溫度升高，運用測量的方法可知…",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "太陽照射、物質燃燒和摩擦等可以使溫度升高，運用測量的方法可知溫度高低。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-6",
+          "code": "INa-Ⅱ-6",
+          "data": {
+            "title": "太陽是地球能量的主要來源，提供生物的生長需要，能量可以各種形…",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "太陽是地球能量的主要來源，提供生物的生長需要，能量可以各種形式呈現。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-7",
+          "code": "INa-Ⅱ-7",
+          "data": {
+            "title": "生物需要能量（養分）、陽光、空氣、水和土壤，維持生命、生長與…",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "生物需要能量（養分）、陽光、空氣、水和土壤，維持生命、生長與活動。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅱ-8",
+          "code": "INa-Ⅱ-8",
+          "data": {
+            "title": "日常生活中常用的能源",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "日常生活中常用的能源。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-1",
+          "code": "INa-Ⅲ-1",
+          "data": {
+            "title": "物質是由微小的粒子所組成，而且粒子不斷的運動",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "物質是由微小的粒子所組成，而且粒子不斷的運動。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-2",
+          "code": "INa-Ⅲ-2",
+          "data": {
+            "title": "物質各有不同性質，有些性質會隨溫度而改變",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "物質各有不同性質，有些性質會隨溫度而改變。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-3",
+          "code": "INa-Ⅲ-3",
+          "data": {
+            "title": "混合物是由不同的物質所混合，物質混合前後重量不會改變，性質可…",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "混合物是由不同的物質所混合，物質混合前後重量不會改變，性質可能會改變。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-4",
+          "code": "INa-Ⅲ-4",
+          "data": {
+            "title": "空氣由各種不同氣體所組成，空氣具有熱脹冷縮的性質",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "空氣由各種不同氣體所組成，空氣具有熱脹冷縮的性質。氣體無一定的形狀與體積。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-5",
+          "code": "INa-Ⅲ-5",
+          "data": {
+            "title": "不同形式的能量可以相互轉換，但總量不變",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "不同形式的能量可以相互轉換，但總量不變。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-6",
+          "code": "INa-Ⅲ-6",
+          "data": {
+            "title": "能量可藉由電流傳遞、轉換而後為人類所應用",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "能量可藉由電流傳遞、轉換而後為人類所應用。利用電池等設備可以儲存電能再轉換成其他能量。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-7",
+          "code": "INa-Ⅲ-7",
+          "data": {
+            "title": "運動的物體具有動能，對同一物體而言，速度越快動能越大",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "運動的物體具有動能，對同一物體而言，速度越快動能越大。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-8",
+          "code": "INa-Ⅲ-8",
+          "data": {
+            "title": "熱由高溫處往低溫處傳播，傳播的方式有傳導、對流和輻射，生活中…",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "熱由高溫處往低溫處傳播，傳播的方式有傳導、對流和輻射，生活中可運用不同的方法保溫與散熱。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-9",
+          "code": "INa-Ⅲ-9",
+          "data": {
+            "title": "植物生長所需的養分是經由光合作用從太陽光獲得的",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "植物生長所需的養分是經由光合作用從太陽光獲得的。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅱ-1",
+          "code": "INb-Ⅱ-1",
+          "data": {
+            "title": "物質或物體各有不同的功能或用途",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "物質或物體各有不同的功能或用途。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅱ-2",
+          "code": "INb-Ⅱ-2",
+          "data": {
+            "title": "物質性質上的差異性可用來區分或分離物質",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "物質性質上的差異性可用來區分或分離物質。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅱ-3",
+          "code": "INb-Ⅱ-3",
+          "data": {
+            "title": "虹吸現象可用來將容器中的水吸出；連通管可測水平",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "虹吸現象可用來將容器中的水吸出；連通管可測水平。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅱ-4",
+          "code": "INb-Ⅱ-4",
+          "data": {
+            "title": "生物體的構造與功能是互相配合的",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "生物體的構造與功能是互相配合的。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅱ-5",
+          "code": "INb-Ⅱ-5",
+          "data": {
+            "title": "常見動物的外部形態主要分為頭、軀幹和肢，但不同類別動物之各部…",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "常見動物的外部形態主要分為頭、軀幹和肢，但不同類別動物之各部位特徵和名稱有差異。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅱ-6",
+          "code": "INb-Ⅱ-6",
+          "data": {
+            "title": "常見植物的外部形態主要由根、莖、葉、花、果實及種子所組成",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "常見植物的外部形態主要由根、莖、葉、花、果實及種子所組成。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅱ-7",
+          "code": "INb-Ⅱ-7",
+          "data": {
+            "title": "動植物體的外部形態和內部構造，與其生長、行為、繁衍後代和適應…",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "動植物體的外部形態和內部構造，與其生長、行為、繁衍後代和適應環境有關。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-1",
+          "code": "INc-Ⅱ-1",
+          "data": {
+            "title": "使用工具或自訂參考標準可量度與比較",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "使用工具或自訂參考標準可量度與比較。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-2",
+          "code": "INc-Ⅱ-2",
+          "data": {
+            "title": "生活中常見的測量單位與度量",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "生活中常見的測量單位與度量。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-3",
+          "code": "INc-Ⅱ-3",
+          "data": {
+            "title": "力的表示法，包括大小、方向與作用點等",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "力的表示法，包括大小、方向與作用點等。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-4",
+          "code": "INc-Ⅱ-4",
+          "data": {
+            "title": "方向、距離可用以表示物體位置",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "方向、距離可用以表示物體位置。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-5",
+          "code": "INc-Ⅱ-5",
+          "data": {
+            "title": "水和空氣可以傳送動力讓物體移動",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "水和空氣可以傳送動力讓物體移動。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-6",
+          "code": "INc-Ⅱ-6",
+          "data": {
+            "title": "水有三態變化及毛細現象",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "水有三態變化及毛細現象。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-7",
+          "code": "INc-Ⅱ-7",
+          "data": {
+            "title": "利用適當的工具觀察不同大小、距離位置的物體",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "利用適當的工具觀察不同大小、距離位置的物體。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-8",
+          "code": "INc-Ⅱ-8",
+          "data": {
+            "title": "不同的環境有不同的生物生存",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "不同的環境有不同的生物生存。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INa-Ⅲ-10",
+          "code": "INa-Ⅲ-10",
+          "data": {
+            "title": "在生態系中，能量經由食物鏈在不同物種間流動與循環",
+            "theme": "INa",
+            "themeName": "物質與能量",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "在生態系中，能量經由食物鏈在不同物種間流動與循環。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-1",
+          "code": "INb-Ⅲ-1",
+          "data": {
+            "title": "物質有不同的結構與功能",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "物質有不同的結構與功能。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-2",
+          "code": "INb-Ⅲ-2",
+          "data": {
+            "title": "應用性質的不同可分離物質或鑑別物質",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "應用性質的不同可分離物質或鑑別物質。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-3",
+          "code": "INb-Ⅲ-3",
+          "data": {
+            "title": "物質表面的結構與性質不同，其可產生的摩擦力不同；摩擦力會影響…",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "物質表面的結構與性質不同，其可產生的摩擦力不同；摩擦力會影響物體運動的情形。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-4",
+          "code": "INb-Ⅲ-4",
+          "data": {
+            "title": "力可藉由簡單機械傳遞",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "力可藉由簡單機械傳遞。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-5",
+          "code": "INb-Ⅲ-5",
+          "data": {
+            "title": "生物體是由細胞所組成，具有由細胞、器官到個體等不同層次的構造",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生物體是由細胞所組成，具有由細胞、器官到個體等不同層次的構造。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-6",
+          "code": "INb-Ⅲ-6",
+          "data": {
+            "title": "動物的形態特徵與行為相關，動物身體的構造不同，有不同的運動方…",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "動物的形態特徵與行為相關，動物身體的構造不同，有不同的運動方式。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-7",
+          "code": "INb-Ⅲ-7",
+          "data": {
+            "title": "植物各部位的構造和所具有的功能有關，有些植物產生特化的構造以…",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "植物各部位的構造和所具有的功能有關，有些植物產生特化的構造以適應環境。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INb-Ⅲ-8",
+          "code": "INb-Ⅲ-8",
+          "data": {
+            "title": "生物可依其形態特徵進行分類",
+            "theme": "INb",
+            "themeName": "構造與功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生物可依其形態特徵進行分類。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-1",
+          "code": "INc-Ⅲ-1",
+          "data": {
+            "title": "生活及探究中常用的測量工具和方法",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生活及探究中常用的測量工具和方法。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-2",
+          "code": "INc-Ⅲ-2",
+          "data": {
+            "title": "自然界或生活中有趣的最大或最小的事物（量），事物大小宜用適當…",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "自然界或生活中有趣的最大或最小的事物（量），事物大小宜用適當的單位來表示。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-3",
+          "code": "INc-Ⅲ-3",
+          "data": {
+            "title": "本量與改變量不同，由兩者的比例可評估變化的程度",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "本量與改變量不同，由兩者的比例可評估變化的程度。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-4",
+          "code": "INc-Ⅲ-4",
+          "data": {
+            "title": "對相同事物做多次測量，其結果間可能有差異，差異越大表示測量越…",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "對相同事物做多次測量，其結果間可能有差異，差異越大表示測量越不精確。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-5",
+          "code": "INc-Ⅲ-5",
+          "data": {
+            "title": "力的大小可由物體的形變或運動狀態的改變程度得知",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "力的大小可由物體的形變或運動狀態的改變程度得知。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-9",
+          "code": "INc-Ⅱ-9",
+          "data": {
+            "title": "地表具有岩石、砂、土壤等不同環境，各有特徵，可以分辨",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "地表具有岩石、砂、土壤等不同環境，各有特徵，可以分辨。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅱ-10",
+          "code": "INc-Ⅱ-10",
+          "data": {
+            "title": "天空中天體有東升西落的現象，月亮有盈虧的變化，星星則是有些亮…",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "天空中天體有東升西落的現象，月亮有盈虧的變化，星星則是有些亮有些暗。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-1",
+          "code": "INd-Ⅱ-1",
+          "data": {
+            "title": "當受外在因素作用時，物質或自然現象可能會改變",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "當受外在因素作用時，物質或自然現象可能會改變。改變有些較快、有些較慢；有些可以回復，有些則不能。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-2",
+          "code": "INd-Ⅱ-2",
+          "data": {
+            "title": "物質或自然現象的改變情形，可以運用測量的工具和方法得知",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "物質或自然現象的改變情形，可以運用測量的工具和方法得知。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-3",
+          "code": "INd-Ⅱ-3",
+          "data": {
+            "title": "生物從出生、成長到死亡有一定的壽命，透過生殖繁衍下一代",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "生物從出生、成長到死亡有一定的壽命，透過生殖繁衍下一代。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-6",
+          "code": "INc-Ⅲ-6",
+          "data": {
+            "title": "運用時間與距離可描述物體的速度與速度的變化",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "運用時間與距離可描述物體的速度與速度的變化。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-7",
+          "code": "INc-Ⅲ-7",
+          "data": {
+            "title": "動物體內的器官系統是由數個器官共同組合，以執行某種特定的生理…",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "動物體內的器官系統是由數個器官共同組合，以執行某種特定的生理作用。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-8",
+          "code": "INc-Ⅲ-8",
+          "data": {
+            "title": "在同一時期，特定區域上，相同物種所組成的群體稱為「族群」，而…",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "在同一時期，特定區域上，相同物種所組成的群體稱為「族群」，而在特定區域由多個族群結合而組成「群集」。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-9",
+          "code": "INc-Ⅲ-9",
+          "data": {
+            "title": "不同的環境條件影響生物的種類和分布，以及生物間的食物關係，因…",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "不同的環境條件影響生物的種類和分布，以及生物間的食物關係，因而形成不同的生態系。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-10",
+          "code": "INc-Ⅲ-10",
+          "data": {
+            "title": "地球是由空氣、陸地、海洋及生存於其中的生物所組成的",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "地球是由空氣、陸地、海洋及生存於其中的生物所組成的。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-11",
+          "code": "INc-Ⅲ-11",
+          "data": {
+            "title": "岩石由礦物組成，岩石和礦物有不同特徵，各有不同用途",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "岩石由礦物組成，岩石和礦物有不同特徵，各有不同用途。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-12",
+          "code": "INc-Ⅲ-12",
+          "data": {
+            "title": "地球上的水存在於大氣、海洋、湖泊與地下中",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "地球上的水存在於大氣、海洋、湖泊與地下中。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-13",
+          "code": "INc-Ⅲ-13",
+          "data": {
+            "title": "日出日落時間與位置，在不同季節會不同",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "日出日落時間與位置，在不同季節會不同。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-14",
+          "code": "INc-Ⅲ-14",
+          "data": {
+            "title": "四季星空會有所不同",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "四季星空會有所不同。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INc-Ⅲ-15",
+          "code": "INc-Ⅲ-15",
+          "data": {
+            "title": "除了地球外，還有其他行星環繞著太陽運行",
+            "theme": "INc",
+            "themeName": "系統與尺度",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "除了地球外，還有其他行星環繞著太陽運行。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-1",
+          "code": "INd-Ⅲ-1",
+          "data": {
+            "title": "自然界中存在著各種的穩定狀態；當有新的外加因素時，可能造成改…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "自然界中存在著各種的穩定狀態；當有新的外加因素時，可能造成改變，再達到新的穩定狀態。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-2",
+          "code": "INd-Ⅲ-2",
+          "data": {
+            "title": "人類可以控制各種因素來影響物質或自然現象的改變，改變前後的差…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "人類可以控制各種因素來影響物質或自然現象的改變，改變前後的差異可以被觀察，改變的快慢可以被測量與了解。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-4",
+          "code": "INd-Ⅱ-4",
+          "data": {
+            "title": "空氣流動產生風",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "空氣流動產生風。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-5",
+          "code": "INd-Ⅱ-5",
+          "data": {
+            "title": "自然環境中有砂石及土壤，會因水流、風而發生改變",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "自然環境中有砂石及土壤，會因水流、風而發生改變。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-6",
+          "code": "INd-Ⅱ-6",
+          "data": {
+            "title": "一年四季氣溫會有所變化，天氣也會有所不同",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "一年四季氣溫會有所變化，天氣也會有所不同。氣象報告可以讓我們知道天氣的可能變化。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-7",
+          "code": "INd-Ⅱ-7",
+          "data": {
+            "title": "天氣預報常用雨量、溫度、風向、風速等資料來表達天氣狀態，這些…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "天氣預報常用雨量、溫度、風向、風速等資料來表達天氣狀態，這些資料可以使用適當儀器測得。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-8",
+          "code": "INd-Ⅱ-8",
+          "data": {
+            "title": "力有各種不同的形式",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "力有各種不同的形式。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅱ-9",
+          "code": "INd-Ⅱ-9",
+          "data": {
+            "title": "施力可能會使物體改變運動情形或形狀；當物體受力變形時，有的可…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "施力可能會使物體改變運動情形或形狀；當物體受力變形時，有的可恢復原狀，有的不能恢復原狀。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-3",
+          "code": "INd-Ⅲ-3",
+          "data": {
+            "title": "地球上的物體（含生物和非生物）均會受地球引力的作用，地球對物…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "地球上的物體（含生物和非生物）均會受地球引力的作用，地球對物體的引力就是物體的重量。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-4",
+          "code": "INd-Ⅲ-4",
+          "data": {
+            "title": "生物個體間的性狀具有差異性；子代與親代的性狀具有相似性和相異…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生物個體間的性狀具有差異性；子代與親代的性狀具有相似性和相異性。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-5",
+          "code": "INd-Ⅲ-5",
+          "data": {
+            "title": "生物體接受環境刺激會產生適當的反應，並自動調節生理作用以維持…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生物體接受環境刺激會產生適當的反應，並自動調節生理作用以維持恆定。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-6",
+          "code": "INd-Ⅲ-6",
+          "data": {
+            "title": "生物種類具有多樣性；生物生存的環境亦具有多樣性",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生物種類具有多樣性；生物生存的環境亦具有多樣性。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-7",
+          "code": "INd-Ⅲ-7",
+          "data": {
+            "title": "天氣圖上用高、低氣壓、鋒面、颱風等符號來表示天氣現象，並認識…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "天氣圖上用高、低氣壓、鋒面、颱風等符號來表示天氣現象，並認識其天氣變化。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-8",
+          "code": "INd-Ⅲ-8",
+          "data": {
+            "title": "土壤是由岩石風化成的碎屑及生物遺骸所組成",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "土壤是由岩石風化成的碎屑及生物遺骸所組成。化石是地層中古代生物的遺骸。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-9",
+          "code": "INd-Ⅲ-9",
+          "data": {
+            "title": "流水、風和波浪對砂石和土壤產生侵蝕、風化、搬運及堆積等作用，…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "流水、風和波浪對砂石和土壤產生侵蝕、風化、搬運及堆積等作用，河流是改變地表最重要的力量。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-10",
+          "code": "INd-Ⅲ-10",
+          "data": {
+            "title": "流水及生物活動，對地表的改變會產生不同的影響",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "流水及生物活動，對地表的改變會產生不同的影響。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-11",
+          "code": "INd-Ⅲ-11",
+          "data": {
+            "title": "海水的流動會影響天氣與氣候的變化",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "海水的流動會影響天氣與氣候的變化。氣溫下降時水氣凝結為雲和霧或昇華為霜、雪。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-12",
+          "code": "INd-Ⅲ-12",
+          "data": {
+            "title": "自然界的水循環主要由海洋或湖泊表面水的蒸發，經凝結降水，再透…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "自然界的水循環主要由海洋或湖泊表面水的蒸發，經凝結降水，再透過地表水與地下水等傳送回海洋或湖泊。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INd-Ⅲ-13",
+          "code": "INd-Ⅲ-13",
+          "data": {
+            "title": "施力可使物體的運動速度改變，物體受多個力的作用，仍可能保持平…",
+            "theme": "INd",
+            "themeName": "改變與穩定",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "施力可使物體的運動速度改變，物體受多個力的作用，仍可能保持平衡靜止不動，物體不接觸也可以有力的作用。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-1",
+          "code": "INe-Ⅱ-1",
+          "data": {
+            "title": "自然界的物體、生物、環境間常會相互影響",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "自然界的物體、生物、環境間常會相互影響。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-2",
+          "code": "INe-Ⅱ-2",
+          "data": {
+            "title": "溫度會影響物質在水中溶解的程度（定性）及物質燃燒、生鏽、發酵…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "溫度會影響物質在水中溶解的程度（定性）及物質燃燒、生鏽、發酵等現象。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-3",
+          "code": "INe-Ⅱ-3",
+          "data": {
+            "title": "有些物質溶於水中，有些物質不容易溶於水中",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "有些物質溶於水中，有些物質不容易溶於水中。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-4",
+          "code": "INe-Ⅱ-4",
+          "data": {
+            "title": "常見食物的酸鹼性有時可利用氣味、觸覺、味覺簡單區分，花卉、菜…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "常見食物的酸鹼性有時可利用氣味、觸覺、味覺簡單區分，花卉、菜葉會因接觸到酸鹼而改變顏色。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-5",
+          "code": "INe-Ⅱ-5",
+          "data": {
+            "title": "生活周遭有各種的聲音；物體振動會產生聲音，聲音可以透過固體、…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "生活周遭有各種的聲音；物體振動會產生聲音，聲音可以透過固體、液體、氣體傳播。不同的動物會發出不同的聲音，並且作為溝通的方式。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-6",
+          "code": "INe-Ⅱ-6",
+          "data": {
+            "title": "光線以直線前進，反射時有一定的方向",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "光線以直線前進，反射時有一定的方向。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-7",
+          "code": "INe-Ⅱ-7",
+          "data": {
+            "title": "磁鐵具有兩極，同極相斥，異極相吸；磁鐵會吸引含鐵的物體",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "磁鐵具有兩極，同極相斥，異極相吸；磁鐵會吸引含鐵的物體。磁力強弱可由吸起含鐵物質數量多寡得知。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-8",
+          "code": "INe-Ⅱ-8",
+          "data": {
+            "title": "物質可分為電的良導體和不良導體，將電池用電線或良導體接成通路…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "物質可分為電的良導體和不良導體，將電池用電線或良導體接成通路，可使燈泡發光、馬達轉動。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-9",
+          "code": "INe-Ⅱ-9",
+          "data": {
+            "title": "電池或燈泡可以有串聯和並聯的接法，不同的接法會產生不同的效果",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "電池或燈泡可以有串聯和並聯的接法，不同的接法會產生不同的效果。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-10",
+          "code": "INe-Ⅱ-10",
+          "data": {
+            "title": "動物的感覺器官接受外界刺激會引起生理和行為反應",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "動物的感覺器官接受外界刺激會引起生理和行為反應。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅱ-11",
+          "code": "INe-Ⅱ-11",
+          "data": {
+            "title": "環境的變化會影響植物生長",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "環境的變化會影響植物生長。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-1",
+          "code": "INe-Ⅲ-1",
+          "data": {
+            "title": "自然界的物體、生物與環境間的交互作用，常具有規則性",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "自然界的物體、生物與環境間的交互作用，常具有規則性。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-2",
+          "code": "INe-Ⅲ-2",
+          "data": {
+            "title": "物質的形態與性質可因燃燒、生鏽、發酵、酸鹼作用等而改變或形成…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "物質的形態與性質可因燃燒、生鏽、發酵、酸鹼作用等而改變或形成新物質，這些改變有些會和溫度、水、空氣、光等有關。改變要能發生，常需要具備一些條件。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-3",
+          "code": "INe-Ⅲ-3",
+          "data": {
+            "title": "燃燒是物質與氧劇烈作用的現象，燃燒必須同時具備可燃物、助燃物…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "燃燒是物質與氧劇烈作用的現象，燃燒必須同時具備可燃物、助燃物，並達到燃點等三個要素。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-4",
+          "code": "INe-Ⅲ-4",
+          "data": {
+            "title": "物質溶解、反應前後總重量不變",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "物質溶解、反應前後總重量不變。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-5",
+          "code": "INe-Ⅲ-5",
+          "data": {
+            "title": "常用酸鹼物質的特性，水溶液的酸鹼性質及其生活上的運用",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "常用酸鹼物質的特性，水溶液的酸鹼性質及其生活上的運用。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-6",
+          "code": "INe-Ⅲ-6",
+          "data": {
+            "title": "聲音有大小、高低與音色等不同性質，生活中聲音有樂音與噪音之分…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "聲音有大小、高低與音色等不同性質，生活中聲音有樂音與噪音之分，噪音可以防治。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-7",
+          "code": "INe-Ⅲ-7",
+          "data": {
+            "title": "陽光是由不同色光組成",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "陽光是由不同色光組成。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-8",
+          "code": "INe-Ⅲ-8",
+          "data": {
+            "title": "光會有折射現象，放大鏡可聚光和成像",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "光會有折射現象，放大鏡可聚光和成像。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-9",
+          "code": "INe-Ⅲ-9",
+          "data": {
+            "title": "地球有磁場，會使指北針指向固定方向",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "地球有磁場，會使指北針指向固定方向。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-10",
+          "code": "INe-Ⅲ-10",
+          "data": {
+            "title": "磁鐵與通電的導線皆可產生磁力，使附近指北針偏轉",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "磁鐵與通電的導線皆可產生磁力，使附近指北針偏轉。改變電流方向或大小，可以調控電磁鐵的磁極方向或磁力大小。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-11",
+          "code": "INe-Ⅲ-11",
+          "data": {
+            "title": "動物有覓食、生殖、保護、訊息傳遞以及社會性的行為",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "動物有覓食、生殖、保護、訊息傳遞以及社會性的行為。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-12",
+          "code": "INe-Ⅲ-12",
+          "data": {
+            "title": "生物的分布和習性，會受環境因素的影響；環境改變也會影響生存於…",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生物的分布和習性，會受環境因素的影響；環境改變也會影響生存於其中的生物種類。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅱ-1",
+          "code": "INf-Ⅱ-1",
+          "data": {
+            "title": "日常生活中常見的科技產品",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "日常生活中常見的科技產品。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅱ-2",
+          "code": "INf-Ⅱ-2",
+          "data": {
+            "title": "不同的環境影響人類食物的種類、來源與飲食習慣",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "不同的環境影響人類食物的種類、來源與飲食習慣。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅱ-3",
+          "code": "INf-Ⅱ-3",
+          "data": {
+            "title": "自然的規律與變化對人類生活應用與美感的啟發",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "自然的規律與變化對人類生活應用與美感的啟發。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅱ-4",
+          "code": "INf-Ⅱ-4",
+          "data": {
+            "title": "季節的變化與人類生活的關係",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "季節的變化與人類生活的關係。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅱ-5",
+          "code": "INf-Ⅱ-5",
+          "data": {
+            "title": "人類活動對環境造成影響",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "人類活動對環境造成影響。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅱ-6",
+          "code": "INf-Ⅱ-6",
+          "data": {
+            "title": "地震會造成嚴重的災害，平時的準備與防震能降低損害",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "地震會造成嚴重的災害，平時的準備與防震能降低損害。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅱ-7",
+          "code": "INf-Ⅱ-7",
+          "data": {
+            "title": "水與空氣汙染會對生物產生影響",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "水與空氣汙染會對生物產生影響。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅱ-1",
+          "code": "INg-Ⅱ-1",
+          "data": {
+            "title": "自然環境中有許多資源",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "自然環境中有許多資源。人類生存與生活需依賴自然環境中的各種資源，但自然資源都是有限的，需要珍惜使用。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅱ-2",
+          "code": "INg-Ⅱ-2",
+          "data": {
+            "title": "地球資源永續可結合日常生活中低碳與節水方法做起",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "地球資源永續可結合日常生活中低碳與節水方法做起。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅱ-3",
+          "code": "INg-Ⅱ-3",
+          "data": {
+            "title": "可利用垃圾減量、資源回收、節約能源等方法來保護環境",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "可利用垃圾減量、資源回收、節約能源等方法來保護環境。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INe-Ⅲ-13",
+          "code": "INe-Ⅲ-13",
+          "data": {
+            "title": "生態系中生物與生物彼此間的交互作用，有寄生、共生和競爭的關係",
+            "theme": "INe",
+            "themeName": "交互作用",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生態系中生物與生物彼此間的交互作用，有寄生、共生和競爭的關係。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅲ-1",
+          "code": "INf-Ⅲ-1",
+          "data": {
+            "title": "世界與本地不同性別科學家的事蹟與貢獻",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "世界與本地不同性別科學家的事蹟與貢獻。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅲ-2",
+          "code": "INf-Ⅲ-2",
+          "data": {
+            "title": "科技在生活中的應用與對環境與人體的影響",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "科技在生活中的應用與對環境與人體的影響。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅲ-3",
+          "code": "INf-Ⅲ-3",
+          "data": {
+            "title": "自然界生物的特徵與原理在人類生活上的應用",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "自然界生物的特徵與原理在人類生活上的應用。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅲ-4",
+          "code": "INf-Ⅲ-4",
+          "data": {
+            "title": "人類日常生活中所依賴的經濟動植物及栽培養殖的方法",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "人類日常生活中所依賴的經濟動植物及栽培養殖的方法。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅲ-5",
+          "code": "INf-Ⅲ-5",
+          "data": {
+            "title": "臺灣的主要天然災害之認識及防災避難",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "臺灣的主要天然災害之認識及防災避難。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INf-Ⅲ-6",
+          "code": "INf-Ⅲ-6",
+          "data": {
+            "title": "生活中的電器可以產生電磁波，具有功能但也可能造成傷害",
+            "theme": "INf",
+            "themeName": "科學與生活",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生活中的電器可以產生電磁波，具有功能但也可能造成傷害。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅲ-1",
+          "code": "INg-Ⅲ-1",
+          "data": {
+            "title": "自然景觀和環境一旦被改變或破壞，極難恢復",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "自然景觀和環境一旦被改變或破壞，極難恢復。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅲ-2",
+          "code": "INg-Ⅲ-2",
+          "data": {
+            "title": "人類活動與其他生物的活動會相互影響，不當引進外來物種可能造成…",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "人類活動與其他生物的活動會相互影響，不當引進外來物種可能造成經濟損失和生態破壞。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅲ-3",
+          "code": "INg-Ⅲ-3",
+          "data": {
+            "title": "生物多樣性對人類的重要性，而氣候變遷將對生物生存造成影響",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "生物多樣性對人類的重要性，而氣候變遷將對生物生存造成影響。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅲ-4",
+          "code": "INg-Ⅲ-4",
+          "data": {
+            "title": "人類的活動會造成氣候變遷，加劇對生態與環境的影響",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "人類的活動會造成氣候變遷，加劇對生態與環境的影響。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅲ-5",
+          "code": "INg-Ⅲ-5",
+          "data": {
+            "title": "能源的使用與地球永續發展息息相關",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "能源的使用與地球永續發展息息相關。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅲ-6",
+          "code": "INg-Ⅲ-6",
+          "data": {
+            "title": "碳足跡與水足跡所代表環境的意涵",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "碳足跡與水足跡所代表環境的意涵。"
+          }
+        },
+        {
+          "key": "tw-moe-108-science:INg-Ⅲ-7",
+          "code": "INg-Ⅲ-7",
+          "data": {
+            "title": "人類行為的改變可以減緩氣候變遷所造成的衝擊與影響",
+            "theme": "INg",
+            "themeName": "資源與永續性",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "人類行為的改變可以減緩氣候變遷所造成的衝擊與影響。"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tw-moe-108-english",
+      "country": "TW",
+      "name": "十二年國民基本教育課程綱要 國民中小學暨普通型高級中等學校 — 語文領域-英語文 (Curriculum Guidelines of 12-Year Basic Education — English; grades 3–6 learning content)",
+      "version": "2018 (中華民國107年4月, 教育部發布)",
+      "sourceUrl": "https://www.k12ea.gov.tw/files/class_schema/%E8%AA%B2%E7%B6%B1/9-%E8%8B%B1%E8%AA%9E%E6%96%87/9-1/%E5%8D%81%E4%BA%8C%E5%B9%B4%E5%9C%8B%E6%B0%91%E5%9F%BA%E6%9C%AC%E6%95%99%E8%82%B2%E8%AA%B2%E7%A8%8B%E7%B6%B1%E8%A6%81%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%B0%8F%E5%AD%B8%E6%9A%A8%E6%99%AE%E9%80%9A%E5%9E%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E7%AD%89%E5%AD%B8%E6%A0%A1%E8%AA%9E%E6%96%87%E9%A0%98%E5%9F%9F%E2%94%80%E8%8B%B1%E8%AA%9E%E6%96%87.pdf",
+      "textIncluded": true,
+      "license": "Official MOE curriculum document (教育部令 issued regulation). Exempt from copyright under Taiwan Copyright Act art. 9(1)(1) as an official document; see PROVENANCE.md.",
+      "topicCount": 33,
+      "topics": [
+        {
+          "key": "tw-moe-108-english:Aa-Ⅱ-1",
+          "code": "Aa-Ⅱ-1",
+          "data": {
+            "title": "字母名稱",
+            "theme": "Aa",
+            "themeName": "語言知識—字母",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "字母名稱。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Aa-Ⅱ-2",
+          "code": "Aa-Ⅱ-2",
+          "data": {
+            "title": "印刷體大小寫字母的辨識及書寫",
+            "theme": "Aa",
+            "themeName": "語言知識—字母",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "印刷體大小寫字母的辨識及書寫。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅱ-1",
+          "code": "Ab-Ⅱ-1",
+          "data": {
+            "title": "子音、母音及其組合",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "子音、母音及其組合。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅱ-2",
+          "code": "Ab-Ⅱ-2",
+          "data": {
+            "title": "單音節、多音節，及重音音節",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "單音節、多音節，及重音音節。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅱ-3",
+          "code": "Ab-Ⅱ-3",
+          "data": {
+            "title": "片語及句子的重音",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "片語及句子的重音。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅱ-4",
+          "code": "Ab-Ⅱ-4",
+          "data": {
+            "title": "所學的字母拼讀規則（含看字讀音、聽音拼字）",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "所學的字母拼讀規則（含看字讀音、聽音拼字）。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ac-Ⅱ-1",
+          "code": "Ac-Ⅱ-1",
+          "data": {
+            "title": "簡易的教室用語",
+            "theme": "Ac",
+            "themeName": "語言知識—字詞",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "簡易的教室用語。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ac-Ⅱ-2",
+          "code": "Ac-Ⅱ-2",
+          "data": {
+            "title": "簡易的生活用語",
+            "theme": "Ac",
+            "themeName": "語言知識—字詞",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "簡易的生活用語。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ac-Ⅱ-3",
+          "code": "Ac-Ⅱ-3",
+          "data": {
+            "title": "第二學習階段所學字詞",
+            "theme": "Ac",
+            "themeName": "語言知識—字詞",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "第二學習階段所學字詞。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅲ-1",
+          "code": "Ab-Ⅲ-1",
+          "data": {
+            "title": "子音、母音及其組合",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "子音、母音及其組合。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅲ-2",
+          "code": "Ab-Ⅲ-2",
+          "data": {
+            "title": "單音節、多音節，及重音音節",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "單音節、多音節，及重音音節。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅲ-3",
+          "code": "Ab-Ⅲ-3",
+          "data": {
+            "title": "片語及句子的重音",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "片語及句子的重音。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅲ-4",
+          "code": "Ab-Ⅲ-4",
+          "data": {
+            "title": "句子的語調及節奏",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "句子的語調及節奏。",
+            "markers": "*"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ab-Ⅲ-5",
+          "code": "Ab-Ⅲ-5",
+          "data": {
+            "title": "所學的字母拼讀規則（含看字讀音、聽音拼字）",
+            "theme": "Ab",
+            "themeName": "語言知識—語音",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "所學的字母拼讀規則（含看字讀音、聽音拼字）。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ac-Ⅲ-1",
+          "code": "Ac-Ⅲ-1",
+          "data": {
+            "title": "校園內簡易的英文標示",
+            "theme": "Ac",
+            "themeName": "語言知識—字詞",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "校園內簡易的英文標示。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ac-Ⅲ-2",
+          "code": "Ac-Ⅲ-2",
+          "data": {
+            "title": "簡易的教室用語",
+            "theme": "Ac",
+            "themeName": "語言知識—字詞",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "簡易的教室用語。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ac-Ⅲ-3",
+          "code": "Ac-Ⅲ-3",
+          "data": {
+            "title": "簡易的生活用語",
+            "theme": "Ac",
+            "themeName": "語言知識—字詞",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "簡易的生活用語。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ac-Ⅲ-4",
+          "code": "Ac-Ⅲ-4",
+          "data": {
+            "title": "國小階段所學字詞（能聽、讀、說 300 字詞，其中必須拼寫 …",
+            "theme": "Ac",
+            "themeName": "語言知識—字詞",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "國小階段所學字詞（能聽、讀、說 300 字詞，其中必須拼寫 180 字詞）。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ad-Ⅲ-1",
+          "code": "Ad-Ⅲ-1",
+          "data": {
+            "title": "簡易標點符號",
+            "theme": "Ad",
+            "themeName": "語言知識—句構",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "簡易標點符號。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ad-Ⅲ-2",
+          "code": "Ad-Ⅲ-2",
+          "data": {
+            "title": "簡易、常用的句型結構",
+            "theme": "Ad",
+            "themeName": "語言知識—句構",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "簡易、常用的句型結構。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ae-Ⅲ-1",
+          "code": "Ae-Ⅲ-1",
+          "data": {
+            "title": "簡易歌謠、韻文、短文、故事及短劇",
+            "theme": "Ae",
+            "themeName": "語言知識—篇章",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "簡易歌謠、韻文、短文、故事及短劇。",
+            "markers": "*◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:B-Ⅱ-1",
+          "code": "B-Ⅱ-1",
+          "data": {
+            "title": "第二學習階段所學字詞及句型的生活溝通",
+            "theme": "B",
+            "themeName": "溝通功能",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "第二學習階段所學字詞及句型的生活溝通。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:Ae-Ⅲ-2",
+          "code": "Ae-Ⅲ-2",
+          "data": {
+            "title": "繪本故事、兒童短劇",
+            "theme": "Ae",
+            "themeName": "語言知識—篇章",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "繪本故事、兒童短劇。",
+            "markers": "*"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:B-Ⅲ-1",
+          "code": "B-Ⅲ-1",
+          "data": {
+            "title": "自己、家人及朋友的簡易介紹",
+            "theme": "B",
+            "themeName": "溝通功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "自己、家人及朋友的簡易介紹。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:B-Ⅲ-2",
+          "code": "B-Ⅲ-2",
+          "data": {
+            "title": "國小階段所學字詞及句型的生活溝通",
+            "theme": "B",
+            "themeName": "溝通功能",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "國小階段所學字詞及句型的生活溝通。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:C-Ⅱ-1",
+          "code": "C-Ⅱ-1",
+          "data": {
+            "title": "國內（外）招呼方式",
+            "theme": "C",
+            "themeName": "文化與習俗",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "國內（外）招呼方式。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:C-Ⅱ-2",
+          "code": "C-Ⅱ-2",
+          "data": {
+            "title": "國內外主要節慶習俗",
+            "theme": "C",
+            "themeName": "文化與習俗",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "國內外主要節慶習俗。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:D-Ⅱ-1",
+          "code": "D-Ⅱ-1",
+          "data": {
+            "title": "所學字詞的簡易歸類",
+            "theme": "D",
+            "themeName": "思考能力",
+            "learningStage": "Ⅱ (國小中年級, grades 3-4)",
+            "gradeLevel": "3-4",
+            "description": "所學字詞的簡易歸類。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:C-Ⅲ-1",
+          "code": "C-Ⅲ-1",
+          "data": {
+            "title": "國內（外）招呼方式",
+            "theme": "C",
+            "themeName": "文化與習俗",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "國內（外）招呼方式。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:C-Ⅲ-2",
+          "code": "C-Ⅲ-2",
+          "data": {
+            "title": "國內外主要節慶習俗",
+            "theme": "C",
+            "themeName": "文化與習俗",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "國內外主要節慶習俗。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:D-Ⅲ-1",
+          "code": "D-Ⅲ-1",
+          "data": {
+            "title": "所學字詞的簡易歸類",
+            "theme": "D",
+            "themeName": "思考能力",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "所學字詞的簡易歸類。",
+            "markers": "◎"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:D-Ⅲ-2",
+          "code": "D-Ⅲ-2",
+          "data": {
+            "title": "故事發展的排序",
+            "theme": "D",
+            "themeName": "思考能力",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "故事發展的排序。"
+          }
+        },
+        {
+          "key": "tw-moe-108-english:D-Ⅲ-3",
+          "code": "D-Ⅲ-3",
+          "data": {
+            "title": "依綜合資訊作簡易猜測",
+            "theme": "D",
+            "themeName": "思考能力",
+            "learningStage": "Ⅲ (國小高年級, grades 5-6)",
+            "gradeLevel": "5-6",
+            "description": "依綜合資訊作簡易猜測。"
           }
         }
       ]
