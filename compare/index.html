@@ -7,9 +7,9 @@
 <style>
   :root{
     --surface-1:#fcfcfb; --page:#f9f9f7;
-    --ink-1:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --ink-1:#0b0b0b; --ink-2:#52514e; --muted:#6f6d68;
     --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
-    --tw:#2a78d6; --up:#1baf7a; --both:#eda100; --none:#d9d8d2;
+    --tw:#1c5cab; --up:#087a54; --both:#8a5b00; --none:#d9d8d2;
     --accent-ink:#1c5cab;
   }
   @media (prefers-color-scheme:dark){:root{
@@ -28,12 +28,14 @@
   }
   :root[data-theme="light"]{
     --surface-1:#fcfcfb; --page:#f9f9f7;
-    --ink-1:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --ink-1:#0b0b0b; --ink-2:#52514e; --muted:#6f6d68;
     --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
-    --tw:#2a78d6; --up:#1baf7a; --both:#eda100; --none:#d9d8d2;
+    --tw:#1c5cab; --up:#087a54; --both:#8a5b00; --none:#d9d8d2;
     --accent-ink:#1c5cab;
   }
   *{box-sizing:border-box}
+  .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+    overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
   body{margin:0;background:var(--page);color:var(--ink-1);
     font:15px/1.6 system-ui,-apple-system,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif}
   main{max-width:980px;margin:0 auto;padding:40px 24px 64px}
@@ -79,6 +81,8 @@
   th{font-size:11px;letter-spacing:.06em;color:var(--muted);text-align:left;
     font-weight:600;padding:6px 8px;border-bottom:1px solid var(--baseline)}
   td{padding:6px 8px;border-bottom:1px solid var(--grid);vertical-align:middle}
+  tbody th{font-size:13px;letter-spacing:normal;color:var(--ink-1);font-weight:400;
+    border-bottom-color:var(--grid);vertical-align:middle}
   td.num{text-align:right;font-variant-numeric:tabular-nums}
   th.num{text-align:right}
   tr.subjhead td{font-weight:650;padding-top:14px;border-bottom:1px solid var(--baseline)}
@@ -101,6 +105,7 @@
     header h1{font-size:19px}
     .card{padding:14px}
     .seg{font-size:10px}
+    .stackrow .lab{flex-direction:column;align-items:flex-start}
     td,th{padding:8px 6px}
   }
 </style>
@@ -149,9 +154,10 @@
   <p class="sub">各科之下的領域層級：主題數、被台灣課綱／既有課綱對到的數量。
     同時作為上方圖表的表格檢視。</p>
   <div class="card tablewrap"><table id="domtable">
-    <thead><tr><th>領域</th><th class="num">主題數</th>
-      <th class="num">台灣課綱</th><th></th><th class="num">既有課綱</th><th></th>
-      <th class="num">兩者皆有</th></tr></thead>
+    <caption class="visually-hidden">領域明細</caption>
+    <thead><tr><th scope="col">領域</th><th scope="col" class="num">主題數</th>
+      <th scope="col" class="num">台灣課綱</th><th scope="col"><span class="visually-hidden">台灣覆蓋比例</span></th><th scope="col" class="num">既有課綱</th><th scope="col"><span class="visually-hidden">既有覆蓋比例</span></th>
+      <th scope="col" class="num">兩者皆有</th></tr></thead>
     <tbody></tbody>
   </table></div>
 </section>
@@ -161,7 +167,8 @@
   <p class="sub">當同一個微主題同時對到台灣標準與既有標準，兩個標準就透過該主題互相對照。
     以下是共享主題數最多的組合——這是把 108 課綱對接國際課綱的起點。</p>
   <div class="card tablewrap"><table id="xwtable">
-    <thead><tr><th>台灣 108 課綱</th><th>既有課綱標準</th><th class="num">共享主題</th></tr></thead>
+    <caption class="visually-hidden">跨課綱對照（crosswalk）</caption>
+    <thead><tr><th scope="col">台灣 108 課綱</th><th scope="col">既有課綱標準</th><th scope="col" class="num">共享主題</th></tr></thead>
     <tbody></tbody>
   </table></div>
 </section>
@@ -195,10 +202,13 @@ const XW = [["tw-moe-108-english:D-Ⅲ-2 ↔ uk-nc-2013:Eng/KS1/Y2/C/1c",3],["tw
 const tt = document.getElementById('tooltip');
 function tip(html, x, y){
   tt.innerHTML = html; tt.style.display='block';
-  tt.style.left = Math.min(innerWidth-260, x+14)+'px';
-  tt.style.top = (y+14)+'px';
+  const box = tt.getBoundingClientRect();
+  tt.style.left = Math.max(0,Math.min(innerWidth-box.width,x+14))+'px';
+  tt.style.top = Math.max(0,Math.min(innerHeight-box.height,y+14))+'px';
 }
 function untip(){ tt.style.display='none'; }
+document.addEventListener('scroll',untip,true);
+document.addEventListener('pointerdown',untip);
 
 // ---- stacked bars ----
 const stacks = document.getElementById('stacks');
@@ -247,7 +257,7 @@ function lineChart(subj){
   const path = a => a.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
   const dots = (a,color)=>a.map((v,i)=>
     `<circle cx="${x(i)}" cy="${y(v)}" r="3.5" fill="${color}" stroke="var(--surface-1)" stroke-width="2"
-       data-tip="${SUBJ[subj].zh} ${BANDS[i]} 歲" data-tw="${d.tw[i]}" data-up="${d.up[i]}" data-i="${i}"/>`).join('');
+       data-tip="${SUBJ[subj].zh} ${BANDS[i]} 歲" data-tw="${d.tw[i]}" data-up="${d.up[i]}"/>`).join('');
   const endLab = (a,color,dy)=>`<text x="${W-R+2}" y="${y(a[a.length-1])+dy}" font-size="9.5" fill="var(--ink-2)" text-anchor="end"> </text>`;
   return `<div class="multi"><h3>${SUBJ[subj].zh}</h3><p class="note">縱軸：該年齡帶主題被對到的比例</p>
     <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${SUBJ[subj].zh}年齡帶覆蓋率">
@@ -275,7 +285,6 @@ multis.addEventListener('pointerleave',untip);
 const tbody = document.querySelector('#domtable tbody');
 const zh = {Mathematics:'數學',Science:'自然科學',English:'英語文'};
 let cur = '';
-const maxN = Math.max(...DOM.map(r=>r.n));
 for (const r of DOM){
   if (r.subject!==cur){
     cur = r.subject;
@@ -285,9 +294,9 @@ for (const r of DOM){
   }
   const tr=document.createElement('tr');
   const bar=(v,color)=>`<span class="minibar" style="width:${Math.round(v/r.n*72)}px;background:${color}"></span>`;
-  tr.innerHTML=`<td>${r.domain}</td><td class="num">${r.n}</td>
-    <td class="num">${r.tw}</td><td>${bar(r.tw,'var(--tw)')}</td>
-    <td class="num">${r.up}</td><td>${bar(r.up,'var(--up)')}</td>
+  tr.innerHTML=`<th scope="row">${r.domain}</th><td class="num">${r.n}</td>
+    <td class="num">${r.tw}</td><td aria-hidden="true">${bar(r.tw,'var(--tw)')}</td>
+    <td class="num">${r.up}</td><td aria-hidden="true">${bar(r.up,'var(--up)')}</td>
     <td class="num">${r.both}</td>`;
   tbody.appendChild(tr);
 }
@@ -302,5 +311,3 @@ for (const [pair,count] of XW.slice(0,12)){
   xb.appendChild(tr);
 }
 </script>
-</body>
-</html>
