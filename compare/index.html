@@ -132,7 +132,7 @@
   <h2>各科覆蓋組成：誰對到了哪些主題</h2>
   <p class="sub">台灣課綱只涵蓋國小三個領域，因此僅列可比較的三科。每一段是主題數；
     「未對齊」代表該主題在兩邊都沒有任何課綱連結。</p>
-  <div class="legend" aria-hidden="true">
+  <div class="legend">
     <span><i style="background:var(--both)"></i>兩者皆有</span>
     <span><i style="background:var(--tw)"></i>僅台灣課綱</span>
     <span><i style="background:var(--up)"></i>僅既有課綱</span>
@@ -147,6 +147,7 @@
     最亮眼的是數學 8–12 歲：既有課綱只覆蓋 17–37%，台灣課綱補到 67–72%。
     英語文因台灣視英語為外語（小三起教），高年齡帶自然歸零。</p>
   <div class="multis" id="multis"></div>
+  <table class="visually-hidden" id="agetable"></table>
 </section>
 
 <section>
@@ -259,18 +260,29 @@ function lineChart(subj){
     `<circle cx="${x(i)}" cy="${y(v)}" r="3.5" fill="${color}" stroke="var(--surface-1)" stroke-width="2"
        data-tip="${SUBJ[subj].zh} ${BANDS[i]} 歲" data-tw="${d.tw[i]}" data-up="${d.up[i]}"/>`).join('');
   const endLab = (a,color,dy)=>`<text x="${W-R+2}" y="${y(a[a.length-1])+dy}" font-size="9.5" fill="var(--ink-2)" text-anchor="end"> </text>`;
+  const summary = (label,values)=>`${label}：${BANDS.map((b,i)=>`${b} 歲 ${values[i]}%`).join('、')}`;
   return `<div class="multi"><h3>${SUBJ[subj].zh}</h3><p class="note">縱軸：該年齡帶主題被對到的比例</p>
     <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${SUBJ[subj].zh}年齡帶覆蓋率">
+      <desc>${summary('台灣課綱',d.tw)}；${summary('既有課綱',d.up)}。</desc>
       ${grid}${ticks}${xlab}
-      <path d="${path(d.up)}" fill="none" stroke="var(--up)" stroke-width="2"/>
+      <path d="${path(d.up)}" fill="none" stroke="var(--up)" stroke-width="2" stroke-dasharray="5 3"/>
       <path d="${path(d.tw)}" fill="none" stroke="var(--tw)" stroke-width="2"/>
       ${dots(d.up,'var(--up)')}${dots(d.tw,'var(--tw)')}
     </svg></div>`;
 }
 multis.innerHTML = ['Mathematics','Science','English'].map(lineChart).join('')
   + `<div class="legend" style="grid-column:1/-1;margin:2px 4px 0">
-       <span><i style="background:var(--tw)"></i>台灣 108 課綱</span>
-       <span><i style="background:var(--up)"></i>既有課綱（main）</span></div>`;
+       <span><svg width="22" height="10" viewBox="0 0 22 10"><line x1="1" y1="5" x2="21" y2="5" stroke="var(--tw)" stroke-width="2"/></svg> 台灣 108 課綱</span>
+       <span><svg width="22" height="10" viewBox="0 0 22 10"><line x1="1" y1="5" x2="21" y2="5" stroke="var(--up)" stroke-width="2" stroke-dasharray="5 3"/></svg> 既有課綱（main）</span></div>`;
+
+const ageSubjects = Object.keys(AGE);
+const ageTable = document.getElementById('agetable');
+ageTable.innerHTML = `<caption>年齡帶覆蓋率完整資料</caption>
+  <thead><tr><th scope="col" rowspan="2">年齡帶</th>
+    ${ageSubjects.map(s=>`<th scope="colgroup" colspan="2">${SUBJ[s].zh}</th>`).join('')}</tr>
+  <tr>${ageSubjects.map(()=>'<th scope="col">台灣課綱%</th><th scope="col">既有課綱%</th>').join('')}</tr></thead>
+  <tbody>${BANDS.map((band,i)=>`<tr><th scope="row">${band} 歲</th>
+    ${ageSubjects.map(s=>`<td>${AGE[s].tw[i]}%</td><td>${AGE[s].up[i]}%</td>`).join('')}</tr>`).join('')}</tbody>`;
 multis.addEventListener('pointermove',e=>{
   const c = e.target.closest('circle[data-tip]');
   if (!c) { untip(); return; }

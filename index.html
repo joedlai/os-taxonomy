@@ -100,8 +100,9 @@
 
   #panel{top:0;right:0;bottom:0;width:288px;background:var(--panel);
     border-left:1px solid var(--hairline);backdrop-filter:blur(14px);
-    padding:24px 22px;box-sizing:border-box;overflow-y:auto;
+    box-sizing:border-box;display:flex;flex-direction:column;overflow:hidden;
     transform:translateX(102%);transition:transform .28s cubic-bezier(.2,.7,.2,1)}
+  #panelbody{overflow-y:auto;flex:1;padding:24px 22px;-webkit-overflow-scrolling:touch}
   #panel.open{transform:none}
   @media (prefers-reduced-motion:reduce){#panel{transition:none}}
   #panel .subject{display:inline-flex;align-items:center;gap:7px;font-size:11px;
@@ -136,6 +137,18 @@
     white-space:nowrap;flex:none}
   #twstds .none{color:var(--muted);font-size:12px;padding:2px 0}
   #panel .upnote{font-size:11px;color:var(--muted);margin:0 0 8px}
+  .lineage{margin:0 0 14px}
+  .lineage summary{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);cursor:pointer;padding:6px 0;min-height:32px}
+  .lineage summary:focus-visible{outline:1.5px solid var(--accent)}
+  .lineage ul{list-style:none;margin:4px 0 0;padding:0;max-height:230px;overflow-y:auto}
+  .lineage button{display:flex;gap:8px;align-items:center;width:100%;background:none;
+    border:none;color:var(--text);font:12.5px var(--body);padding:8px;margin:0 -8px;
+    border-radius:6px;cursor:pointer;text-align:left}
+  .lineage button:hover{background:rgba(255,217,138,.1)}
+  .lineage button:focus-visible{outline:1.5px solid var(--accent)}
+  .lineage .dot{width:6px;height:6px;border-radius:50%;flex:none}
+  .lineage .age{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--muted)}
   #closebtn{position:absolute;top:12px;right:12px;border:1px solid rgba(0,0,0,.55);
     color:#fff;font:700 17px/1 var(--body);cursor:pointer;width:46px;height:46px;
     border-radius:50%;background-color:#d2452f;
@@ -152,6 +165,29 @@
   #tip .t-sub{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
     display:block;margin-top:2px}
 
+  #toolbtns{right:26px;top:84px;display:flex;gap:10px}
+  #toolbtns .candy{min-height:40px;font-size:12.5px;padding:0 14px}
+  #listview{inset:0;background:rgba(6,9,17,.72);backdrop-filter:blur(4px);
+    display:flex;align-items:center;justify-content:center;pointer-events:auto}
+  #listview[hidden]{display:none}
+  .lv-box{width:min(560px,92vw);max-height:min(72vh,640px);max-height:min(72dvh,640px);
+    background:var(--panel);border:1px solid var(--hairline);border-radius:14px;
+    display:flex;flex-direction:column;padding:18px}
+  .lv-head{display:flex;gap:10px;align-items:center}
+  #lvfilter{flex:1;box-sizing:border-box;color:#1c2740;border-radius:999px;
+    background:linear-gradient(to bottom,#e9edf5,#ffffff 40%);
+    border:1px solid rgba(0,0,0,.55);padding:12px 18px;font:600 14px var(--body);outline:none;
+    box-shadow:inset 0 2px 4px rgba(0,0,0,.28)}
+  #lvfilter:focus{box-shadow:inset 0 2px 4px rgba(0,0,0,.28),0 0 0 3px rgba(255,196,60,.5)}
+  .lv-count{font-size:11px;color:var(--muted);margin:10px 2px 6px}
+  #lvlist{list-style:none;margin:0;padding:0;overflow-y:auto;flex:1}
+  #lvlist button{display:flex;gap:9px;align-items:center;width:100%;background:none;border:none;
+    color:var(--text);font:13px var(--body);padding:10px 8px;border-radius:7px;cursor:pointer;
+    text-align:left;min-height:42px}
+  #lvlist button:hover{background:rgba(255,217,138,.1)}
+  #lvlist button:focus-visible{outline:1.5px solid var(--accent)}
+  #lvlist .dot{width:7px;height:7px;border-radius:50%;flex:none}
+  #lvlist .age{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
   #colophon{right:26px;bottom:18px;text-align:right;font-size:10px;line-height:1.6;
     color:var(--muted)}
   #colophon a{color:var(--muted)}
@@ -163,6 +199,7 @@
     #masthead h1{font-size:17px}#masthead p{display:none}
     #searchbox{top:14px;right:16px;width:min(48vw,220px)}
     #searchbox input{padding:12px 14px;font-size:16px} /* 16px avoids iOS zoom */
+    #toolbtns{top:72px;right:16px}
     #agescale{display:none}#colophon{display:none}
     /* legend → horizontal scroll dock above the safe area */
     #legend{left:0;right:0;bottom:0;flex-direction:row;gap:8px;overflow-x:auto;
@@ -175,25 +212,25 @@
     .candy{flex:none;border-radius:999px}
     #twlens{margin-bottom:0!important}
     /* detail panel → bottom sheet */
-    #panel{top:auto;left:0;right:0;bottom:0;width:100%;height:min(60vh,480px);
+    #panel{top:auto;left:0;right:0;bottom:0;width:100%;
+      height:min(60vh,480px);height:min(60dvh,480px);
       transform:translateY(105%);border-left:none;border-top:1px solid var(--hairline);
-      border-radius:16px 16px 0 0;
-      padding:26px 20px calc(20px + env(safe-area-inset-bottom))}
+      border-radius:16px 16px 0 0}
+    #panelbody{padding:20px 20px calc(20px + env(safe-area-inset-bottom))}
     #panel.open{transform:none}
-    #panel::before{content:"";position:absolute;top:9px;left:50%;width:38px;height:4px;
-      border-radius:2px;background:var(--hairline);transform:translateX(-50%)}
   }
   @media (max-width:480px){
     /* narrow phones: full-width search stacked below the masthead, no overlap */
     #masthead{left:16px;right:16px;max-width:none}
     #searchbox{top:74px;left:16px;right:16px;width:auto}
+    #toolbtns{top:130px;right:16px}
   }
 </style>
 </head>
 <body>
 <canvas id="stage"></canvas>
 
-<header id="masthead" class="hud">
+<header id="masthead" class="hud" lang="en">
   <p class="eyebrow">Marble Skill Taxonomy · v1</p>
   <h1>The shape of what children learn</h1>
   <p><b>1,590 micro-topics</b> wired by <b>3,221 prerequisites</b>. Height is age;
@@ -201,10 +238,15 @@
      click a star to trace its lineage.</p>
 </header>
 
+<div id="toolbtns" class="hud">
+  <button id="listbtn" class="candy" style="--chipc:#46608c" aria-haspopup="dialog">☰ 清單檢視</button>
+  <button id="spinbtn" class="candy" style="--chipc:#3a7d5c" aria-pressed="true">⏸ 自轉</button>
+</div>
 <div id="searchbox" class="hud">
   <input id="q" type="search" placeholder="Search a concept…" autocomplete="off"
-         aria-label="Search topics">
-  <ul id="results" role="listbox"></ul>
+         role="combobox" aria-label="搜尋主題" aria-expanded="false"
+         aria-controls="results" aria-autocomplete="list">
+  <ul id="results" role="listbox" aria-label="搜尋結果"></ul>
 </div>
 
 <nav id="legend" class="hud" aria-label="Subjects">
@@ -218,10 +260,21 @@
   <span id="ageTop">13</span><div class="rule"></div><span id="ageBot">AGE 4</span>
 </div>
 
-<aside id="panel" class="hud" inert aria-hidden="true">
+<aside id="panel" class="hud" role="region" aria-labelledby="paneltitle" inert aria-hidden="true">
   <button id="closebtn" aria-label="關閉詳細資訊">✕</button>
   <div id="panelbody"></div>
 </aside>
+
+<section id="listview" class="hud" role="dialog" aria-modal="true" aria-label="主題清單" hidden>
+  <div class="lv-box">
+    <div class="lv-head">
+      <input id="lvfilter" type="search" placeholder="輸入以篩選 1,590 個主題…" aria-label="篩選主題">
+      <button id="lvclose" class="candy" style="--chipc:#d2452f;min-height:40px" aria-label="關閉清單">✕</button>
+    </div>
+    <p id="lvcount" class="lv-count" role="status"></p>
+    <ul id="lvlist"></ul>
+  </div>
+</section>
 
 <div id="tip" role="tooltip"></div>
 
@@ -269,13 +322,25 @@ const subjOn = SUBJECTS.map(()=>true);
 
 // ---------- canvas ----------
 const cv = document.getElementById('stage'), ctx = cv.getContext('2d');
-let W=0,H=0,DPR=1;
+let W=0,H=0,DPR=1, bgGrad=null, viewCX=0, viewCY=0;
+let needsRender = true;
+function requestRender(){ needsRender = true; }
+function layoutView(){
+  // keep the cloud centered in the viewport area the panel doesn't cover
+  const open = panel.classList.contains('open');
+  const desktop = W > 760;
+  viewCX = (W - (open && desktop ? 288 : 0)) / 2;
+  viewCY = (open && !desktop) ? (H - Math.min(H*0.6, 480)) / 2 : H / 2;
+}
 function resize(){
   DPR = Math.min(devicePixelRatio||1, 2);
   W = innerWidth; H = innerHeight;
   cv.width = W*DPR; cv.height = H*DPR;
   cv.style.width = W+'px'; cv.style.height = H+'px';
-  render();
+  bgGrad = ctx.createRadialGradient(W/2,H/2,80,W/2,H/2,Math.max(W,H)*.75);
+  bgGrad.addColorStop(0,'#0D1322'); bgGrad.addColorStop(1,'#0A0E19');
+  layoutView();
+  requestRender();
 }
 addEventListener('resize', resize);
 
@@ -293,8 +358,8 @@ function project(){
     const rz2=  y*sp + rz*cp;
     const d = dist + rz2;
     const s = f / Math.max(60, d);
-    px[i] = W/2 + rx*s;
-    py[i] = H/2 - ry*s;
+    px[i] = viewCX + rx*s;
+    py[i] = viewCY - ry*s;
     pz[i] = d;
     pr[i] = s;
   }
@@ -304,13 +369,12 @@ const order = new Uint16Array(N); for(let i=0;i<N;i++) order[i]=i;
 
 function nodeVisible(i){ return subjOn[nodes[i][1]]; }
 
+const PAD = 24; // off-screen cull margin
+function onScreen(i){ return px[i]>-PAD && px[i]<W+PAD && py[i]>-PAD && py[i]<H+PAD; }
 function render(){
   project();
   ctx.setTransform(DPR,0,0,DPR,0,0);
-  ctx.clearRect(0,0,W,H);
-  const g = ctx.createRadialGradient(W/2,H/2,80,W/2,H/2,Math.max(W,H)*.75);
-  g.addColorStop(0,'#0D1322'); g.addColorStop(1,'#0A0E19');
-  ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  ctx.fillStyle=bgGrad; ctx.fillRect(0,0,W,H);
 
   const focus = selected>=0;
   // edges: two passes when focused — faint context, bright lineage on top
@@ -318,6 +382,7 @@ function render(){
   for (const [a,b] of edges){
     if (!nodeVisible(a)||!nodeVisible(b)) continue;
     if (focus && pathEdges.has(a*10000+b)) continue;
+    if (!onScreen(a) && !onScreen(b)) continue;
     ctx.moveTo(px[a],py[a]); ctx.lineTo(px[b],py[b]);
   }
   ctx.strokeStyle = focus ? 'rgba(110,130,180,0.05)' : 'rgba(110,130,180,0.14)';
@@ -328,6 +393,7 @@ function render(){
     for (const [a,b] of edges){
       if (!pathEdges.has(a*10000+b)) continue;
       if (!nodeVisible(a)||!nodeVisible(b)) continue;
+      if (!onScreen(a) && !onScreen(b)) continue;
       ctx.moveTo(px[a],py[a]); ctx.lineTo(px[b],py[b]);
     }
     ctx.strokeStyle='rgba(255,217,138,0.55)'; ctx.lineWidth=1.1; ctx.stroke();
@@ -337,7 +403,7 @@ function render(){
   order.sort((a,b)=>pz[b]-pz[a]);
   for (let k=0;k<N;k++){
     const i = order[k];
-    if (!nodeVisible(i)) continue;
+    if (!nodeVisible(i) || !onScreen(i)) continue;
     const inPath = focus && (i===selected || ancestors.has(i));
     const twCovered = nodes[i][10].length > 0;
     let alpha = focus ? (inPath?1:0.10) : 0.92;
@@ -373,32 +439,37 @@ function select(i){
   selected = i;
   if (i<0){
     ancestors=null; pathEdges=null;
+    const wasOpen = panel.classList.contains('open');
     panel.classList.remove('open');
     panel.setAttribute('inert',''); panel.setAttribute('aria-hidden','true');
-    render(); return;
+    if (wasOpen && panelOpener?.isConnected) panelOpener.focus({preventScroll:true});
+    panelOpener = null;
+    layoutView(); requestRender(); return;
   }
   // selecting a topic in a filtered-out subject re-enables that subject
   if (!subjOn[nodes[i][1]]) setSubject(nodes[i][1], true);
   const {seen, pe} = traceAncestors(i);
   ancestors = seen; pathEdges = pe;
   showPanel(i);
-  render();
+  layoutView(); requestRender();
 }
 
 // ---------- panel ----------
 const panel = document.getElementById('panel');
 const panelbody = document.getElementById('panelbody');
 const esc = s => s.replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let panelOpener = null;
 function showPanel(i){
   const nd = nodes[i];
   const color = HUES[nd[1]];
   const direct = prereqOf[i];
+  if (!panel.classList.contains('open')) panelOpener = document.activeElement;
   const prereqItems = direct.length
     ? direct.map(p=>`<li><button data-goto="${p}"><span class="dot" style="background:${HUES[nodes[p][1]]}"></span>${esc(nodes[p][0])}</button></li>`).join('')
     : '<li class="none">A starting point — nothing comes before it.</li>';
   panelbody.innerHTML = `
     <span class="subject"><i style="background:${color}"></i>${esc(SUBJECTS[nd[1]])}</span>
-    <h2>${esc(nd[0])}</h2>
+    <h2 id="paneltitle" tabindex="-1">${esc(nd[0])}</h2>
     <p class="domain">${esc(nd[2])} · ages ${nd[3]}–${nd[4]}</p>
     <p class="desc">${esc(nd[9])}${nd[9].length>=170?'…':''}</p>
     <div id="stats">
@@ -408,6 +479,10 @@ function showPanel(i){
     </div>
     <h3>Comes after</h3>
     <ul id="prereqs">${prereqItems}</ul>
+    ${ancestors.size ? `<details class="lineage"><summary>完整先修鏈（${ancestors.size} 個主題）</summary>
+      <ul>${[...ancestors].sort((a,b)=>(nodes[a][3]-nodes[b][3])||nodes[a][0].localeCompare(nodes[b][0]))
+        .map(p=>`<li><button data-goto="${p}"><span class="dot" style="background:${HUES[nodes[p][1]]}"></span>${esc(nodes[p][0])}<span class="age">${nodes[p][3]}–${nodes[p][4]}</span></button></li>`).join('')}
+      </ul></details>` : ''}
     <h3>台灣 108 課綱對齊</h3>
     <ul id="twstds">${
       nd[10].length
@@ -417,6 +492,7 @@ function showPanel(i){
     <p class="upnote">${nd[11] ? `另有 ${nd[11]} 條其他課綱標準（CCSS／UK NC／NGSS 等）` : '無其他課綱對齊'}</p>`;
   panel.classList.add('open');
   panel.removeAttribute('inert'); panel.removeAttribute('aria-hidden');
+  document.getElementById('paneltitle').focus({preventScroll:true});
   panelbody.querySelectorAll('[data-goto]').forEach(b=>
     b.addEventListener('click',()=>select(+b.dataset.goto)));
 }
@@ -428,9 +504,15 @@ twBtn.addEventListener('click',()=>{
   twLens = !twLens;
   twBtn.classList.toggle('on', twLens);
   twBtn.setAttribute('aria-pressed', String(twLens));
-  render();
+  requestRender();
 });
-addEventListener('keydown',e=>{ if(e.key==='Escape'){ select(-1); q.blur(); }});
+addEventListener('keydown',e=>{
+  if (e.key!=='Escape') return;
+  if (results.style.display==='block') return;      // combobox handles it
+  const lv=document.getElementById('listview');
+  if (!lv.hidden){ closeListView(); return; }
+  select(-1); q.blur();
+});
 
 // ---------- legend ----------
 const legend = document.getElementById('legend');
@@ -452,7 +534,7 @@ SUBJECTS.forEach((s,i)=>{
     // hiding the selected topic's subject clears the selection & stale hover
     if (selected>=0 && !nodeVisible(selected)) select(-1);
     if (hovered>=0 && !nodeVisible(hovered)){ hovered=-1; tip.style.display='none'; }
-    render();
+    requestRender();
   });
   legend.appendChild(b);
   chipEls.push(b);
@@ -461,31 +543,51 @@ SUBJECTS.forEach((s,i)=>{
 // ---------- search ----------
 const q = document.getElementById('q'), results = document.getElementById('results');
 let resIdx = -1, resIds = [];
+function closeResults(){
+  results.style.display='none';
+  q.setAttribute('aria-expanded','false');
+  q.removeAttribute('aria-activedescendant');
+  resIdx=-1;
+}
+function setActive(k){
+  const lis=[...results.querySelectorAll('li')];
+  resIdx=k;
+  lis.forEach((li,j)=>{
+    li.classList.toggle('active',j===k);
+    li.setAttribute('aria-selected',String(j===k));
+  });
+  if (k>=0 && lis[k]){
+    q.setAttribute('aria-activedescendant',lis[k].id);
+    lis[k].scrollIntoView({block:'nearest'});
+  } else q.removeAttribute('aria-activedescendant');
+}
 function runSearch(){
   const v = q.value.trim().toLowerCase();
-  results.innerHTML=''; resIds=[]; resIdx=-1;
-  if (v.length<2){ results.style.display='none'; return; }
+  results.innerHTML=''; resIds=[];
+  if (v.length<2){ closeResults(); return; }
   for (let i=0;i<N && resIds.length<9;i++)
     if (nodes[i][0].toLowerCase().includes(v)) resIds.push(i);
-  if (!resIds.length){ results.style.display='none'; return; }
-  results.innerHTML = resIds.map(i=>
-    `<li role="option" data-i="${i}"><span class="dot" style="background:${HUES[nodes[i][1]]}"></span>
+  if (!resIds.length){ closeResults(); return; }
+  results.innerHTML = resIds.map((i,k)=>
+    `<li role="option" id="opt-${k}" aria-selected="false" data-i="${i}"><span class="dot" style="background:${HUES[nodes[i][1]]}"></span>
      ${esc(nodes[i][0])}<span class="age">${nodes[i][3]}–${nodes[i][4]}</span></li>`).join('');
   results.style.display='block';
+  q.setAttribute('aria-expanded','true');
+  setActive(-1);
   results.querySelectorAll('li').forEach(li=>
-    li.addEventListener('click',()=>{ select(+li.dataset.i); results.style.display='none'; q.blur(); }));
+    li.addEventListener('click',()=>{ select(+li.dataset.i); closeResults(); q.blur(); }));
 }
 q.addEventListener('input',runSearch);
 q.addEventListener('keydown',e=>{
   const lis = [...results.querySelectorAll('li')];
-  if (e.key==='ArrowDown'){ resIdx=Math.min(resIdx+1,lis.length-1); e.preventDefault(); }
-  else if (e.key==='ArrowUp'){ resIdx=Math.max(resIdx-1,0); e.preventDefault(); }
-  else if (e.key==='Enter' && resIdx>=0 && lis[resIdx]){ lis[resIdx].click(); return; }
-  else return;
-  lis.forEach((li,k)=>li.classList.toggle('active',k===resIdx));
+  if (e.key==='Escape'){ closeResults(); return; }
+  if (!lis.length) return;
+  if (e.key==='ArrowDown'){ setActive(Math.min(resIdx+1,lis.length-1)); e.preventDefault(); }
+  else if (e.key==='ArrowUp'){ setActive(Math.max(resIdx-1,0)); e.preventDefault(); }
+  else if (e.key==='Enter' && resIdx>=0 && lis[resIdx]){ lis[resIdx].click(); }
 });
 document.addEventListener('click',e=>{
-  if (!e.target.closest('#searchbox')) results.style.display='none';
+  if (!e.target.closest('#searchbox')) closeResults();
 });
 
 // ---------- pointer (drag / tap / pinch) ----------
@@ -518,21 +620,21 @@ cv.addEventListener('pointermove',e=>{
     // pinch zoom
     const [a,b]=[...pts.values()];
     const d=Math.hypot(a.x-b.x,a.y-b.y);
-    if (pinchD>0){ dist=Math.max(310,Math.min(1300,dist*pinchD/d)); auto=false; render(); }
+    if (pinchD>0){ dist=Math.max(310,Math.min(1300,dist*pinchD/d)); auto=false; requestRender(); }
     pinchD=d; moved=true;
     return;
   }
   if (dragging){
     const dx=e.clientX-lx, dy=e.clientY-ly;
     travel += Math.abs(dx)+Math.abs(dy);
-    if (travel>6) { moved=true; auto=false; }
+    if (travel>6) { moved=true; if(auto){auto=false;syncSpinBtn();} }
     yaw += dx*0.005; pitch = Math.max(-1.2,Math.min(1.2,pitch+dy*0.004));
-    lx=e.clientX; ly=e.clientY; render();
+    lx=e.clientX; ly=e.clientY; requestRender();
   } else if (e.pointerType==='mouse') {
     // hover pick (mouse only)
     const best=pickAt(e.clientX,e.clientY,144);
     if (best!==hovered){
-      hovered=best; render();
+      hovered=best; requestRender();
       if (best>=0){
         tip.style.display='block';
         tip.innerHTML=`${esc(nodes[best][0])}<span class="t-sub" style="color:${HUES[nodes[best][1]]}">${esc(SUBJECTS[nodes[best][1]])} · ${nodes[best][3]}–${nodes[best][4]}</span>`;
@@ -561,12 +663,12 @@ function endPointer(e){
 }
 cv.addEventListener('pointerup',endPointer);
 cv.addEventListener('pointercancel',endPointer);
-cv.addEventListener('pointerleave',()=>{ hovered=-1; tip.style.display='none'; render(); });
+cv.addEventListener('pointerleave',()=>{ hovered=-1; tip.style.display='none'; requestRender(); });
 const MIN_DIST = 310; // model radius ~245 + near margin: camera stays outside the cloud
 cv.addEventListener('wheel',e=>{
-  e.preventDefault(); auto=false;
+  e.preventDefault(); if(auto){auto=false;syncSpinBtn();}
   dist = Math.max(MIN_DIST,Math.min(1300, dist * (1 + Math.sign(e.deltaY)*0.08)));
-  render();
+  requestRender();
 },{passive:false});
 
 // ---------- loop: time-based rotation, render only when needed ----------
@@ -576,13 +678,62 @@ function tick(now){
   lastT = now;
   if (auto && !dragging && selected<0 && hovered<0 && !document.hidden){
     yaw += 0.00011 * dt;   // ≈ same speed at 60Hz, framerate-independent
-    render();
+    needsRender = true;
   }
+  if (needsRender){ render(); needsRender = false; }
   requestAnimationFrame(tick);
 }
 matchMedia('(prefers-reduced-motion:reduce)').addEventListener?.('change',e=>{
   if (e.matches) auto=false;
 });
+// ---------- list view (accessible equivalent of the canvas) ----------
+const lv = document.getElementById('listview');
+const lvlist = document.getElementById('lvlist');
+const lvfilter = document.getElementById('lvfilter');
+const lvcount = document.getElementById('lvcount');
+let lvOpener = null;
+function renderList(){
+  const v = lvfilter.value.trim().toLowerCase();
+  const hits = [];
+  for (let i=0;i<N && hits.length<120;i++){
+    if (!v || nodes[i][0].toLowerCase().includes(v) || nodes[i][2].toLowerCase().includes(v)) hits.push(i);
+  }
+  lvcount.textContent = v
+    ? `符合「${lvfilter.value.trim()}」的前 ${hits.length} 筆（最多顯示 120 筆）`
+    : `全部 ${N} 個主題（顯示前 120 筆，輸入關鍵字篩選）`;
+  lvlist.innerHTML = hits.map(i=>
+    `<li><button data-i="${i}"><span class="dot" style="background:${HUES[nodes[i][1]]}"></span>
+      <span>${esc(nodes[i][0])} <span style="color:var(--muted);font-size:11px">${esc(nodes[i][2])}</span></span>
+      <span class="age">${nodes[i][3]}–${nodes[i][4]}</span></button></li>`).join('');
+  lvlist.querySelectorAll('button').forEach(b=>
+    b.addEventListener('click',()=>{ closeListView(); select(+b.dataset.i); }));
+}
+function openListView(){
+  lvOpener = document.activeElement;
+  lv.hidden = false; renderList(); lvfilter.focus();
+}
+function closeListView(){
+  lv.hidden = true;
+  if (lvOpener?.isConnected) lvOpener.focus({preventScroll:true});
+  lvOpener = null;
+}
+document.getElementById('listbtn').addEventListener('click',openListView);
+document.getElementById('lvclose').addEventListener('click',closeListView);
+lv.addEventListener('click',e=>{ if(e.target===lv) closeListView(); });
+lvfilter.addEventListener('input',renderList);
+
+// ---------- auto-rotation toggle ----------
+const spinBtn = document.getElementById('spinbtn');
+function syncSpinBtn(){
+  spinBtn.textContent = auto ? '⏸ 自轉' : '▶ 自轉';
+  spinBtn.setAttribute('aria-pressed', String(auto));
+}
+spinBtn.addEventListener('click',()=>{ auto=!auto; syncSpinBtn(); requestRender(); });
+syncSpinBtn();
+
+// the canvas is decorative now that the list view mirrors its content
+cv.setAttribute('aria-hidden','true');
+
 resize();
 requestAnimationFrame(tick);
 </script>
