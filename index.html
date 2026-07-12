@@ -30,10 +30,14 @@
   #masthead p b{color:var(--text);font-weight:600}
 
   #searchbox{top:22px;right:26px;width:250px}
-  #searchbox input{width:100%;box-sizing:border-box;background:var(--panel);color:var(--text);
-    border:1px solid var(--hairline);border-radius:8px;padding:9px 12px;font:13px var(--body);
-    outline:none;backdrop-filter:blur(8px)}
-  #searchbox input:focus{border-color:var(--accent)}
+  #searchbox input{width:100%;box-sizing:border-box;color:#1c2740;
+    background:linear-gradient(to bottom,#e9edf5,#ffffff 40%);
+    border:1px solid rgba(0,0,0,.55);border-radius:999px;padding:14px 20px;
+    font:600 14px var(--body);outline:none;
+    box-shadow:inset 0 2px 4px rgba(0,0,0,.28), 0 1px 0 rgba(255,255,255,.12), 0 2px 5px rgba(0,0,0,.4)}
+  #searchbox input::placeholder{color:#7c87a0}
+  #searchbox input:focus{box-shadow:inset 0 2px 4px rgba(0,0,0,.28),
+    0 0 0 3px rgba(255,196,60,.5), 0 2px 5px rgba(0,0,0,.4)}
   #results{list-style:none;margin:6px 0 0;padding:4px;background:var(--panel);
     border:1px solid var(--hairline);border-radius:8px;backdrop-filter:blur(8px);
     max-height:290px;overflow-y:auto;display:none}
@@ -43,20 +47,38 @@
   #results .dot{width:7px;height:7px;border-radius:50%;flex:none;align-self:center}
   #results .age{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
 
-  #legend{left:26px;bottom:24px;display:flex;flex-direction:column;gap:5px}
+  #legend{left:26px;bottom:24px;display:flex;flex-direction:column;gap:9px}
+  #twlens{background-color:#f5a800!important;color:#2c1e00!important;
+    text-shadow:0 1px 0 rgba(255,255,255,.35)!important;font-size:15px!important;
+    min-height:52px!important}
+  #twlens.on{background-image:linear-gradient(to bottom,rgba(0,0,0,.22),rgba(255,255,255,.10));
+    box-shadow:inset 0 2px 7px rgba(0,0,0,.45), 0 0 14px rgba(255,196,60,.55)}
+  #twlens .swatch{display:none}
   #legend .hint{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
     color:var(--muted);margin-bottom:3px}
-  .chip{display:flex;align-items:center;gap:8px;background:none;border:none;color:var(--text);
-    font:13px var(--body);padding:7px 10px;margin:0 -10px;border-radius:8px;cursor:pointer;
-    text-align:left;min-height:34px}
-  .chip:hover{background:rgba(133,148,190,.1)}
-  .chip:focus-visible{outline:1.5px solid var(--accent)}
-  .chip .swatch{width:9px;height:9px;border-radius:50%;flex:none;
-    box-shadow:0 0 7px 0 currentColor}
-  .chip .n{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-left:2px}
-  .chip.off{opacity:.32}
-  .chip.off .swatch{box-shadow:none;background:transparent!important;
-    border:1px solid currentColor}
+  /* — big web 2.0 candy buttons — */
+  .chip{display:flex;align-items:center;gap:10px;border:1px solid rgba(0,0,0,.55);
+    color:#fff;font:700 14px/1 var(--body);padding:0 18px;margin:0;min-height:46px;
+    border-radius:12px;cursor:pointer;text-align:left;
+    background-color:var(--chipc,#46608c);
+    background-image:linear-gradient(to bottom,
+      rgba(255,255,255,.38), rgba(255,255,255,.10) 46%,
+      rgba(0,0,0,.16) 54%, rgba(0,0,0,.30));
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.25),
+      0 2px 5px rgba(0,0,0,.5);
+    text-shadow:0 -1px 1px rgba(0,0,0,.4);
+    transition:filter .1s}
+  .chip:hover{filter:brightness(1.12)}
+  .chip:active{background-image:linear-gradient(to bottom,rgba(0,0,0,.28),rgba(255,255,255,.04));
+    box-shadow:inset 0 2px 6px rgba(0,0,0,.55);transform:translateY(1px)}
+  .chip:focus-visible{outline:2px solid #fff;outline-offset:2px}
+  .chip .swatch{display:none}
+  .chip .n{font:700 11.5px/1 var(--body);color:#1c2740;margin-left:auto;
+    background:rgba(255,255,255,.88);border-radius:999px;padding:4px 9px;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,.2)}
+  .chip.off{background-color:#3a4150;color:rgba(255,255,255,.45);
+    text-shadow:none;box-shadow:inset 0 1px 3px rgba(0,0,0,.4)}
+  .chip.off .n{background:rgba(255,255,255,.25);color:rgba(255,255,255,.5)}
 
   #agescale{left:33px;top:50%;transform:translateY(-58%);text-align:center;
     color:var(--muted);font-family:var(--mono);font-size:10px;line-height:1;
@@ -102,10 +124,14 @@
     white-space:nowrap;flex:none}
   #twstds .none{color:var(--muted);font-size:12px;padding:2px 0}
   #panel .upnote{font-size:11px;color:var(--muted);margin:0 0 8px}
-  #closebtn{position:absolute;top:10px;right:10px;background:none;border:none;
-    color:var(--muted);font-size:19px;cursor:pointer;padding:10px 14px;border-radius:8px;
-    min-width:44px;min-height:44px}
-  #closebtn:hover{color:var(--text);background:rgba(133,148,190,.12)}
+  #closebtn{position:absolute;top:12px;right:12px;border:1px solid rgba(0,0,0,.55);
+    color:#fff;font:700 17px/1 var(--body);cursor:pointer;width:46px;height:46px;
+    border-radius:50%;background-color:#d2452f;
+    background-image:linear-gradient(to bottom,rgba(255,255,255,.35),rgba(255,255,255,.06) 46%,rgba(0,0,0,.2) 54%,rgba(0,0,0,.3));
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.5), 0 2px 5px rgba(0,0,0,.5);
+    text-shadow:0 -1px 1px rgba(0,0,0,.4)}
+  #closebtn:hover{filter:brightness(1.12)}
+  #closebtn:active{box-shadow:inset 0 2px 6px rgba(0,0,0,.55)}
   #closebtn:focus-visible{outline:1.5px solid var(--accent)}
 
   #tip{position:fixed;z-index:4;pointer-events:none;background:var(--panel);
@@ -132,8 +158,7 @@
       background:linear-gradient(to top,rgba(10,14,25,.92) 65%,transparent);
       -webkit-overflow-scrolling:touch}
     #legend .hint{display:none}
-    .chip{flex:none;margin:0;background:var(--panel);border:1px solid var(--hairline);
-      border-radius:999px;padding:10px 15px;min-height:42px}
+    .chip{flex:none;border-radius:999px}
     #twlens{margin-bottom:0!important}
     /* detail panel → bottom sheet */
     #panel{top:auto;left:0;right:0;bottom:0;width:100%;height:min(60vh,480px);
@@ -164,9 +189,8 @@
 </div>
 
 <nav id="legend" class="hud" aria-label="Subjects">
-  <button id="twlens" class="chip" aria-pressed="false" style="color:#FFD98A;margin-bottom:7px">
-    <span class="swatch" style="background:#FFD98A"></span>
-    <span style="color:var(--text)">台灣課綱檢視 <span style="color:var(--muted)">108課綱</span></span>
+  <button id="twlens" class="chip" aria-pressed="false" style="margin-bottom:4px">
+    <span>🇹🇼 台灣課綱檢視</span>
   </button>
   <div class="hint">Subjects — click to filter</div>
 </nav>
@@ -369,9 +393,8 @@ document.getElementById('closebtn').addEventListener('click',()=>select(-1));
 const twBtn = document.getElementById('twlens');
 twBtn.addEventListener('click',()=>{
   twLens = !twLens;
-  twBtn.classList.toggle('off', false);
+  twBtn.classList.toggle('on', twLens);
   twBtn.setAttribute('aria-pressed', String(twLens));
-  twBtn.style.background = twLens ? 'rgba(255,217,138,.14)' : '';
   render();
 });
 addEventListener('keydown',e=>{ if(e.key==='Escape'){ select(-1); q.blur(); }});
@@ -381,9 +404,8 @@ const legend = document.getElementById('legend');
 const counts = SUBJECTS.map((_,s)=>nodes.filter(n=>n[1]===s).length);
 SUBJECTS.forEach((s,i)=>{
   const b = document.createElement('button');
-  b.className='chip'; b.style.color=HUES[i];
-  b.innerHTML=`<span class="swatch" style="background:${HUES[i]}"></span>
-    <span style="color:var(--text)">${esc(s)}</span><span class="n">${counts[i]}</span>`;
+  b.className='chip'; b.style.setProperty('--chipc', HUES[i]);
+  b.innerHTML=`<span>${esc(s)}</span><span class="n">${counts[i]}</span>`;
   b.setAttribute('aria-pressed','true');
   b.addEventListener('click',()=>{
     subjOn[i]=!subjOn[i];
