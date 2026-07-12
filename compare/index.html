@@ -1,0 +1,290 @@
+<title>台灣108課綱 × Marble 主線 — 覆蓋對比</title>
+<style>
+  :root{
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --ink-1:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+    --tw:#2a78d6; --up:#1baf7a; --both:#eda100; --none:#d9d8d2;
+    --accent-ink:#1c5cab;
+  }
+  @media (prefers-color-scheme:dark){:root{
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --ink-1:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --tw:#3987e5; --up:#199e70; --both:#c98500; --none:#3a3a37;
+    --accent-ink:#86b6ef;
+  }}
+  :root[data-theme="dark"]{
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --ink-1:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --tw:#3987e5; --up:#199e70; --both:#c98500; --none:#3a3a37;
+    --accent-ink:#86b6ef;
+  }
+  :root[data-theme="light"]{
+    --surface-1:#fcfcfb; --page:#f9f9f7;
+    --ink-1:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+    --tw:#2a78d6; --up:#1baf7a; --both:#eda100; --none:#d9d8d2;
+    --accent-ink:#1c5cab;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--page);color:var(--ink-1);
+    font:15px/1.6 system-ui,-apple-system,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif}
+  main{max-width:980px;margin:0 auto;padding:40px 24px 64px}
+  header h1{font-size:24px;line-height:1.3;margin:0 0 8px;text-wrap:balance}
+  header .basis{font-size:13px;color:var(--ink-2);margin:0 0 4px}
+  header .basis code{font-family:ui-monospace,Menlo,monospace;font-size:12px;
+    background:var(--surface-1);border:1px solid var(--ring);border-radius:4px;padding:1px 6px}
+  section{margin-top:36px}
+  h2{font-size:16px;margin:0 0 4px}
+  .sub{font-size:13px;color:var(--ink-2);margin:0 0 16px;max-width:64ch}
+  .card{background:var(--surface-1);border:1px solid var(--ring);border-radius:10px;padding:20px}
+
+  /* stat tiles */
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+  .tile{background:var(--surface-1);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
+  .tile b{display:block;font-size:26px;font-weight:650;line-height:1.2;color:var(--accent-ink)}
+  .tile span{font-size:12px;color:var(--ink-2)}
+  .tile small{display:block;font-size:11px;color:var(--muted);margin-top:2px}
+
+  /* legend */
+  .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--ink-2);margin:0 0 14px}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+
+  /* stacked bars */
+  .stackrow{margin-bottom:14px}
+  .stackrow .lab{display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px}
+  .stackrow .lab b{font-weight:600}
+  .stackrow .lab span{color:var(--muted);font-variant-numeric:tabular-nums;font-size:12px}
+  .stack{display:flex;gap:2px;height:26px;border-radius:5px;overflow:hidden}
+  .seg{position:relative;display:flex;align-items:center;justify-content:center;
+    font-size:11px;font-weight:600;color:#fff;min-width:2px;cursor:default}
+  .seg.none{color:var(--ink-2)}
+
+  /* small multiples */
+  .multis{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+  .multi{background:var(--surface-1);border:1px solid var(--ring);border-radius:10px;padding:14px 14px 8px}
+  .multi h3{font-size:13.5px;margin:0 0 2px}
+  .multi .note{font-size:11.5px;color:var(--muted);margin:0 0 6px}
+  .multi svg{width:100%;height:auto;display:block}
+
+  /* tables */
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{font-size:11px;letter-spacing:.06em;color:var(--muted);text-align:left;
+    font-weight:600;padding:6px 8px;border-bottom:1px solid var(--baseline)}
+  td{padding:6px 8px;border-bottom:1px solid var(--grid);vertical-align:middle}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  th.num{text-align:right}
+  tr.subjhead td{font-weight:650;padding-top:14px;border-bottom:1px solid var(--baseline)}
+  .minibar{display:inline-block;height:8px;border-radius:2px;vertical-align:middle;margin-right:6px}
+  .tablewrap{overflow-x:auto}
+  .codechip{font-family:ui-monospace,Menlo,monospace;font-size:12px;background:var(--page);
+    border:1px solid var(--ring);border-radius:4px;padding:1px 6px;white-space:nowrap}
+
+  #tooltip{position:fixed;z-index:9;pointer-events:none;display:none;background:var(--surface-1);
+    border:1px solid var(--ring);border-radius:7px;box-shadow:0 4px 14px rgba(0,0,0,.14);
+    padding:8px 10px;font-size:12.5px;max-width:240px}
+  #tooltip b{display:block}
+  #tooltip .row{display:flex;gap:8px;justify-content:space-between;color:var(--ink-2)}
+  #tooltip .row i{width:8px;height:8px;border-radius:2px;display:inline-block;margin-right:5px}
+
+  footer{margin-top:44px;font-size:12px;color:var(--muted);line-height:1.7}
+  footer a{color:var(--muted)}
+</style>
+<main>
+<header>
+  <h1>台灣 108 課綱 × Marble Skill Taxonomy：對主線資料的覆蓋對比</h1>
+  <p class="basis">比較基準：<code>marble/main</code>（7 個課綱，無台灣資料）vs.
+    <code>feat/tw-moe-108-curriculum</code>（新增數學、自然科學、英語文三領域國小學習內容）。</p>
+  <p class="basis">「既有課綱」= 主線的 7 個來源（UK NC、CCSS Math/ELA、NGSS、C3、IB PYP）合併計。</p>
+</header>
+
+<section>
+  <div class="tiles">
+    <div class="tile"><b>+3</b><span>新增課綱來源</span><small>7 → 10（數學／自然／英語文）</small></div>
+    <div class="tile"><b>+291</b><span>新增標準條目</span><small>3,261 → 3,552（全文收錄）</small></div>
+    <div class="tile"><b>+692</b><span>新增主題↔標準連結</span><small>1,859 → 2,551（+37%）</small></div>
+    <div class="tile"><b>232</b><span>首次獲得對齊的主題</span><small>主線中無任何課綱對到、由台灣課綱補上</small></div>
+  </div>
+</section>
+
+<section>
+  <h2>各科覆蓋組成：誰對到了哪些主題</h2>
+  <p class="sub">台灣課綱只涵蓋國小三個領域，因此僅列可比較的三科。每一段是主題數；
+    「未對齊」代表該主題在兩邊都沒有任何課綱連結。</p>
+  <div class="legend" aria-hidden="true">
+    <span><i style="background:var(--both)"></i>兩者皆有</span>
+    <span><i style="background:var(--tw)"></i>僅台灣課綱</span>
+    <span><i style="background:var(--up)"></i>僅既有課綱</span>
+    <span><i style="background:var(--none)"></i>未對齊</span>
+  </div>
+  <div class="card" id="stacks"></div>
+</section>
+
+<section>
+  <h2>年齡帶覆蓋率：台灣課綱補上了主線的哪一段</h2>
+  <p class="sub">每格為該科在該年齡帶的主題中，各自被兩邊課綱對到的比例。
+    最亮眼的是數學 8–12 歲：既有課綱只覆蓋 17–37%，台灣課綱補到 67–72%。
+    英語文因台灣視英語為外語（小三起教），高年齡帶自然歸零。</p>
+  <div class="multis" id="multis"></div>
+</section>
+
+<section>
+  <h2>領域明細</h2>
+  <p class="sub">各科之下的領域層級：主題數、被台灣課綱／既有課綱對到的數量。
+    同時作為上方圖表的表格檢視。</p>
+  <div class="card tablewrap"><table id="domtable">
+    <thead><tr><th>領域</th><th class="num">主題數</th>
+      <th class="num">台灣課綱</th><th></th><th class="num">既有課綱</th><th></th>
+      <th class="num">兩者皆有</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>跨課綱對照（crosswalk）</h2>
+  <p class="sub">當同一個微主題同時對到台灣標準與既有標準，兩個標準就透過該主題互相對照。
+    以下是共享主題數最多的組合——這是把 108 課綱對接國際課綱的起點。</p>
+  <div class="card tablewrap"><table id="xwtable">
+    <thead><tr><th>台灣 108 課綱</th><th>既有課綱標準</th><th class="num">共享主題</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+</section>
+
+<footer>
+  <a href="../">← 回 3D 星圖 Explorer</a><br>
+  資料：Marble Skill Taxonomy v1（ODbL 1.0 資料庫 / CC BY-SA 4.0 內容）· © Generative Spark, Inc. ·
+  <a href="https://withmarble.com" target="_blank" rel="noopener">withmarble.com</a><br>
+  台灣標準：教育部《十二年國民基本教育課程綱要》數學／自然科學／語文-英語文（2018，著作權法第 9 條公文不受著作權保護）。
+  主題↔標準對齊由模型輔助產生（precision-over-recall），數字為 branch 快照。
+</footer>
+</main>
+<div id="tooltip" role="tooltip"></div>
+
+<script>
+'use strict';
+const SUBJ = {
+  Mathematics:{zh:'數學', both:196, twOnly:155, upOnly:74, neither:78, n:503},
+  Science:{zh:'自然科學', both:125, twOnly:76, upOnly:128, neither:218, n:547},
+  English:{zh:'英語文', both:38, twOnly:1, upOnly:207, neither:40, n:286},
+};
+const BANDS = ['4–6','6–8','8–10','10–12','12–14'];
+const AGE = {
+  Mathematics:{tw:[68,82,72,67,33], up:[86,87,17,37,96]},
+  Science:{tw:[21,31,45,40,17], up:[28,25,30,43,65]},
+  English:{tw:[40,24,9,0,0], up:[86,81,85,98,100]},
+};
+const DOM = [{"subject":"English","domain":"Grammar & Punctuation","n":75,"tw":3,"up":63,"both":3},{"subject":"English","domain":"Reading Comprehension","n":72,"tw":6,"up":64,"both":6},{"subject":"English","domain":"Writing Composition","n":38,"tw":0,"up":29,"both":0},{"subject":"English","domain":"Spelling & Word Study","n":24,"tw":5,"up":22,"both":5},{"subject":"English","domain":"Phonics & Word Reading","n":23,"tw":17,"up":21,"both":16},{"subject":"English","domain":"Speaking & Listening","n":21,"tw":2,"up":21,"both":2},{"subject":"English","domain":"Vocabulary","n":21,"tw":3,"up":20,"both":3},{"subject":"English","domain":"English Thinking","n":7,"tw":0,"up":0,"both":0},{"subject":"English","domain":"Handwriting & Transcription","n":5,"tw":3,"up":5,"both":3},{"subject":"Mathematics","domain":"Geometry","n":69,"tw":50,"up":39,"both":25},{"subject":"Mathematics","domain":"Measurement","n":68,"tw":59,"up":37,"both":33},{"subject":"Mathematics","domain":"Fractions","n":67,"tw":62,"up":18,"both":18},{"subject":"Mathematics","domain":"Multiplication & Division","n":57,"tw":44,"up":34,"both":27},{"subject":"Mathematics","domain":"Addition & Subtraction","n":52,"tw":51,"up":46,"both":45},{"subject":"Mathematics","domain":"Number Representation & Place Value","n":52,"tw":38,"up":38,"both":29},{"subject":"Mathematics","domain":"Mathematical Thinking","n":48,"tw":10,"up":0,"both":0},{"subject":"Mathematics","domain":"Algebra","n":25,"tw":5,"up":19,"both":1},{"subject":"Mathematics","domain":"Data & Statistics","n":18,"tw":12,"up":9,"both":6},{"subject":"Mathematics","domain":"Ratio & Proportion","n":18,"tw":13,"up":10,"both":7},{"subject":"Mathematics","domain":"Probability","n":15,"tw":2,"up":6,"both":0},{"subject":"Mathematics","domain":"Counting & Cardinality","n":14,"tw":5,"up":14,"both":5},{"subject":"Science","domain":"Organisms & Life Processes","n":63,"tw":27,"up":57,"both":24},{"subject":"Science","domain":"Matter & Materials","n":40,"tw":20,"up":36,"both":17},{"subject":"Science","domain":"Ecosystems & Habitats","n":36,"tw":23,"up":32,"both":20},{"subject":"Science","domain":"Scientific Inquiry","n":30,"tw":5,"up":24,"both":5},{"subject":"Science","domain":"Weather & Climate","n":30,"tw":10,"up":3,"both":2},{"subject":"Science","domain":"Dinosaurs & Paleontology","n":29,"tw":3,"up":2,"both":2},{"subject":"Science","domain":"Energy","n":28,"tw":20,"up":24,"both":17},{"subject":"Science","domain":"Volcanoes & Earthquakes","n":28,"tw":5,"up":1,"both":1},{"subject":"Science","domain":"Animals of the World","n":27,"tw":6,"up":0,"both":0},{"subject":"Science","domain":"Forces & Motion","n":27,"tw":20,"up":23,"both":16},{"subject":"Science","domain":"Ocean Life","n":27,"tw":9,"up":0,"both":0},{"subject":"Science","domain":"Space Exploration","n":26,"tw":4,"up":0,"both":0},{"subject":"Science","domain":"Polar Regions","n":25,"tw":6,"up":0,"both":0},{"subject":"Science","domain":"Rainforests","n":25,"tw":9,"up":0,"both":0},{"subject":"Science","domain":"The Human Body","n":25,"tw":3,"up":0,"both":0},{"subject":"Science","domain":"Waves, Light & Sound","n":25,"tw":7,"up":22,"both":7},{"subject":"Science","domain":"Insects & Minibeasts","n":22,"tw":8,"up":0,"both":0},{"subject":"Science","domain":"Earth's Systems","n":18,"tw":11,"up":15,"both":9},{"subject":"Science","domain":"Space Systems & Earth's History","n":16,"tw":5,"up":14,"both":5}];
+const XW = [["tw-moe-108-english:D-Ⅲ-2 ↔ uk-nc-2013:Eng/KS1/Y2/C/1c",3],["tw-moe-108-math:N-1-2 ↔ uk-nc-2013:Maths/Y1/AS/4",3],["tw-moe-108-math:N-1-2 ↔ ccss-math:K.OA.1",3],["tw-moe-108-math:N-1-3 ↔ uk-nc-2013:Maths/Y1/AS/2",3],["tw-moe-108-english:Ab-Ⅱ-4 ↔ ccss-ela:RF.1.3.b",2],["tw-moe-108-english:Ab-Ⅱ-4 ↔ uk-nc-2013:Eng_App1_Y1_04",2],["tw-moe-108-english:Ab-Ⅱ-1 ↔ ccss-ela:RF.1.3.c",2],["tw-moe-108-english:Ab-Ⅱ-4 ↔ uk-nc-2013:Eng_App1_Y2_01",2],["tw-moe-108-english:D-Ⅲ-2 ↔ ccss-ela:RL.1.3",2],["tw-moe-108-english:D-Ⅲ-2 ↔ ccss-ela:RL.1.2",2],["tw-moe-108-english:D-Ⅱ-1 ↔ ccss-ela:L.1.5a",2],["tw-moe-108-english:D-Ⅲ-1 ↔ ccss-ela:L.1.5a",2],["tw-moe-108-math:N-1-2 ↔ uk-nc-2013:Maths/Y1/AS/1",2],["tw-moe-108-math:N-1-3 ↔ ccss-math:1.OA.6",2],["tw-moe-108-math:R-2-4 ↔ ccss-math:1.OA.4",2]];
+
+const tt = document.getElementById('tooltip');
+function tip(html, x, y){
+  tt.innerHTML = html; tt.style.display='block';
+  tt.style.left = Math.min(innerWidth-260, x+14)+'px';
+  tt.style.top = (y+14)+'px';
+}
+function untip(){ tt.style.display='none'; }
+
+// ---- stacked bars ----
+const stacks = document.getElementById('stacks');
+const SEGS = [
+  ['both','兩者皆有','var(--both)'],
+  ['twOnly','僅台灣課綱','var(--tw)'],
+  ['upOnly','僅既有課綱','var(--up)'],
+  ['neither','未對齊','var(--none)'],
+];
+for (const [key,d] of Object.entries(SUBJ)){
+  const row = document.createElement('div'); row.className='stackrow';
+  const twTotal = d.both + d.twOnly;
+  row.innerHTML = `<div class="lab"><b>${d.zh} <span style="color:var(--muted);font-weight:400">${key}</span></b>
+    <span>台灣課綱覆蓋 ${twTotal}/${d.n}（${Math.round(twTotal/d.n*100)}%）</span></div>`;
+  const bar = document.createElement('div'); bar.className='stack';
+  for (const [f,label,color] of SEGS){
+    const v = d[f];
+    const seg = document.createElement('div');
+    seg.className = 'seg'+(f==='neither'?' none':'');
+    seg.style.background = color;
+    seg.style.flex = v+' 0 0%';
+    if (v/d.n > 0.12) seg.textContent = v;
+    seg.addEventListener('pointermove',e=>tip(
+      `<b>${d.zh} · ${label}</b><div class="row"><span>${v} 個主題</span><span>${(v/d.n*100).toFixed(1)}%</span></div>`,
+      e.clientX,e.clientY));
+    seg.addEventListener('pointerleave',untip);
+    bar.appendChild(seg);
+  }
+  row.appendChild(bar); stacks.appendChild(row);
+}
+
+// ---- age-band small multiples ----
+const multis = document.getElementById('multis');
+function lineChart(subj){
+  const W=300,H=170,L=30,R=8,T=14,B=26;
+  const x=i=>L+(W-L-R)*i/(BANDS.length-1);
+  const y=v=>T+(H-T-B)*(1-v/100);
+  const d = AGE[subj];
+  let grid='',ticks='';
+  for (const g of [0,50,100]){
+    grid += `<line x1="${L}" y1="${y(g)}" x2="${W-R}" y2="${y(g)}" stroke="var(--grid)" stroke-width="1"/>`;
+    ticks += `<text x="${L-5}" y="${y(g)+3.5}" text-anchor="end" font-size="9.5" fill="var(--muted)">${g}%</text>`;
+  }
+  let xlab='';
+  BANDS.forEach((b,i)=>{ xlab += `<text x="${x(i)}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="var(--muted)">${b}</text>`; });
+  const path = a => a.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
+  const dots = (a,color)=>a.map((v,i)=>
+    `<circle cx="${x(i)}" cy="${y(v)}" r="3.5" fill="${color}" stroke="var(--surface-1)" stroke-width="2"
+       data-tip="${SUBJ[subj].zh} ${BANDS[i]} 歲" data-tw="${d.tw[i]}" data-up="${d.up[i]}" data-i="${i}"/>`).join('');
+  const endLab = (a,color,dy)=>`<text x="${W-R+2}" y="${y(a[a.length-1])+dy}" font-size="9.5" fill="var(--ink-2)" text-anchor="end"> </text>`;
+  return `<div class="multi"><h3>${SUBJ[subj].zh}</h3><p class="note">縱軸：該年齡帶主題被對到的比例</p>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${SUBJ[subj].zh}年齡帶覆蓋率">
+      ${grid}${ticks}${xlab}
+      <path d="${path(d.up)}" fill="none" stroke="var(--up)" stroke-width="2"/>
+      <path d="${path(d.tw)}" fill="none" stroke="var(--tw)" stroke-width="2"/>
+      ${dots(d.up,'var(--up)')}${dots(d.tw,'var(--tw)')}
+    </svg></div>`;
+}
+multis.innerHTML = ['Mathematics','Science','English'].map(lineChart).join('')
+  + `<div class="legend" style="grid-column:1/-1;margin:2px 4px 0">
+       <span><i style="background:var(--tw)"></i>台灣 108 課綱</span>
+       <span><i style="background:var(--up)"></i>既有課綱（main）</span></div>`;
+multis.addEventListener('pointermove',e=>{
+  const c = e.target.closest('circle[data-tip]');
+  if (!c) { untip(); return; }
+  tip(`<b>${c.dataset.tip}</b>
+    <div class="row"><span><i style="background:var(--tw)"></i>台灣課綱</span><span>${c.dataset.tw}%</span></div>
+    <div class="row"><span><i style="background:var(--up)"></i>既有課綱</span><span>${c.dataset.up}%</span></div>`,
+    e.clientX,e.clientY);
+});
+multis.addEventListener('pointerleave',untip);
+
+// ---- domain table ----
+const tbody = document.querySelector('#domtable tbody');
+const zh = {Mathematics:'數學',Science:'自然科學',English:'英語文'};
+let cur = '';
+const maxN = Math.max(...DOM.map(r=>r.n));
+for (const r of DOM){
+  if (r.subject!==cur){
+    cur = r.subject;
+    const tr=document.createElement('tr'); tr.className='subjhead';
+    tr.innerHTML=`<td colspan="7">${zh[cur]} <span style="color:var(--muted);font-weight:400">${cur}</span></td>`;
+    tbody.appendChild(tr);
+  }
+  const tr=document.createElement('tr');
+  const bar=(v,color)=>`<span class="minibar" style="width:${Math.round(v/r.n*72)}px;background:${color}"></span>`;
+  tr.innerHTML=`<td>${r.domain}</td><td class="num">${r.n}</td>
+    <td class="num">${r.tw}</td><td>${bar(r.tw,'var(--tw)')}</td>
+    <td class="num">${r.up}</td><td>${bar(r.up,'var(--up)')}</td>
+    <td class="num">${r.both}</td>`;
+  tbody.appendChild(tr);
+}
+
+// ---- crosswalk table ----
+const xb = document.querySelector('#xwtable tbody');
+for (const [pair,count] of XW.slice(0,12)){
+  const [a,b]=pair.split(' ↔ ');
+  const tr=document.createElement('tr');
+  tr.innerHTML=`<td><span class="codechip">${a.replace('tw-moe-108-','')}</span></td>
+    <td><span class="codechip">${b}</span></td><td class="num">${count}</td>`;
+  xb.appendChild(tr);
+}
+</script>
