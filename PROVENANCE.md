@@ -29,6 +29,12 @@ For encumbered sources we ship only the **standard code** (e.g. `1-ESS1-1`) and 
 - **Required notice (if referencing NGSS):** *"NGSS is a registered trademark of WestEd. Neither WestEd nor the lead states and partners that developed the Next Generation Science Standards were involved in the production of this product, and do not endorse it."*
 - **We ship:** codes/keys only (verbatim text omitted). To include full NGSS text, obtain WestEd clearance first.
 
+### 🟢 `tw-moe-108-math` — 十二年國民基本教育課程綱要 數學領域 (Taiwan, "108課綱") — **full text**
+- **Publisher / rights:** Ministry of Education, Taiwan (中華民國教育部); developed with the National Academy for Educational Research (國家教育研究院). Issued by ministerial decree (教育部令) in June 2018.
+- **License:** the curriculum guidelines are issued as official regulatory documents. Under [Article 9(1)(1) of Taiwan's Copyright Act](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=J0070017) (著作權法第9條), "the constitution, acts, regulations, or official documents" may not be the subject of copyright — they are public domain in Taiwan. Taiwan government open-data releases are otherwise covered by the [Open Government Data License v1.0](https://data.gov.tw/en/license) (OGDL-Taiwan-1.0, one-way compatible with CC BY 4.0).
+- **Suggested notice:** *"資料來源：教育部《十二年國民基本教育課程綱要 國民中小學暨普通型高級中等學校 — 數學領域》(2018)。"*
+- **We ship:** full standard text — the 學習內容 (learning content) items for grades 1–6 (themes N 數與量 / S 空間與形狀 / R 關係 / D 資料與不確定性), each with its aligned 學習表現 (learning performance) codes. Extracted from the official PDF; 備註 (remarks) and 參考教具 (teaching aids) columns are not included.
+
 ### 🔴 `c3-social-studies` — C3 Framework for Social Studies — **codes only**
 - **Publisher / rights:** © National Council for the Social Studies (NCSS).
 - **License:** permission-based; redistribution of the framework text requires NCSS permission.

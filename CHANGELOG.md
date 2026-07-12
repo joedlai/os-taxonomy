@@ -4,6 +4,11 @@ All notable changes to the Marble Skill Taxonomy dataset are documented here.
 Dataset releases are versioned independently of the taxonomy `version` field
 (the underlying taxonomy is `v1`).
 
+## [Unreleased]
+
+### Added
+- **Taiwan 108課綱 mathematics** (`tw-moe-108-math`): the 131 elementary (grades 1–6) 學習內容 standards from 十二年國民基本教育課程綱要 — 數學領域, with full text (official government document, public domain under Taiwan Copyright Act art. 9) and topic↔standard links for the Mathematics subject. See [PROVENANCE.md](PROVENANCE.md).
+
 ## [1.0.0] — 2026-07-08
 
 Initial public release.

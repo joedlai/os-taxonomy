@@ -21,23 +21,23 @@
       "Science": 547
     },
     "dependencies": 3221,
-    "curricula": 7,
-    "curriculumStandards": 3261,
-    "topicStandardLinks": 1859,
+    "curricula": 8,
+    "curriculumStandards": 3392,
+    "topicStandardLinks": 2270,
     "clusters": 183
   },
   "files": {
     "topics.json": {
-      "bytes": 1667462,
-      "sha256": "2d99fc3b5e57d9ddb86b6c179b58a1b0390f048d9798585fe03b13cbc183719b"
+      "bytes": 1682018,
+      "sha256": "67e6dfe15cf1f5c79b3e7a4e4a09e91c2464bea8b888df1cb01f81d9c0e5c9eb"
     },
     "dependencies.json": {
       "bytes": 696944,
       "sha256": "86a24efb44b480e5be23082b4bdea653f69f6d6fd54c5409a2f33c185be1d87f"
     },
     "curriculum-standards.json": {
-      "bytes": 1621982,
-      "sha256": "33a835abaafa68ed736f2102d5502ff030d6448dc55ae45718be05a78f5fc73f"
+      "bytes": 1697430,
+      "sha256": "b65967a6ac38ca85785a6daebf25e529669a52ee29679205dcf6ea514424ab7e"
     },
     "clusters.json": {
       "bytes": 61019,
