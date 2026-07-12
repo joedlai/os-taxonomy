@@ -291,6 +291,8 @@
 const DATA = JSON.parse(document.getElementById('graphdata').textContent);
 const SUBJECTS = DATA.subjects;
 const HUES = ['#56C8F5','#F5B454','#F06FA8','#C9895B','#9F8DF2','#66D9A6','#4FE3CF','#D9DE71'];
+const SUBJ_ZH = ['科學','數學','英語文','歷史','個人與社會發展','生活技能','資訊科技','學會學習'];
+const subjLabel = i => `${SUBJ_ZH[i]} ${SUBJECTS[i]}`;
 const N = DATA.nodes.length;
 const nodes = DATA.nodes; // [name, subj, domain, a0, a1, x, y, z, centrality, desc]
 const edges = DATA.edges; // [topic, prereq, hard]
@@ -468,7 +470,7 @@ function showPanel(i){
     ? direct.map(p=>`<li><button data-goto="${p}"><span class="dot" style="background:${HUES[nodes[p][1]]}"></span>${esc(nodes[p][0])}</button></li>`).join('')
     : '<li class="none">A starting point — nothing comes before it.</li>';
   panelbody.innerHTML = `
-    <span class="subject"><i style="background:${color}"></i>${esc(SUBJECTS[nd[1]])}</span>
+    <span class="subject"><i style="background:${color}"></i>${esc(subjLabel(nd[1]))}</span>
     <h2 id="paneltitle" tabindex="-1">${esc(nd[0])}</h2>
     <p class="domain">${esc(nd[2])} · ages ${nd[3]}–${nd[4]}</p>
     <p class="desc">${esc(nd[9])}${nd[9].length>=170?'…':''}</p>
@@ -527,7 +529,7 @@ SUBJECTS.forEach((s,i)=>{
   const b = document.createElement('button');
   b.className='chip'; b.style.color=HUES[i];
   b.innerHTML=`<span class="swatch" style="background:${HUES[i]}"></span>
-    <span style="color:var(--text)">${esc(s)}</span><span class="n">${counts[i]}</span>`;
+    <span style="color:var(--text)">${esc(SUBJ_ZH[i])} <span style="color:var(--muted);font-size:11px">${esc(s)}</span></span><span class="n">${counts[i]}</span>`;
   b.setAttribute('aria-pressed','true');
   b.addEventListener('click',()=>{
     setSubject(i, !subjOn[i]);
@@ -637,7 +639,7 @@ cv.addEventListener('pointermove',e=>{
       hovered=best; requestRender();
       if (best>=0){
         tip.style.display='block';
-        tip.innerHTML=`${esc(nodes[best][0])}<span class="t-sub" style="color:${HUES[nodes[best][1]]}">${esc(SUBJECTS[nodes[best][1]])} · ${nodes[best][3]}–${nodes[best][4]}</span>`;
+        tip.innerHTML=`${esc(nodes[best][0])}<span class="t-sub" style="color:${HUES[nodes[best][1]]}">${esc(subjLabel(nodes[best][1]))} · ${nodes[best][3]}–${nodes[best][4]}</span>`;
       } else tip.style.display='none';
     }
     if (best>=0){
@@ -696,14 +698,15 @@ function renderList(){
   const v = lvfilter.value.trim().toLowerCase();
   const hits = [];
   for (let i=0;i<N && hits.length<120;i++){
-    if (!v || nodes[i][0].toLowerCase().includes(v) || nodes[i][2].toLowerCase().includes(v)) hits.push(i);
+    if (!v || nodes[i][0].toLowerCase().includes(v) || nodes[i][2].toLowerCase().includes(v)
+        || SUBJ_ZH[nodes[i][1]].includes(v) || SUBJECTS[nodes[i][1]].toLowerCase().includes(v)) hits.push(i);
   }
   lvcount.textContent = v
     ? `符合「${lvfilter.value.trim()}」的前 ${hits.length} 筆（最多顯示 120 筆）`
     : `全部 ${N} 個主題（顯示前 120 筆，輸入關鍵字篩選）`;
   lvlist.innerHTML = hits.map(i=>
     `<li><button data-i="${i}"><span class="dot" style="background:${HUES[nodes[i][1]]}"></span>
-      <span>${esc(nodes[i][0])} <span style="color:var(--muted);font-size:11px">${esc(nodes[i][2])}</span></span>
+      <span>${esc(nodes[i][0])} <span style="color:var(--muted);font-size:11px">${esc(SUBJ_ZH[nodes[i][1]])}·${esc(nodes[i][2])}</span></span>
       <span class="age">${nodes[i][3]}–${nodes[i][4]}</span></button></li>`).join('');
   lvlist.querySelectorAll('button').forEach(b=>
     b.addEventListener('click',()=>{ closeListView(); select(+b.dataset.i); }));
