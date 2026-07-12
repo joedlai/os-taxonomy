@@ -70,7 +70,7 @@
   .seg.none{color:var(--ink-2)}
 
   /* small multiples */
-  .multis{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+  .multis{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px}
   .multi{background:var(--surface-1);border:1px solid var(--ring);border-radius:10px;padding:14px 14px 8px}
   .multi h3{font-size:13.5px;margin:0 0 2px}
   .multi .note{font-size:11.5px;color:var(--muted);margin:0 0 6px}
@@ -125,16 +125,17 @@
 
 <section>
   <div class="tiles">
+    <div class="tile"><b>57.5 → 74.9%</b><span>三科合併後的主題覆蓋率</span><small>768 → 1,000／1,336 個主題（+17.4pp）</small></div>
+    <div class="tile"><b>232</b><span>首次獲得對齊的主題</span><small>數學 155／自然 76／英語 1</small></div>
     <div class="tile"><b>+3</b><span>新增課綱來源</span><small>7 → 10（數學／自然／英語文）</small></div>
-    <div class="tile"><b>+291</b><span>新增標準條目</span><small>3,261 → 3,552（全文收錄）</small></div>
-    <div class="tile"><b>+692</b><span>新增主題↔標準連結</span><small>1,859 → 2,551（+37%）</small></div>
-    <div class="tile"><b>232</b><span>首次獲得對齊的主題</span><small>主線中無任何課綱對到、由台灣課綱補上</small></div>
+    <div class="tile"><b>+291 / +692</b><span>新增標準／連結（次要指標）</span><small>連結數受標準切分粒度影響，僅供收錄診斷</small></div>
   </div>
 </section>
 
 <section>
   <h2>各科覆蓋組成：誰對到了哪些主題</h2>
-  <p class="sub">台灣課綱只涵蓋國小三個領域，因此僅列可比較的三科。每一段是主題數；
+  <p class="sub">台灣課綱只涵蓋國小三個領域，因此僅列可比較的三科。
+    <b>條寬為該科內的占比、格內數字為主題數</b>（三條的總主題數不同：503／547／286）；
     「未對齊」代表該主題在兩邊都沒有任何課綱連結。</p>
   <div class="legend">
     <span><i style="background:var(--both)"></i>兩者皆有</span>
@@ -146,10 +147,11 @@
 </section>
 
 <section>
-  <h2>年齡帶覆蓋率：台灣課綱補上了主線的哪一段</h2>
-  <p class="sub">每格為該科在該年齡帶的主題中，各自被兩邊課綱對到的比例。
-    最亮眼的是數學 8–12 歲：既有課綱只覆蓋 17–37%，台灣課綱補到 67–72%。
-    英語文因台灣視英語為外語（小三起教），高年齡帶自然歸零。</p>
+  <h2>合併前後的覆蓋率：main → 加入台灣課綱之後</h2>
+  <p class="sub">依主題「建議年齡中點」分成互斥的五組（每個主題只算一次），
+    比較合併前（main，虛線）與合併後（實線）各組被任一課綱對到的比例。
+    最大的變化在數學 9–10 歲：17% → 76%。英語文幾乎不變——多數主題原本就有 CCSS ELA 對齊，
+    且台灣國小英語文標準（外語課程）只有 33 條。</p>
   <div class="multis" id="multis"></div>
   <table class="visually-hidden" id="agetable"></table>
 </section>
@@ -183,7 +185,7 @@
   資料：Marble Skill Taxonomy v1（ODbL 1.0 資料庫 / CC BY-SA 4.0 內容）· © Generative Spark, Inc. ·
   <a href="https://withmarble.com" target="_blank" rel="noopener">withmarble.com</a><br>
   台灣標準：教育部《十二年國民基本教育課程綱要》數學／自然科學／語文-英語文（2018，著作權法第 9 條公文不受著作權保護）。
-  主題↔標準對齊由模型輔助產生（precision-over-recall），數字為 branch 快照。
+  主題↔標準對齊由模型輔助產生（precision-over-recall，未逐項人工審查）。版本：main@96a7933 vs feat/tw-moe-108-curriculum@c4943eb · 頁面產生於 2026-07-13。
 </footer>
 </main>
 <div id="tooltip" role="tooltip"></div>
@@ -195,12 +197,14 @@ const SUBJ = {
   Science:{zh:'自然科學', both:125, twOnly:76, upOnly:128, neither:218, n:547},
   English:{zh:'英語文', both:38, twOnly:1, upOnly:207, neither:40, n:286},
 };
-const BANDS = ['4–6','6–8','8–10','10–12','12–14'];
+const BANDS = ['≈5–6歲','≈7–8','≈9–10','≈11–12','≈13+'];
+// mutually exclusive bins by topic age midpoint; each topic counted once
 const AGE = {
-  Mathematics:{tw:[68,82,72,67,33], up:[86,87,17,37,96]},
-  Science:{tw:[21,31,45,40,17], up:[28,25,30,43,65]},
-  English:{tw:[40,24,9,0,0], up:[86,81,85,98,100]},
+  Mathematics:{n:[59,133,157,117,37], main:[51,115,27,42,35], merged:[52,120,119,99,35]},
+  Science:{n:[95,137,158,80,77], main:[25,46,66,63,53], merged:[37,72,101,65,54]},
+  English:{n:[45,74,86,49,32], main:[37,59,69,48,32], merged:[37,60,69,48,32]},
 };
+const pct=(c,n)=>n?Math.round(c/n*100):0;
 const DOM = [{"subject":"English","domain":"Grammar & Punctuation","n":75,"tw":3,"up":63,"both":3},{"subject":"English","domain":"Reading Comprehension","n":72,"tw":6,"up":64,"both":6},{"subject":"English","domain":"Writing Composition","n":38,"tw":0,"up":29,"both":0},{"subject":"English","domain":"Spelling & Word Study","n":24,"tw":5,"up":22,"both":5},{"subject":"English","domain":"Phonics & Word Reading","n":23,"tw":17,"up":21,"both":16},{"subject":"English","domain":"Speaking & Listening","n":21,"tw":2,"up":21,"both":2},{"subject":"English","domain":"Vocabulary","n":21,"tw":3,"up":20,"both":3},{"subject":"English","domain":"English Thinking","n":7,"tw":0,"up":0,"both":0},{"subject":"English","domain":"Handwriting & Transcription","n":5,"tw":3,"up":5,"both":3},{"subject":"Mathematics","domain":"Geometry","n":69,"tw":50,"up":39,"both":25},{"subject":"Mathematics","domain":"Measurement","n":68,"tw":59,"up":37,"both":33},{"subject":"Mathematics","domain":"Fractions","n":67,"tw":62,"up":18,"both":18},{"subject":"Mathematics","domain":"Multiplication & Division","n":57,"tw":44,"up":34,"both":27},{"subject":"Mathematics","domain":"Addition & Subtraction","n":52,"tw":51,"up":46,"both":45},{"subject":"Mathematics","domain":"Number Representation & Place Value","n":52,"tw":38,"up":38,"both":29},{"subject":"Mathematics","domain":"Mathematical Thinking","n":48,"tw":10,"up":0,"both":0},{"subject":"Mathematics","domain":"Algebra","n":25,"tw":5,"up":19,"both":1},{"subject":"Mathematics","domain":"Data & Statistics","n":18,"tw":12,"up":9,"both":6},{"subject":"Mathematics","domain":"Ratio & Proportion","n":18,"tw":13,"up":10,"both":7},{"subject":"Mathematics","domain":"Probability","n":15,"tw":2,"up":6,"both":0},{"subject":"Mathematics","domain":"Counting & Cardinality","n":14,"tw":5,"up":14,"both":5},{"subject":"Science","domain":"Organisms & Life Processes","n":63,"tw":27,"up":57,"both":24},{"subject":"Science","domain":"Matter & Materials","n":40,"tw":20,"up":36,"both":17},{"subject":"Science","domain":"Ecosystems & Habitats","n":36,"tw":23,"up":32,"both":20},{"subject":"Science","domain":"Scientific Inquiry","n":30,"tw":5,"up":24,"both":5},{"subject":"Science","domain":"Weather & Climate","n":30,"tw":10,"up":3,"both":2},{"subject":"Science","domain":"Dinosaurs & Paleontology","n":29,"tw":3,"up":2,"both":2},{"subject":"Science","domain":"Energy","n":28,"tw":20,"up":24,"both":17},{"subject":"Science","domain":"Volcanoes & Earthquakes","n":28,"tw":5,"up":1,"both":1},{"subject":"Science","domain":"Animals of the World","n":27,"tw":6,"up":0,"both":0},{"subject":"Science","domain":"Forces & Motion","n":27,"tw":20,"up":23,"both":16},{"subject":"Science","domain":"Ocean Life","n":27,"tw":9,"up":0,"both":0},{"subject":"Science","domain":"Space Exploration","n":26,"tw":4,"up":0,"both":0},{"subject":"Science","domain":"Polar Regions","n":25,"tw":6,"up":0,"both":0},{"subject":"Science","domain":"Rainforests","n":25,"tw":9,"up":0,"both":0},{"subject":"Science","domain":"The Human Body","n":25,"tw":3,"up":0,"both":0},{"subject":"Science","domain":"Waves, Light & Sound","n":25,"tw":7,"up":22,"both":7},{"subject":"Science","domain":"Insects & Minibeasts","n":22,"tw":8,"up":0,"both":0},{"subject":"Science","domain":"Earth's Systems","n":18,"tw":11,"up":15,"both":9},{"subject":"Science","domain":"Space Systems & Earth's History","n":16,"tw":5,"up":14,"both":5}];
 const XW = [{"tw":"english:D-Ⅲ-2","up":"uk-nc-2013:Eng/KS1/Y2/C/1c","topics":[["mt_sSQlLOnAow","Characters, settings, and events"],["mt_zlSoIKPyId","Retelling Stories with Structure"],["mt_VEwM7ClYYE","Story Sequence and Central Message"]],"n":3},{"tw":"math:N-1-2","up":"ccss-math:K.OA.1","topics":[["mt_OvyoRo47K-","Addition as combining or putting together two"],["mt_PgsHGYJMH-","Representing Addition and Subtraction"],["mt_zuKAX6lcYR","Subtraction as taking away or separating"]],"n":3},{"tw":"math:N-1-2","up":"uk-nc-2013:Maths/Y1/AS/4","topics":[["mt_yJmvUCCym7","Addition and subtraction word problems"],["mt_PgsHGYJMH-","Representing Addition and Subtraction"],["mt_VAWV_l7J0D","Early Word Problems"]],"n":3},{"tw":"math:N-1-3","up":"uk-nc-2013:Maths/Y1/AS/2","topics":[["mt_e8CZ7E5qW7","Number bonds to 9"],["mt_7XcCG43ZZW","Numbers up to 10 into pairs"],["mt_s2mfRBoTal","Number bonds"]],"n":3},{"tw":"english:Ab-Ⅱ-1","up":"ccss-ela:RF.1.3.c","topics":[["mt_BtMbZibZUj","Vowel Digraphs"],["mt_C7abt7pRr6","Split Digraphs and Magic E"]],"n":2},{"tw":"english:Ab-Ⅱ-4","up":"ccss-ela:RF.1.3.b","topics":[["mt__KHQttMde3","Blending Sounds to Read Words"],["mt_OgJPbGkrYk","Alternative Spellings for Known Sounds"]],"n":2},{"tw":"english:Ab-Ⅱ-4","up":"uk-nc-2013:Eng_App1_Y1_04","topics":[["mt_PvU3eoikev","Onsets & Rimes"],["mt_BhYJZUsErp","Segmenting words into sounds"]],"n":2},{"tw":"english:Ab-Ⅱ-4","up":"uk-nc-2013:Eng_App1_Y2_01","topics":[["mt_OgJPbGkrYk","Alternative Spellings for Known Sounds"],["mt_BhYJZUsErp","Segmenting words into sounds"]],"n":2},{"tw":"english:D-Ⅱ-1","up":"ccss-ela:L.1.5a","topics":[["mt_oL9s_bufDp","Sorting & Categorising Words"],["mt_f_dMmvzxwo","Defining Words"]],"n":2},{"tw":"english:D-Ⅲ-1","up":"ccss-ela:L.1.5a","topics":[["mt_oL9s_bufDp","Sorting & Categorising Words"],["mt_f_dMmvzxwo","Defining Words"]],"n":2},{"tw":"english:D-Ⅲ-2","up":"ccss-ela:RL.1.2","topics":[["mt_zlSoIKPyId","Retelling Stories with Structure"],["mt_VEwM7ClYYE","Story Sequence and Central Message"]],"n":2},{"tw":"english:D-Ⅲ-2","up":"ccss-ela:RL.1.3","topics":[["mt_sSQlLOnAow","Characters, settings, and events"],["mt_zlSoIKPyId","Retelling Stories with Structure"]],"n":2},{"tw":"math:D-2-1","up":"ccss-math:1.MD.4","topics":[["mt_ylXdiVRAYv","Sorting Data into Categories"],["mt_1VSfm9yiLn","Sorting into categories (age 6+)"]],"n":2},{"tw":"math:N-1-2","up":"uk-nc-2013:Maths/Y1/AS/1","topics":[["mt_OvyoRo47K-","Addition as combining or putting together two"],["mt_zuKAX6lcYR","Subtraction as taking away or separating"]],"n":2},{"tw":"math:N-1-3","up":"ccss-math:1.OA.6","topics":[["mt_m1W6nTQJ2b","Addition and subtraction within 20"],["mt__we2TDqnJx","Fluent adding and subtracting within 10"]],"n":2},{"tw":"math:N-2-10","up":"ccss-math:1.G.3","topics":[["mt_hyvHv2BCwb","Decomposing a shape into more equal shares"],["mt_xACS3rWWDp","Halves & Quarters of Shapes"]],"n":2},{"tw":"math:N-2-12","up":"ccss-math:K.MD.1","topics":[["mt_zkFbMLpu3U","Comparing Capacity"],["mt_-P1kdZhHbL","Measuring mass and weight (age 4+)"]],"n":2},{"tw":"math:N-2-6","up":"uk-nc-2013:Maths/Y1/MD/1","topics":[["mt_GRWwTDZ3wD","Arrays for multiplication"],["mt_PZ909yPrEC","Multiplication as repeated addition"]],"n":2},{"tw":"math:N-5-1","up":"uk-nc-2013:Ma6/2.3g","topics":[["mt_wPgpMJ0-PA","Multiplying and dividing (age 10+)"],["mt_lNGpnILM5C","Reading Decimal Places"]],"n":2},{"tw":"math:R-2-4","up":"ccss-math:1.OA.4","topics":[["mt_ezc2m_0dzN","Finding a missing number in addition"],["mt_ehGS_uVSJv","Inverse: addition undoes subtraction"]],"n":2},{"tw":"math:S-1-2","up":"ccss-math:1.G.2","topics":[["mt_QNxFnxikCN","Building with 3-D Shapes"],["mt_MqqR7VUoz1","Composing Shapes"]],"n":2},{"tw":"math:S-5-4","up":"ccss-math:7.G.2","topics":[["mt_DNYQLahbfa","Properties of triangles and quadrilaterals"],["mt_WtIFJSCQIT","Types of angles (age 11+)"]],"n":2},{"tw":"science:INa-Ⅱ-3","up":"ngss-k5:2-PS1-2","topics":[["mt_rTn43s8RNX","Choosing the Right Material"],["mt_e3-_toGuWf","Testing Materials for Uses"]],"n":2},{"tw":"science:INa-Ⅱ-7","up":"uk-nc-2013:Y2.Sci.P.2","topics":[["mt_L1469gt34A","What Living Things Need"],["mt_3v0VNkwquK","What Plants Need to Grow"]],"n":2},{"tw":"science:INa-Ⅲ-10","up":"ngss-ms:MS-LS2-1","topics":[["mt_BOG5zRYtQz","Energy Loss Between Levels"],["mt_URTJbS3hhs","Food Webs & Interdependence"]],"n":2},{"tw":"science:INa-Ⅲ-10","up":"uk-nc-2013:KS3.Sci.Bio.Ecosystem.1","topics":[["mt_BOG5zRYtQz","Energy Loss Between Levels"],["mt_URTJbS3hhs","Food Webs & Interdependence"]],"n":2},{"tw":"science:INb-Ⅱ-1","up":"ngss-k5:2-PS1-2","topics":[["mt_rTn43s8RNX","Choosing the Right Material"],["mt_e3-_toGuWf","Testing Materials for Uses"]],"n":2},{"tw":"science:INd-Ⅲ-13","up":"ngss-ms:MS-PS2-1","topics":[["mt_AiWlJfvC3O","Resultant Forces"],["mt_tXxxCFl32J","Newton's First & Second Laws"]],"n":2},{"tw":"science:INd-Ⅲ-8","up":"uk-nc-2013:Y6.Sci.EI.1","topics":[["mt_6Z42wJaKYG","Fossils as Evidence"],["mt_gTDqxYkLs9","Life Changed Over Time"]],"n":2},{"tw":"science:INg-Ⅲ-2","up":"ngss-ms:MS-LS2-4","topics":[["mt_xSs0xAd6i1","Biodiversity & Resilience"],["mt_JSUGQ5Repv","Species Distribution & Change"]],"n":2}];
 
@@ -225,9 +229,9 @@ const SEGS = [
 ];
 for (const [key,d] of Object.entries(SUBJ)){
   const row = document.createElement('div'); row.className='stackrow';
-  const twTotal = d.both + d.twOnly;
+  const mainCov = d.both + d.upOnly, mergedCov = d.both + d.upOnly + d.twOnly;
   row.innerHTML = `<div class="lab"><b>${d.zh} <span style="color:var(--muted);font-weight:400">${key}</span></b>
-    <span>台灣課綱覆蓋 ${twTotal}/${d.n}（${Math.round(twTotal/d.n*100)}%）</span></div>`;
+    <span>main ${mainCov}/${d.n} → 合併後 ${mergedCov}/${d.n}（台灣新增 ${d.twOnly}）</span></div>`;
   const bar = document.createElement('div'); bar.className='stack';
   for (const [f,label,color] of SEGS){
     const v = d[f];
@@ -260,39 +264,41 @@ function lineChart(subj){
   let xlab='';
   BANDS.forEach((b,i)=>{ xlab += `<text x="${x(i)}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="var(--muted)">${b}</text>`; });
   const path = a => a.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
-  const dots = (a,color)=>a.map((v,i)=>
+  const mainP = d.n.map((n,i)=>pct(d.main[i],n));
+  const mergP = d.n.map((n,i)=>pct(d.merged[i],n));
+  const dots = (a,cov,color)=>a.map((v,i)=>
     `<circle cx="${x(i)}" cy="${y(v)}" r="3.5" fill="${color}" stroke="var(--surface-1)" stroke-width="2"
-       data-tip="${SUBJ[subj].zh} ${BANDS[i]} 歲" data-tw="${d.tw[i]}" data-up="${d.up[i]}"/>`).join('');
-  const endLab = (a,color,dy)=>`<text x="${W-R+2}" y="${y(a[a.length-1])+dy}" font-size="9.5" fill="var(--ink-2)" text-anchor="end"> </text>`;
-  const summary = (label,values)=>`${label}：${BANDS.map((b,i)=>`${b} 歲 ${values[i]}%`).join('、')}`;
-  return `<div class="multi"><h3>${SUBJ[subj].zh} <span style="color:var(--muted);font-weight:400;font-size:11.5px">${subj}</span></h3><p class="note">縱軸：該年齡帶主題被對到的比例</p>
-    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${SUBJ[subj].zh}年齡帶覆蓋率">
-      <desc>${summary('台灣課綱',d.tw)}；${summary('既有課綱',d.up)}。</desc>
+       data-tip="${SUBJ[subj].zh} ${BANDS[i]}" data-i="${i}" data-subj="${subj}"/>`).join('');
+  const summary = (label,values)=>`${label}：${BANDS.map((b,i)=>`${b} ${values[i]}%`).join('、')}`;
+  return `<div class="multi"><h3>${SUBJ[subj].zh} <span style="color:var(--muted);font-weight:400;font-size:11.5px">${subj}</span></h3><p class="note">縱軸：該組主題被任一課綱對到的比例</p>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${SUBJ[subj].zh}合併前後覆蓋率">
+      <desc>${summary('合併前 main',mainP)}；${summary('加入台灣課綱後',mergP)}。</desc>
       ${grid}${ticks}${xlab}
-      <path d="${path(d.up)}" fill="none" stroke="var(--up)" stroke-width="2" stroke-dasharray="5 3"/>
-      <path d="${path(d.tw)}" fill="none" stroke="var(--tw)" stroke-width="2"/>
-      ${dots(d.up,'var(--up)')}${dots(d.tw,'var(--tw)')}
+      <path d="${path(mainP)}" fill="none" stroke="var(--up)" stroke-width="2" stroke-dasharray="5 3"/>
+      <path d="${path(mergP)}" fill="none" stroke="var(--tw)" stroke-width="2"/>
+      ${dots(mainP,d.main,'var(--up)')}${dots(mergP,d.merged,'var(--tw)')}
     </svg></div>`;
 }
 multis.innerHTML = ['Mathematics','Science','English'].map(lineChart).join('')
   + `<div class="legend" style="grid-column:1/-1;margin:2px 4px 0">
-       <span><svg width="22" height="10" viewBox="0 0 22 10"><line x1="1" y1="5" x2="21" y2="5" stroke="var(--tw)" stroke-width="2"/></svg> 台灣 108 課綱</span>
-       <span><svg width="22" height="10" viewBox="0 0 22 10"><line x1="1" y1="5" x2="21" y2="5" stroke="var(--up)" stroke-width="2" stroke-dasharray="5 3"/></svg> 既有課綱（main）</span></div>`;
+       <span><svg width="22" height="10" viewBox="0 0 22 10"><line x1="1" y1="5" x2="21" y2="5" stroke="var(--tw)" stroke-width="2"/></svg> 加入台灣課綱後（merged）</span>
+       <span><svg width="22" height="10" viewBox="0 0 22 10"><line x1="1" y1="5" x2="21" y2="5" stroke="var(--up)" stroke-width="2" stroke-dasharray="5 3"/></svg> 合併前（main）</span></div>`;
 
 const ageSubjects = Object.keys(AGE);
 const ageTable = document.getElementById('agetable');
-ageTable.innerHTML = `<caption>年齡帶覆蓋率完整資料</caption>
-  <thead><tr><th scope="col" rowspan="2">年齡帶</th>
+ageTable.innerHTML = `<caption>合併前後覆蓋率完整資料（覆蓋數／主題數）</caption>
+  <thead><tr><th scope="col" rowspan="2">年齡組</th>
     ${ageSubjects.map(s=>`<th scope="colgroup" colspan="2">${SUBJ[s].zh}</th>`).join('')}</tr>
-  <tr>${ageSubjects.map(()=>'<th scope="col">台灣課綱%</th><th scope="col">既有課綱%</th>').join('')}</tr></thead>
-  <tbody>${BANDS.map((band,i)=>`<tr><th scope="row">${band} 歲</th>
-    ${ageSubjects.map(s=>`<td>${AGE[s].tw[i]}%</td><td>${AGE[s].up[i]}%</td>`).join('')}</tr>`).join('')}</tbody>`;
+  <tr>${ageSubjects.map(()=>'<th scope="col">合併前</th><th scope="col">合併後</th>').join('')}</tr></thead>
+  <tbody>${BANDS.map((band,i)=>`<tr><th scope="row">${band}</th>
+    ${ageSubjects.map(s=>`<td>${AGE[s].main[i]}/${AGE[s].n[i]}</td><td>${AGE[s].merged[i]}/${AGE[s].n[i]}</td>`).join('')}</tr>`).join('')}</tbody>`;
 multis.addEventListener('pointermove',e=>{
   const c = e.target.closest('circle[data-tip]');
   if (!c) { untip(); return; }
-  tip(`<b>${c.dataset.tip}</b>
-    <div class="row"><span><i style="background:var(--tw)"></i>台灣課綱</span><span>${c.dataset.tw}%</span></div>
-    <div class="row"><span><i style="background:var(--up)"></i>既有課綱</span><span>${c.dataset.up}%</span></div>`,
+  const d=AGE[c.dataset.subj], i=+c.dataset.i;
+  tip(`<b>${c.dataset.tip}（${d.n[i]} 個主題）</b>
+    <div class="row"><span><i style="background:var(--up)"></i>合併前</span><span>${d.main[i]}/${d.n[i]}（${pct(d.main[i],d.n[i])}%）</span></div>
+    <div class="row"><span><i style="background:var(--tw)"></i>合併後</span><span>${d.merged[i]}/${d.n[i]}（${pct(d.merged[i],d.n[i])}%）</span></div>`,
     e.clientX,e.clientY);
 });
 multis.addEventListener('pointerleave',untip);
@@ -300,6 +306,8 @@ multis.addEventListener('pointerleave',untip);
 // ---- domain table ----
 const tbody = document.querySelector('#domtable tbody');
 const zh = {Mathematics:'數學',Science:'自然科學',English:'英語文'};
+const ORDER = {Mathematics:0, Science:1, English:2};
+DOM.sort((a,b)=>ORDER[a.subject]-ORDER[b.subject] || b.n-a.n);
 let cur = '';
 for (const r of DOM){
   if (r.subject!==cur){
